@@ -9,7 +9,7 @@ RWK 20151219
 	d) skompilować kompilator do cs
 		# ./mk_cache.exe --cs
 		
-2. Skompilowanie kompilatora w cs do binarki
+2.A Skompilowanie kompilatora w cs do binarki
 	(Po wykonaniu kroku 1)
 	a) Skopiować zawartość katalogu 
 			nl_compiler/cache_nl
@@ -19,6 +19,13 @@ RWK 20151219
 	c) Upewnić się, że wszystkie pliki z katalogu cache są dodane do projektu
 	d) Zbudować projekt
 	e) W katalogu bin, w Release/Debug pojawi się binarka kompilatora (mk_cache.exe)
+	
+2.B. (bez cygwina)
+	w punkcie a) użyć plików z katalogu mterialy_do_uruchomienia_bez_cygwina/cache_nl
+	dalej, jak w punkcie 2.
+	
+2.C. (bez kompilowania)
+	Kompilator skompilowany w CS znajduje sie w katalogu mterialy_do_uruchomienia_bez_cygwina/kompilator
 	
 3. Użycie kompilatora w cs
 	a) utworzyć katalog

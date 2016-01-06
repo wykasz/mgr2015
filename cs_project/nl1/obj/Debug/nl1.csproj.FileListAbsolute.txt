@@ -1,0 +1,5 @@
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\bin\Debug\mk_cache.exe.config
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\bin\Debug\mk_cache.exe
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\bin\Debug\mk_cache.pdb
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\obj\Debug\mk_cache.exe
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\obj\Debug\mk_cache.pdb
