@@ -32,7 +32,10 @@ RWK 20151219
 	b) napisać kod w nl i umieścić w katalogu
 	c) skopiować do katalogu binarkę kompilatora (mk_cache.exe)
 	d) uruchomić kompilator 
-		# ./mk_cache.exe --cs  //gdy kompilacja co cs
+		w cygwinie
+			# ./mk_cache.exe --cs
+		w cmd (windowsowa linia komend)
+			# mk_cache.exe --cs
 		Skompilowany kod pojawi się w katalogu cache_nl
 	e) utworzyć nową instancje projektu nl1 z pustym katalogem cache
 	f) skopiować skompilowany kod z cache_nl do katalogu cache projektu
