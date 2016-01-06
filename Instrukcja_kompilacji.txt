@@ -1,0 +1,38 @@
+RWK 20151219
+
+1. Skompilowanie kompilatora w nl do binarki (wymaga cygwin'a)
+	a) Przejść do katalogu nl_compiler
+	b) wykonać
+		# make
+	c) usunąć cache
+		# rm -r cache_nl
+	d) skompilować kompilator do cs
+		# ./mk_cache.exe --cs
+		
+2. Skompilowanie kompilatora w cs do binarki
+	(Po wykonaniu kroku 1)
+	a) Skopiować zawartość katalogu 
+			nl_compiler/cache_nl
+		do katalogu projektu cs
+			cs_project/nl1/cache
+	b) Uruchomić w Visual Studio projekt nl1
+	c) Upewnić się, że wszystkie pliki z katalogu cache są dodane do projektu
+	d) Zbudować projekt
+	e) W katalogu bin, w Release/Debug pojawi się binarka kompilatora (mk_cache.exe)
+	
+3. Użycie kompilatora w cs
+	a) utworzyć katalog
+	b) napisać kod w nl i umieścić w katalogu
+	c) skopiować do katalogu binarkę kompilatora (mk_cache.exe)
+	d) uruchomić kompilator 
+		# ./mk_cache.exe --cs  //gdy kompilacja co cs
+		Skompilowany kod pojawi się w katalogu cache_nl
+	e) utworzyć nową instancje projektu nl1 z pustym katalogem cache
+	f) skopiować skompilowany kod z cache_nl do katalogu cache projektu
+	g) otworzyć projekt w Visual Studio i dodać pliki z cache do projektu
+	h) w pliku program.cs wywołać funkcję z nl, którą ma być funkją wejściową do programu
+		// Zamienić linie "compiler_NL.NL_compile(args_imm);" na własną
+	i) zbudować projekt
+	
+	
+	
