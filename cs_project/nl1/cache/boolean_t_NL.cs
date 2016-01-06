@@ -16,22 +16,22 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 9
-___nl__2 = ptd_NL.NL_none();
+___nl__2 = ptd_NL.NL_none().clone();
 
 //line 9
-___nl__3 = ptd_NL.NL_none();
+___nl__3 = ptd_NL.NL_none().clone();
 
 //line 9
 __function_map = new Dictionary<String, Imm>();
 __function_map.Add("TRUE",___nl__2);
 __function_map.Add("FALSE",___nl__3);
-___nl__1 = new ImmHash(__function_map);
+___nl__1 = new ImmHash(__function_map).clone();
 //line 9
 ___nl__2 = null;
 //line 9
 ___nl__3 = null;
 //line 9
-___nl__0 = ptd_NL.NL_var(___nl__1);
+___nl__0 = ptd_NL.NL_var(___nl__1).clone();
 
 //line 9
 ___nl__1 = null;

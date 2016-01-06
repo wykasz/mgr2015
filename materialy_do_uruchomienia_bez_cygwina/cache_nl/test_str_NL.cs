@@ -38,19 +38,19 @@ ImmRef ___ref______nl__5 = null;
 ImmRef ___ref______nl__6 = null;
 Dictionary<String, Imm> __function_map;
 //line 10
-___nl__0 = new ImmString("asdfasdfsafasdfsad sad fads saf sa' sadfasdfa sa sda fas fas ");
+___nl__0 = new ImmString("asdfasdfsafasdfsad sad fads saf sa' sadfasdfa sa sda fas fas ").clone();
 //line 11
-___nl__1 = new ImmString("aaa 'to jestw ciapkach' ");
+___nl__1 = new ImmString("aaa 'to jestw ciapkach' ").clone();
 //line 12
-___nl__2 = new ImmString("a tu jest nowa linia\n i jescze jedna nowa linia\n");
+___nl__2 = new ImmString("a tu jest nowa linia\n i jescze jedna nowa linia\n").clone();
 //line 15
-___nl__3 = new ImmString("wieloliniowy\nstring\nbb\naaa\ncccc\ndddd '\neeee\nfff\nggg\nhhh\n");
+___nl__3 = new ImmString("wieloliniowy\nstring\nbb\naaa\ncccc\ndddd '\neeee\nfff\nggg\nhhh\n").clone();
 //line 26
-___nl__4 = new ImmString("zywkly z ' nowa linia\n");
+___nl__4 = new ImmString("zywkly z ' nowa linia\n").clone();
 //line 28
-___nl__5 = new ImmString("a to zwykly string");
+___nl__5 = new ImmString("a to zwykly string").clone();
 //line 29
-___nl__6 = new ImmString("nowa linia\nale na koncu bez nowej");
+___nl__6 = new ImmString("nowa linia\nale na koncu bez nowej").clone();
 //line 29
 ___nl__0 = null;
 //line 29

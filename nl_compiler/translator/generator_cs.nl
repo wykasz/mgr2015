@@ -11,6 +11,7 @@ use nlasm;
 use ov;
 use ptd;
 use string;
+use dfile;
 
 def generator_cs::generate(nlasm : @nlasm::result_t) : ptd::sim() {
 	var result = '';
@@ -103,13 +104,14 @@ def is_singleton_use_function(function : @nlasm::function_t) : @boolean_t::type 
 
 
 def print_function_or_singleton(function : @nlasm::function_t, module_name : ptd::sim()) : ptd::sim() {
+	var ret = ''; '#'.dfile::ssave_net_format(function) .string::lf();
 	if(is_singleton_use_function(function)){
 		var sin_fun = function;
 		sin_fun->name = 'SINGLETON_' . function->name ;
 		var sin_name = get_function_name(sin_fun);
 		var var_name = 'value__singleton__' . sin_name;
 
-		var ret = print_function(sin_fun, module_name);
+		ret .= print_function(sin_fun, module_name);
 		
 		ret .= 'private static Imm '.var_name.' = null;' .string::lf().
 		get_function_declaration(function) .'() {
@@ -394,7 +396,8 @@ def print_getter() : ptd::sim() {
 
 def print_register_setter(register, value) : ptd::sim() {
 	return value.'' if register eq '';
-	return print_register(register).' = ' . value;
+	return print_register(register).' = ' . value if value eq 'null';
+	return print_register(register).' = ' . value.'.clone()';
 }
 
 def print_return(return_i) : ptd::sim() {

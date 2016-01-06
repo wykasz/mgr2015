@@ -12,9 +12,9 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 10
-___nl__1 = new ImmDouble(10);
+___nl__1 = new ImmDouble(10).clone();
 //line 10
-___nl__0 = string_NL.NL_chr(___nl__1);
+___nl__0 = string_NL.NL_chr(___nl__1).clone();
 
 //line 10
 ___nl__1 = null;
@@ -40,9 +40,9 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 14
-___nl__1 = new ImmDouble(9);
+___nl__1 = new ImmDouble(9).clone();
 //line 14
-___nl__0 = string_NL.NL_chr(___nl__1);
+___nl__0 = string_NL.NL_chr(___nl__1).clone();
 
 //line 14
 ___nl__1 = null;
@@ -68,9 +68,9 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 18
-___nl__1 = new ImmDouble(13);
+___nl__1 = new ImmDouble(13).clone();
 //line 18
-___nl__0 = string_NL.NL_chr(___nl__1);
+___nl__0 = string_NL.NL_chr(___nl__1).clone();
 
 //line 18
 ___nl__1 = null;
@@ -96,9 +96,9 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 22
-___nl__1 = new ImmDouble(12);
+___nl__1 = new ImmDouble(12).clone();
 //line 22
-___nl__0 = string_NL.NL_chr(___nl__1);
+___nl__0 = string_NL.NL_chr(___nl__1).clone();
 
 //line 22
 ___nl__1 = null;
@@ -130,21 +130,21 @@ ImmRef ___ref______nl__4 = null;
 ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
 //line 26
-___nl__2 = new ImmString("");
+___nl__2 = new ImmString("").clone();
 //line 27
-___nl__3 = new ImmDouble(0);
+___nl__3 = new ImmDouble(0).clone();
 //line 27
-___nl__4 = new ImmDouble(1);
+___nl__4 = new ImmDouble(1).clone();
 //line 27
 label_3:
 //line 27
-___nl__5 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__3.getValue().ToString()))>=(Double.Parse(___nl__1.getValue().ToString())) );
+___nl__5 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__3.getValue().ToString()))>=(Double.Parse(___nl__1.getValue().ToString())) ).clone();
 //line 27
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_1;}}
 //line 27
-___nl__2 = new ImmString(___nl__2.toString() + ___nl__0.toString());
+___nl__2 = new ImmString(___nl__2.toString() + ___nl__0.toString()).clone();
 //line 27
-___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))+(Double.Parse(___nl__4.getValue().ToString())));
+___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))+(Double.Parse(___nl__4.getValue().ToString()))).clone();
 //line 27
 if (true) {goto label_3;}
 //line 27
@@ -178,7 +178,7 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 32
-___nl__1 = c_std_lib_NL.NL_string_length(___nl__0);
+___nl__1 = c_std_lib_NL.NL_string_length(___nl__0).clone();
 
 //line 32
 ___nl__0 = null;
@@ -200,7 +200,7 @@ ImmRef ___ref______nl__1 = null;
 ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 36
-___nl__2 = c_std_lib_NL.NL_string_get_char_code(___nl__0,___nl__1);
+___nl__2 = c_std_lib_NL.NL_string_get_char_code(___nl__0,___nl__1).clone();
 
 //line 36
 ___nl__0 = null;
@@ -229,12 +229,12 @@ ImmRef ___ref______nl__3 = null;
 ImmRef ___ref______nl__4 = null;
 Dictionary<String, Imm> __function_map;
 //line 40
-___nl__3 = c_std_lib_NL.NL_string_sub(___nl__0,___nl__1,___nl__2);
+___nl__3 = c_std_lib_NL.NL_string_sub(___nl__0,___nl__1,___nl__2).clone();
 
 //line 40
-___nl__4 = new ImmString("");
+___nl__4 = new ImmString("").clone();
 //line 40
-___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString());
+___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
 //line 40
 ___nl__4 = null;
 //line 40
@@ -267,19 +267,19 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 44
-___nl__3 = string_NL.NL_length(___nl__0);
+___nl__3 = string_NL.NL_length(___nl__0).clone();
 
 //line 44
-___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))-(Double.Parse(___nl__1.getValue().ToString())));
+___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))-(Double.Parse(___nl__1.getValue().ToString()))).clone();
 //line 44
-___nl__2 = c_std_lib_NL.NL_string_sub(___nl__0,___nl__1,___nl__3);
+___nl__2 = c_std_lib_NL.NL_string_sub(___nl__0,___nl__1,___nl__3).clone();
 
 //line 44
 ___nl__3 = null;
 //line 44
-___nl__3 = new ImmString("");
+___nl__3 = new ImmString("").clone();
 //line 44
-___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString());
+___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
 //line 44
 ___nl__3 = null;
 //line 44
@@ -308,9 +308,9 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 48
-___nl__3 = new ImmDouble(0);
+___nl__3 = new ImmDouble(0).clone();
 //line 48
-___nl__2 = c_std_lib_NL.NL_string_index(___nl__0,___nl__1,___nl__3);
+___nl__2 = c_std_lib_NL.NL_string_index(___nl__0,___nl__1,___nl__3).clone();
 
 //line 48
 ___nl__3 = null;
@@ -339,7 +339,7 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 52
-___nl__3 = c_std_lib_NL.NL_string_index(___nl__0,___nl__1,___nl__2);
+___nl__3 = c_std_lib_NL.NL_string_index(___nl__0,___nl__1,___nl__2).clone();
 
 //line 52
 ___nl__0 = null;
@@ -370,7 +370,7 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 56
-___nl__3 = c_std_lib_NL.NL_string_replace(___nl__0,___nl__1,___nl__2);
+___nl__3 = c_std_lib_NL.NL_string_replace(___nl__0,___nl__1,___nl__2).clone();
 
 //line 56
 ___nl__0 = null;
@@ -399,7 +399,7 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 60
-___nl__1 = c_std_lib_NL.NL_string_ord(___nl__0);
+___nl__1 = c_std_lib_NL.NL_string_ord(___nl__0).clone();
 
 //line 60
 ___nl__0 = null;
@@ -424,20 +424,20 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 64
-___nl__1 = string_NL.NL_ord(___nl__0);
+___nl__1 = string_NL.NL_ord(___nl__0).clone();
 
 //line 65
-___nl__2 = new ImmDouble(48);
+___nl__2 = new ImmDouble(48).clone();
 //line 65
-___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))>=(Double.Parse(___nl__2.getValue().ToString())) );
+___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))>=(Double.Parse(___nl__2.getValue().ToString())) ).clone();
 //line 65
-___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2));
+___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
 //line 65
 if (c_rt_lib_NL.NL_check_true_native(___nl__3)) {if (true) {goto label_1;}}
 //line 65
-___nl__2 = new ImmDouble(57);
+___nl__2 = new ImmDouble(57).clone();
 //line 65
-___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))<=(Double.Parse(___nl__2.getValue().ToString())) );
+___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))<=(Double.Parse(___nl__2.getValue().ToString())) ).clone();
 //line 65
 label_1:
 //line 65
@@ -469,20 +469,20 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 69
-___nl__1 = string_NL.NL_ord(___nl__0);
+___nl__1 = string_NL.NL_ord(___nl__0).clone();
 
 //line 70
-___nl__2 = new ImmDouble(97);
+___nl__2 = new ImmDouble(97).clone();
 //line 70
-___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))>=(Double.Parse(___nl__2.getValue().ToString())) );
+___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))>=(Double.Parse(___nl__2.getValue().ToString())) ).clone();
 //line 70
-___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2));
+___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
 //line 70
 if (c_rt_lib_NL.NL_check_true_native(___nl__3)) {if (true) {goto label_2;}}
 //line 70
-___nl__2 = new ImmDouble(122);
+___nl__2 = new ImmDouble(122).clone();
 //line 70
-___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))<=(Double.Parse(___nl__2.getValue().ToString())) );
+___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))<=(Double.Parse(___nl__2.getValue().ToString())) ).clone();
 //line 70
 label_2:
 //line 70
@@ -490,17 +490,17 @@ ___nl__3 = null;
 //line 70
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_1;}}
 //line 70
-___nl__2 = new ImmDouble(65);
+___nl__2 = new ImmDouble(65).clone();
 //line 70
-___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))>=(Double.Parse(___nl__2.getValue().ToString())) );
+___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))>=(Double.Parse(___nl__2.getValue().ToString())) ).clone();
 //line 70
-___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2));
+___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
 //line 70
 if (c_rt_lib_NL.NL_check_true_native(___nl__3)) {if (true) {goto label_3;}}
 //line 70
-___nl__2 = new ImmDouble(90);
+___nl__2 = new ImmDouble(90).clone();
 //line 70
-___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))<=(Double.Parse(___nl__2.getValue().ToString())) );
+___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__1.getValue().ToString()))<=(Double.Parse(___nl__2.getValue().ToString())) ).clone();
 //line 70
 label_3:
 //line 70
@@ -530,7 +530,7 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 74
-___nl__1 = c_std_lib_NL.NL_string_chr(___nl__0);
+___nl__1 = c_std_lib_NL.NL_string_chr(___nl__0).clone();
 
 //line 74
 ___nl__0 = null;
@@ -554,12 +554,12 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 78
-___nl__2 = string_NL.NL_compare(___nl__0,___nl__1);
+___nl__2 = string_NL.NL_compare(___nl__0,___nl__1).clone();
 
 //line 78
-___nl__3 = new ImmDouble(0);
+___nl__3 = new ImmDouble(0).clone();
 //line 78
-___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__2.getValue().ToString()))<(Double.Parse(___nl__3.getValue().ToString())) );
+___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__2.getValue().ToString()))<(Double.Parse(___nl__3.getValue().ToString())) ).clone();
 //line 78
 ___nl__3 = null;
 //line 78
@@ -588,12 +588,12 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 82
-___nl__2 = string_NL.NL_compare(___nl__0,___nl__1);
+___nl__2 = string_NL.NL_compare(___nl__0,___nl__1).clone();
 
 //line 82
-___nl__3 = new ImmDouble(0);
+___nl__3 = new ImmDouble(0).clone();
 //line 82
-___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__2.getValue().ToString()))>(Double.Parse(___nl__3.getValue().ToString())) );
+___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__2.getValue().ToString()))>(Double.Parse(___nl__3.getValue().ToString())) ).clone();
 //line 82
 ___nl__3 = null;
 //line 82
@@ -620,7 +620,7 @@ ImmRef ___ref______nl__1 = null;
 ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 86
-___nl__2 = c_std_lib_NL.NL_string_compare(___nl__0,___nl__1);
+___nl__2 = c_std_lib_NL.NL_string_compare(___nl__0,___nl__1).clone();
 
 //line 86
 ___nl__0 = null;
@@ -648,12 +648,12 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 90
-___nl__2 = string_NL.NL_compare(___nl__0,___nl__1);
+___nl__2 = string_NL.NL_compare(___nl__0,___nl__1).clone();
 
 //line 90
-___nl__3 = new ImmDouble(0);
+___nl__3 = new ImmDouble(0).clone();
 //line 90
-___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__2.getValue().ToString()))<=(Double.Parse(___nl__3.getValue().ToString())) );
+___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__2.getValue().ToString()))<=(Double.Parse(___nl__3.getValue().ToString())) ).clone();
 //line 90
 ___nl__3 = null;
 //line 90
@@ -682,12 +682,12 @@ ImmRef ___ref______nl__2 = null;
 ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 94
-___nl__2 = string_NL.NL_compare(___nl__0,___nl__1);
+___nl__2 = string_NL.NL_compare(___nl__0,___nl__1).clone();
 
 //line 94
-___nl__3 = new ImmDouble(0);
+___nl__3 = new ImmDouble(0).clone();
 //line 94
-___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__2.getValue().ToString()))>=(Double.Parse(___nl__3.getValue().ToString())) );
+___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__2.getValue().ToString()))>=(Double.Parse(___nl__3.getValue().ToString())) ).clone();
 //line 94
 ___nl__3 = null;
 //line 94

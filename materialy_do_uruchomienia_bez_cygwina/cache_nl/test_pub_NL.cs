@@ -12,12 +12,12 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 8
-___nl__0 = test_pub_NL.NL_funkcja();
+___nl__0 = test_pub_NL.NL_funkcja().clone();
 
 //line 8
-___nl__1 = new ImmDouble(1);
+___nl__1 = new ImmDouble(1).clone();
 //line 8
-___nl__1 = new ImmDouble(-((ImmDouble)___nl__1).getDoubleValue());
+___nl__1 = new ImmDouble(-((ImmDouble)___nl__1).getDoubleValue()).clone();
 //line 8
 nassert_NL.NL_a(___nl__0,___nl__1);
 
@@ -26,16 +26,16 @@ ___nl__1 = null;
 //line 8
 ___nl__0 = null;
 //line 9
-___nl__1 = new ImmDouble(1);
+___nl__1 = new ImmDouble(1).clone();
 //line 9
-___nl__0 = test_pub_NL.NL_funkcja_priv(___nl__1);
+___nl__0 = test_pub_NL.NL_funkcja_priv(___nl__1).clone();
 
 //line 9
 ___nl__1 = null;
 //line 9
-___nl__1 = new ImmDouble(1);
+___nl__1 = new ImmDouble(1).clone();
 //line 9
-___nl__1 = new ImmDouble(-((ImmDouble)___nl__1).getDoubleValue());
+___nl__1 = new ImmDouble(-((ImmDouble)___nl__1).getDoubleValue()).clone();
 //line 9
 nassert_NL.NL_a(___nl__0,___nl__1);
 
@@ -44,14 +44,14 @@ ___nl__1 = null;
 //line 9
 ___nl__0 = null;
 //line 10
-___nl__1 = new ImmDouble(0);
+___nl__1 = new ImmDouble(0).clone();
 //line 10
-___nl__0 = test_pub_NL.NL_funkcja_priv(___nl__1);
+___nl__0 = test_pub_NL.NL_funkcja_priv(___nl__1).clone();
 
 //line 10
 ___nl__1 = null;
 //line 10
-___nl__1 = new ImmDouble(0);
+___nl__1 = new ImmDouble(0).clone();
 //line 10
 nassert_NL.NL_a(___nl__0,___nl__1);
 
@@ -75,16 +75,16 @@ Imm ___nl__0 = null;
 ImmRef ___ref______nl__0 = null;
 Dictionary<String, Imm> __function_map;
 //line 14
-___nl__0 = new ImmDouble(0);
+___nl__0 = new ImmDouble(0).clone();
 //line 14
 test_pub_NL.NL_funkcja_priv(___nl__0);
 
 //line 14
 ___nl__0 = null;
 //line 15
-___nl__0 = new ImmDouble(1);
+___nl__0 = new ImmDouble(1).clone();
 //line 15
-___nl__0 = new ImmDouble(-((ImmDouble)___nl__0).getDoubleValue());
+___nl__0 = new ImmDouble(-((ImmDouble)___nl__0).getDoubleValue()).clone();
 //line 15
 if(true) return ___nl__0;
 //line 15
@@ -108,15 +108,15 @@ ImmRef ___ref______nl__1 = null;
 ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 19
-___nl__1 = new ImmDouble(1);
+___nl__1 = new ImmDouble(1).clone();
 //line 19
-___nl__1 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__0.getValue().ToString()))>=(Double.Parse(___nl__1.getValue().ToString())) );
+___nl__1 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__0.getValue().ToString()))>=(Double.Parse(___nl__1.getValue().ToString())) ).clone();
 //line 19
-___nl__1 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__1));
+___nl__1 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__1)).clone();
 //line 19
 if (c_rt_lib_NL.NL_check_true_native(___nl__1)) {if (true) {goto label_2;}}
 //line 20
-___nl__2 = test_pub_NL.NL_funkcja();
+___nl__2 = test_pub_NL.NL_funkcja().clone();
 
 //line 20
 ___nl__0 = null;
@@ -133,7 +133,7 @@ label_2:
 //line 21
 ___nl__1 = null;
 //line 22
-___nl__1 = new ImmDouble(0);
+___nl__1 = new ImmDouble(0).clone();
 //line 22
 ___nl__0 = null;
 //line 22

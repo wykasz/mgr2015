@@ -11,18 +11,18 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 9
-___nl__1 = c_std_lib_NL.NL_is_array(___nl__0);
+___nl__1 = c_std_lib_NL.NL_is_array(___nl__0).clone();
 
 //line 9
 if (c_rt_lib_NL.NL_check_true_native(___nl__1)) {if (true) {goto label_2;}}
 //line 9
-___nl__1 = c_rt_lib_NL.NL_get_false();
+___nl__1 = c_rt_lib_NL.NL_get_false().clone();
 //line 9
 if (true) {goto label_1;}
 //line 9
 label_2:
 //line 9
-___nl__1 = c_rt_lib_NL.NL_get_true();
+___nl__1 = c_rt_lib_NL.NL_get_true().clone();
 //line 9
 label_1:
 //line 9
@@ -44,18 +44,18 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 13
-___nl__1 = c_std_lib_NL.NL_is_hash(___nl__0);
+___nl__1 = c_std_lib_NL.NL_is_hash(___nl__0).clone();
 
 //line 13
 if (c_rt_lib_NL.NL_check_true_native(___nl__1)) {if (true) {goto label_2;}}
 //line 13
-___nl__1 = c_rt_lib_NL.NL_get_false();
+___nl__1 = c_rt_lib_NL.NL_get_false().clone();
 //line 13
 if (true) {goto label_1;}
 //line 13
 label_2:
 //line 13
-___nl__1 = c_rt_lib_NL.NL_get_true();
+___nl__1 = c_rt_lib_NL.NL_get_true().clone();
 //line 13
 label_1:
 //line 13
@@ -77,18 +77,18 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 17
-___nl__1 = c_std_lib_NL.NL_is_sim(___nl__0);
+___nl__1 = c_std_lib_NL.NL_is_sim(___nl__0).clone();
 
 //line 17
 if (c_rt_lib_NL.NL_check_true_native(___nl__1)) {if (true) {goto label_2;}}
 //line 17
-___nl__1 = c_rt_lib_NL.NL_get_false();
+___nl__1 = c_rt_lib_NL.NL_get_false().clone();
 //line 17
 if (true) {goto label_1;}
 //line 17
 label_2:
 //line 17
-___nl__1 = c_rt_lib_NL.NL_get_true();
+___nl__1 = c_rt_lib_NL.NL_get_true().clone();
 //line 17
 label_1:
 //line 17
@@ -110,18 +110,18 @@ ImmRef ___ref______nl__0 = null;
 ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 21
-___nl__1 = c_std_lib_NL.NL_is_variant(___nl__0);
+___nl__1 = c_std_lib_NL.NL_is_variant(___nl__0).clone();
 
 //line 21
 if (c_rt_lib_NL.NL_check_true_native(___nl__1)) {if (true) {goto label_2;}}
 //line 21
-___nl__1 = c_rt_lib_NL.NL_get_false();
+___nl__1 = c_rt_lib_NL.NL_get_false().clone();
 //line 21
 if (true) {goto label_1;}
 //line 21
 label_2:
 //line 21
-___nl__1 = c_rt_lib_NL.NL_get_true();
+___nl__1 = c_rt_lib_NL.NL_get_true().clone();
 //line 21
 label_1:
 //line 21

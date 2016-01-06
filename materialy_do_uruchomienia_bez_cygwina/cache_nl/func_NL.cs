@@ -13,8 +13,8 @@ ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 9
 ___ref______nl__1 = new ImmRef(___nl__1);
-___nl__2 = c_std_lib_NL.NL_exec(___nl__0,___ref______nl__1);
-___nl__1 = ___ref______nl__1.getValue();
+___nl__2 = c_std_lib_NL.NL_exec(___nl__0,___ref______nl__1).clone();
+___nl__1 = ___ref______nl__1.getValue().clone();
 
 //line 9
 ___nl__0 = null;
@@ -41,8 +41,8 @@ ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 13
 ___ref______nl__1 = new ImmRef(___nl__1);
-___nl__2 = c_std_lib_NL.NL_exec(___nl__0,___ref______nl__1);
-___nl__1 = ___ref______nl__1.getValue();
+___nl__2 = c_std_lib_NL.NL_exec(___nl__0,___ref______nl__1).clone();
+___nl__1 = ___ref______nl__1.getValue().clone();
 
 //line 13
 ___nl__0 = null;
