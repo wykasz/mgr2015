@@ -9,6 +9,7 @@ namespace nianio
     public class ImmRef
     {
         private Imm value;
+        protected int refCount;
 
         public ImmRef(Imm value)
         {
@@ -28,6 +29,16 @@ namespace nianio
         public String toString()
         {
             return value.toString();
+        }
+
+        public void incRef()
+        {
+            ++refCount;
+        }
+
+        public void decRef()
+        {
+            --refCount;
         }
     }
 }

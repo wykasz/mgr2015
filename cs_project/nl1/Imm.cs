@@ -9,9 +9,9 @@ namespace nianio
     public interface Imm
     {
         Object getValue();
-
         Imm clone();
-
         String toString();
+        void incRef();
+        void decRef();
     }
 }

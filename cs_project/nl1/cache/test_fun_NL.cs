@@ -4,15 +4,10 @@ using nianio;
 namespace nianio { 
 public class test_fun_NL {
 
-public static Imm NL_change(ImmRef ___arg__0, Imm ___arg__1, ImmRef ___arg__2) {
-Imm ___nl__0 = ___arg__0.getValue().clone();Imm ___nl__1 = ___arg__1.clone();Imm ___nl__2 = ___arg__2.getValue().clone();
+public static Imm NL_change(ref Imm ___arg__0, Imm ___arg__1, ref Imm ___arg__2) {
+Imm ___nl__0 = ___arg__0;Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);Imm ___nl__2 = ___arg__2;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
 Dictionary<String, Imm> __function_map;
 //line 10
 ___nl__3 = new ImmDouble(10).clone();
@@ -47,7 +42,7 @@ ___nl__1 = null;
 //line 13
 ___nl__3 = null;
 //line 13
-___arg__0.setValue(___nl__0);___arg__2.setValue(___nl__2);if(true) return ___nl__4;
+___arg__0 = ___nl__0;___arg__2 = ___nl__2;if(true) return ___nl__4;
 //line 13
 ___nl__4 = null;
 //line 13
@@ -61,13 +56,13 @@ ___nl__3 = ___nl__2.clone();
 //line 14
 ___nl__1 = null;
 //line 14
-___arg__0.setValue(___nl__0);___arg__2.setValue(___nl__2);if(true) return ___nl__3;
+___arg__0 = ___nl__0;___arg__2 = ___nl__2;if(true) return ___nl__3;
 //line 14
 ___nl__3 = null;
 //line 14
 ___nl__1 = null;
 //line 14
-___arg__0.setValue(___nl__0);___arg__2.setValue(___nl__2);if(true) return null;
+___arg__0 = ___nl__0;___arg__2 = ___nl__2;if(true) return null;
 }
 
 public static Imm NL_test() {
@@ -76,10 +71,6 @@ Imm ___nl__0 = null;
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 18
 ___nl__1 = new ImmDouble(1).clone();
@@ -164,9 +155,7 @@ ___nl__1 = new ImmHash(__function_map).clone();
 //line 23
 ___nl__1 = c_rt_lib_NL.NL_ov_mk_arg(new ImmString("ref"), ___nl__1).clone();
 //line 23
-___ref______nl__0 = new ImmRef(___nl__0);
-func_NL.NL_exec_ref(___nl__1,___ref______nl__0);
-___nl__0 = ___ref______nl__0.getValue().clone();
+func_NL.NL_exec_ref(___nl__1,ref ___nl__0);
 
 //line 23
 ___nl__1 = null;

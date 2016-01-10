@@ -18,18 +18,6 @@ Imm ___nl__8 = null;
 Imm ___nl__9 = null;
 Imm ___nl__10 = null;
 Imm ___nl__11 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
 Dictionary<String, Imm> __function_map;
 //line 8
 ___nl__0 = new ImmDouble(0).clone();

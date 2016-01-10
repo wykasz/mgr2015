@@ -5,12 +5,8 @@ namespace nianio {
 public class array_NL {
 
 public static Imm NL_subarray(Imm ___arg__0, Imm ___arg__1, Imm ___arg__2) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();Imm ___nl__2 = ___arg__2.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);Imm ___nl__2 = null;c_rt_lib_NL.NL_copy(ref ___nl__2, ___arg__2);
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 8
 ___nl__3 = c_std_lib_NL.NL_array_sub(___nl__0,___nl__1,___nl__2).clone();
@@ -36,7 +32,7 @@ if(true) return null;
 }
 
 public static Imm NL_join(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
@@ -45,16 +41,6 @@ Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
 Dictionary<String, Imm> __function_map;
 //line 12
 ___nl__2 = new ImmString("").clone();
@@ -135,49 +121,35 @@ ___nl__1 = null;
 if(true) return null;
 }
 
-public static Imm NL_push(ImmRef ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.getValue().clone();Imm ___nl__1 = ___arg__1.clone();
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
+public static Imm NL_push(ref Imm ___arg__0, Imm ___arg__1) {
+Imm ___nl__0 = ___arg__0;Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Dictionary<String, Imm> __function_map;
 //line 23
-___ref______nl__0 = new ImmRef(___nl__0);
-c_std_lib_NL.NL_array_push(___ref______nl__0,___nl__1);
-___nl__0 = ___ref______nl__0.getValue().clone();
+c_std_lib_NL.NL_array_push(ref ___nl__0,___nl__1);
 
 //line 23
 ___nl__1 = null;
 //line 23
-___arg__0.setValue(___nl__0);if(true) return null;
+___arg__0 = ___nl__0;if(true) return null;
 }
 
-public static Imm NL_pop(ImmRef ___arg__0) {
-Imm ___nl__0 = ___arg__0.getValue().clone();
-ImmRef ___ref______nl__0 = null;
+public static Imm NL_pop(ref Imm ___arg__0) {
+Imm ___nl__0 = ___arg__0;
 Dictionary<String, Imm> __function_map;
 //line 26
-___ref______nl__0 = new ImmRef(___nl__0);
-c_std_lib_NL.NL_array_pop(___ref______nl__0);
-___nl__0 = ___ref______nl__0.getValue().clone();
+c_std_lib_NL.NL_array_pop(ref ___nl__0);
 
 //line 26
-___arg__0.setValue(___nl__0);if(true) return null;
+___arg__0 = ___nl__0;if(true) return null;
 }
 
-public static Imm NL_append(ImmRef ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.getValue().clone();Imm ___nl__1 = ___arg__1.clone();
+public static Imm NL_append(ref Imm ___arg__0, Imm ___arg__1) {
+Imm ___nl__0 = ___arg__0;Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
 Imm ___nl__6 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
 Dictionary<String, Imm> __function_map;
 //line 30
 ___nl__3 = new ImmDouble(0).clone();
@@ -195,9 +167,7 @@ if (c_rt_lib_NL.NL_check_true_native(___nl__6)) {if (true) {goto label_1;}}
 //line 30
 ___nl__2 = (___nl__1 as ImmArray).getArrayValue()[(int)((ImmDouble)___nl__3).getDoubleValue()].clone();
 //line 31
-___ref______nl__0 = new ImmRef(___nl__0);
-array_NL.NL_push(___ref______nl__0,___nl__2);
-___nl__0 = ___ref______nl__0.getValue().clone();
+array_NL.NL_push(ref ___nl__0,___nl__2);
 
 //line 32
 ___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))+(Double.Parse(___nl__4.getValue().ToString()))).clone();
@@ -218,14 +188,12 @@ ___nl__6 = null;
 //line 32
 ___nl__1 = null;
 //line 32
-___arg__0.setValue(___nl__0);if(true) return null;
+___arg__0 = ___nl__0;if(true) return null;
 }
 
 public static Imm NL_len(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 36
 ___nl__1 = c_std_lib_NL.NL_array_len(___nl__0).clone();
@@ -243,13 +211,9 @@ if(true) return null;
 }
 
 public static Imm NL_cmp(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 40
 ___nl__2 = c_std_lib_NL.NL_string_compare(___nl__0,___nl__1).clone();
@@ -276,13 +240,10 @@ ___nl__1 = null;
 if(true) return null;
 }
 
-public static Imm NL_sort(ImmRef ___arg__0) {
-Imm ___nl__0 = ___arg__0.getValue().clone();
+public static Imm NL_sort(ref Imm ___arg__0) {
+Imm ___nl__0 = ___arg__0;
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 44
 __function_map = new Dictionary<String, Imm>();
@@ -301,7 +262,7 @@ ___nl__0 = ___nl__1.clone();
 //line 44
 ___nl__1 = null;
 //line 44
-___arg__0.setValue(___nl__0);if(true) return null;
+___arg__0 = ___nl__0;if(true) return null;
 }
 
 }

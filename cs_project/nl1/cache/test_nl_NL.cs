@@ -5,12 +5,9 @@ namespace nianio {
 public class test_nl_NL {
 
 private static Imm NL_p_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 20
 ___nl__1 = new ImmString("Test ").clone();
@@ -39,9 +36,6 @@ public static Imm NL_test() {
 Imm ___nl__0 = null;
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 24
 ___nl__0 = new ImmString("test_nl").clone();
@@ -72,9 +66,6 @@ public static Imm NL_all() {
 Imm ___nl__0 = null;
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 27
 ___nl__0 = new ImmString("forh").clone();

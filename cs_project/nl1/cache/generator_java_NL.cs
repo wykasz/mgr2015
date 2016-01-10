@@ -5,7 +5,7 @@ namespace nianio {
 public class generator_java_NL {
 
 public static Imm NL_generate(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -15,16 +15,6 @@ Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
 Dictionary<String, Imm> __function_map;
 //line 16
 ___nl__1 = new ImmString("").clone();
@@ -122,8 +112,6 @@ private static Imm NL_SINGLETON_print_package_name_priv() {
 
 Imm ___nl__0 = null;
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 26
 ___nl__0 = new ImmString("package com.atinea.nianio;").clone();
@@ -156,7 +144,7 @@ private static Imm NL_print_package_name_priv() {
 	return value__singleton__NL_SINGLETON_print_package_name_priv;
 }
 private static Imm NL_print_imports_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -166,16 +154,6 @@ Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
 Dictionary<String, Imm> __function_map;
 //line 30
 ___nl__1 = new ImmString("").clone();
@@ -279,10 +257,8 @@ if(true) return null;
 }
 
 private static Imm NL_get_class_name_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 40
 ___nl__1 = new ImmString("_NL").clone();
@@ -301,12 +277,9 @@ if(true) return null;
 }
 
 private static Imm NL_print_class_begin_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 44
 ___nl__1 = new ImmString("public class ").clone();
@@ -346,8 +319,6 @@ private static Imm NL_SINGLETON_print_class_end_priv() {
 
 Imm ___nl__0 = null;
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 48
 ___nl__0 = string_NL.NL_lf().clone();
@@ -373,16 +344,11 @@ private static Imm NL_print_class_end_priv() {
 	return value__singleton__NL_SINGLETON_print_class_end_priv;
 }
 private static Imm NL_get_function_name_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
 Dictionary<String, Imm> __function_map;
 //line 52
 ___nl__1 = new ImmString("").clone();
@@ -449,16 +415,11 @@ if(true) return null;
 }
 
 private static Imm NL_get_function_declaration_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
 Dictionary<String, Imm> __function_map;
 //line 61
 ___nl__1 = new ImmString("").clone();
@@ -532,14 +493,10 @@ if(true) return null;
 }
 
 private static Imm NL_escape_string_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 71
 ___nl__2 = new ImmString("\\").clone();
@@ -623,7 +580,7 @@ if(true) return null;
 }
 
 private static Imm NL_is_singleton_use_function_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -637,20 +594,6 @@ Imm ___nl__10 = null;
 Imm ___nl__11 = null;
 Imm ___nl__12 = null;
 Imm ___nl__13 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
-ImmRef ___ref______nl__12 = null;
-ImmRef ___ref______nl__13 = null;
 Dictionary<String, Imm> __function_map;
 //line 77
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["args_type"].clone();
@@ -1081,7 +1024,7 @@ if(true) return null;
 }
 
 private static Imm NL_print_function_or_singleton_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
@@ -1089,15 +1032,6 @@ Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
 Dictionary<String, Imm> __function_map;
 //line 105
 ___nl__2 = generator_java_NL.NL_is_singleton_use_function_priv(___nl__0).clone();
@@ -1254,7 +1188,7 @@ if(true) return null;
 }
 
 private static Imm NL_print_function_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
@@ -1264,17 +1198,6 @@ Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
 Imm ___nl__10 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
 Dictionary<String, Imm> __function_map;
 //line 127
 ___nl__2 = string_NL.NL_lf().clone();
@@ -1652,7 +1575,7 @@ if(true) return null;
 }
 
 private static Imm NL_print_command_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
@@ -1663,18 +1586,6 @@ Imm ___nl__8 = null;
 Imm ___nl__9 = null;
 Imm ___nl__10 = null;
 Imm ___nl__11 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
 Dictionary<String, Imm> __function_map;
 //line 152
 ___nl__3 = ((ImmHash)___nl__1).getHashValue()["cmd"].clone();
@@ -2731,7 +2642,7 @@ if(true) return null;
 }
 
 private static Imm NL_print_arr_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -2741,16 +2652,6 @@ Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
 Dictionary<String, Imm> __function_map;
 //line 205
 ___nl__1 = new ImmString("new ImmArray(new Imm[").clone();
@@ -2860,18 +2761,12 @@ if(true) return null;
 }
 
 private static Imm NL_print_bin_op_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
 //line 217
 ___nl__1 = new ImmString("").clone();
@@ -3173,18 +3068,12 @@ if(true) return null;
 }
 
 private static Imm NL_print_imm_double_operation_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
 //line 237
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["left"].clone();
@@ -3292,12 +3181,9 @@ if(true) return null;
 }
 
 private static Imm NL_print_register_as_number_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 247
 ___nl__1 = new ImmString("(Double.valueOf(String.valueOf(").clone();
@@ -3336,7 +3222,6 @@ if(true) return null;
 private static Imm NL_SINGLETON_print_int_value_priv() {
 
 Imm ___nl__0 = null;
-ImmRef ___ref______nl__0 = null;
 Dictionary<String, Imm> __function_map;
 //line 251
 ___nl__0 = new ImmString(".intValue()").clone();
@@ -3355,7 +3240,7 @@ private static Imm NL_print_int_value_priv() {
 	return value__singleton__NL_SINGLETON_print_int_value_priv;
 }
 private static Imm NL_print_call_priv(Imm ___arg__0, Imm ___arg__1, Imm ___arg__2, Imm ___arg__3) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();Imm ___nl__2 = ___arg__2.clone();Imm ___nl__3 = ___arg__3.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);Imm ___nl__2 = null;c_rt_lib_NL.NL_copy(ref ___nl__2, ___arg__2);Imm ___nl__3 = null;c_rt_lib_NL.NL_copy(ref ___nl__3, ___arg__3);
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
 Imm ___nl__6 = null;
@@ -3366,20 +3251,6 @@ Imm ___nl__10 = null;
 Imm ___nl__11 = null;
 Imm ___nl__12 = null;
 Imm ___nl__13 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
-ImmRef ___ref______nl__12 = null;
-ImmRef ___ref______nl__13 = null;
 Dictionary<String, Imm> __function_map;
 //line 255
 ___nl__4 = new ImmString("").clone();
@@ -3586,7 +3457,7 @@ if(true) return null;
 }
 
 private static Imm NL_print_const_arr_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
@@ -3595,16 +3466,6 @@ Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
 Dictionary<String, Imm> __function_map;
 //line 272
 ___nl__2 = new ImmString("new Imm[] {").clone();
@@ -3677,21 +3538,13 @@ if(true) return null;
 }
 
 private static Imm NL_print_const_hash_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
 Dictionary<String, Imm> __function_map;
 //line 278
 ___nl__2 = generator_java_NL.NL_print_hash_name_priv().clone();
@@ -3827,19 +3680,12 @@ if(true) return null;
 }
 
 private static Imm NL_print_const_ov_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
 Imm ___nl__6 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
 Dictionary<String, Imm> __function_map;
 //line 284
 ___nl__2 = new ImmString("").clone();
@@ -3943,17 +3789,11 @@ if(true) return null;
 }
 
 private static Imm NL_print_const_value_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
 //line 294
 ___nl__2 = nl_NL.NL_is_sim(___nl__1).clone();
@@ -4151,12 +3991,9 @@ if(true) return null;
 }
 
 private static Imm NL_print_goto_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 311
 ___nl__1 = new ImmString("if (true) {label = \"").clone();
@@ -4181,7 +4018,7 @@ if(true) return null;
 }
 
 private static Imm NL_print_hash_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -4192,17 +4029,6 @@ Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
 Imm ___nl__10 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
 Dictionary<String, Imm> __function_map;
 //line 315
 ___nl__1 = generator_java_NL.NL_print_hash_name_priv().clone();
@@ -4324,7 +4150,6 @@ if(true) return null;
 private static Imm NL_SINGLETON_print_hash_name_priv() {
 
 Imm ___nl__0 = null;
-ImmRef ___ref______nl__0 = null;
 Dictionary<String, Imm> __function_map;
 //line 321
 ___nl__0 = new ImmString("__function_map").clone();
@@ -4343,14 +4168,10 @@ private static Imm NL_print_hash_name_priv() {
 	return value__singleton__NL_SINGLETON_print_hash_name_priv;
 }
 private static Imm NL_print_get_hash_value_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 325
 ___nl__1 = new ImmString("((ImmMap)").clone();
@@ -4414,14 +4235,10 @@ if(true) return null;
 }
 
 private static Imm NL_print_set_hash_value_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 329
 ___nl__1 = new ImmString("((ImmMap)").clone();
@@ -4502,7 +4319,7 @@ if(true) return null;
 }
 
 private static Imm NL_print_ov_mk_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -4511,15 +4328,6 @@ Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
 Dictionary<String, Imm> __function_map;
 //line 335
 ___nl__1 = new ImmString("").clone();
@@ -4720,10 +4528,8 @@ if(true) return null;
 }
 
 private static Imm NL_print_register_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 351
 ___nl__1 = new ImmString("___nl__").clone();
@@ -4742,12 +4548,9 @@ if(true) return null;
 }
 
 private static Imm NL_print_register_getter_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 355
 ___nl__1 = generator_java_NL.NL_print_register_priv(___nl__0).clone();
@@ -4774,7 +4577,6 @@ if(true) return null;
 private static Imm NL_SINGLETON_print_getter_priv() {
 
 Imm ___nl__0 = null;
-ImmRef ___ref______nl__0 = null;
 Dictionary<String, Imm> __function_map;
 //line 359
 ___nl__0 = new ImmString(".getValue()").clone();
@@ -4793,13 +4595,9 @@ private static Imm NL_print_getter_priv() {
 	return value__singleton__NL_SINGLETON_print_getter_priv;
 }
 private static Imm NL_print_register_setter_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 363
 ___nl__2 = new ImmString("").clone();
@@ -4863,18 +4661,12 @@ if(true) return null;
 }
 
 private static Imm NL_print_return_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
 //line 368
 ___nl__1 = new ImmString("").clone();
@@ -4954,18 +4746,12 @@ if(true) return null;
 }
 
 private static Imm NL_print_una_op_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
 //line 378
 ___nl__1 = new ImmString("").clone();

@@ -15,9 +15,11 @@ namespace nianio
             for (int i = 0; i < args.Length; ++i)
                 args_arr[i+1] = new ImmString(args[i]);
             ImmArray args_imm = new ImmArray(args_arr);
-
-
+            //test_NL.test2();
+            //test_dzialka_NL.main();
+            //Console.WriteLine("ok");
             hello_NL.NL_main();
+            //Console.Read();
         }
     }
 }

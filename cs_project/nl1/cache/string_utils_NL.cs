@@ -5,7 +5,7 @@ namespace nianio {
 public class string_utils_NL {
 
 public static Imm NL_is_integer(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -13,14 +13,6 @@ Imm ___nl__4 = null;
 Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
 Dictionary<String, Imm> __function_map;
 //line 10
 ___nl__1 = new ImmString("").clone();
@@ -254,7 +246,7 @@ if(true) return null;
 }
 
 public static Imm NL_is_float(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -262,14 +254,6 @@ Imm ___nl__4 = null;
 Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
 Dictionary<String, Imm> __function_map;
 //line 24
 ___nl__1 = new ImmString("").clone();
@@ -563,12 +547,9 @@ if(true) return null;
 }
 
 public static Imm NL_is_number(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 41
 ___nl__1 = new ImmString("").clone();

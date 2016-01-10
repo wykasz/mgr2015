@@ -61,11 +61,10 @@ namespace nianio
 		    return new ImmArray(immArr);
 	    }
 
-        public static void NL_array_push(ImmRef arr, Imm el)
+        public static void NL_array_push(ref Imm arr, Imm el)
         {
-            List<Imm> l = ((ImmArray)arr.getValue()).getArrayValue();
+            List<Imm> l = ((ImmArray)arr).getArrayValue();
             l.Add(el);
-		    arr.setValue(new ImmArray(l));
 	    }
 
         public static ImmDouble NL_array_len(Imm arr)
@@ -73,11 +72,10 @@ namespace nianio
             return c_rt_lib_NL.NL_array_len(arr);
 	    }
 
-        public static void NL_array_pop(ImmRef arr)
+        public static void NL_array_pop(ref Imm arr)
         {
-            List<Imm> l = ((ImmArray)arr.getValue()).getArrayValue();
+            List<Imm> l = ((ImmArray)arr).getArrayValue();
             l.RemoveAt(l.Count-1);
-		    arr.setValue(new ImmArray(l));
 	    }
 
         public static Imm NL_hash_get_value(Imm hash, Imm key)
@@ -91,16 +89,14 @@ namespace nianio
 				    .ContainsKey(key.toString()));
 	    }
 
-        public static void NL_hash_set_value(ImmRef hash, Imm key, Imm value)
+        public static void NL_hash_set_value(ref Imm hash, Imm key, Imm value)
         { // ref hash
-            c_rt_lib_NL.NL_hash_set_value(hash, key, value);
+            c_rt_lib_NL.NL_hash_set_value(ref hash, key, value);
 	    }
 
-        public static void NL_hash_delete(ImmRef hash, Imm key)
+        public static void NL_hash_delete(ref Imm hash, Imm key)
         { // ref hash
-		    hash.setValue(new ImmHash(new Dictionary<String, Imm>(((ImmHash) hash
-				    .getValue()).getHashValue())));
-		    ((ImmHash) hash.getValue()).getHashValue().Remove(key.toString());
+		    ((ImmHash) hash).getHashValue().Remove(key.toString());
 	    }
 
         public static ImmDouble NL_hash_size(Imm hash)
@@ -185,9 +181,9 @@ namespace nianio
             c_rt_lib_NL.NL_print(imm);
 	    }
 
-        public static Imm NL_exec(Imm func, ImmRef arr)
+        public static Imm NL_exec(Imm func, ref Imm arr)
         {
-            ImmArray array = (ImmArray)arr.getValue();
+            ImmArray array = (ImmArray)arr;
             Object[] obj_array = new Object[array.getCount()];
 
             int i = 0;

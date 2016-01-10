@@ -5,10 +5,8 @@ namespace nianio {
 public class nl_NL {
 
 public static Imm NL_is_array(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 9
 ___nl__1 = c_std_lib_NL.NL_is_array(___nl__0).clone();
@@ -38,10 +36,8 @@ if(true) return null;
 }
 
 public static Imm NL_is_hash(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 13
 ___nl__1 = c_std_lib_NL.NL_is_hash(___nl__0).clone();
@@ -71,10 +67,8 @@ if(true) return null;
 }
 
 public static Imm NL_is_sim(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 17
 ___nl__1 = c_std_lib_NL.NL_is_sim(___nl__0).clone();
@@ -104,10 +98,8 @@ if(true) return null;
 }
 
 public static Imm NL_is_variant(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 21
 ___nl__1 = c_std_lib_NL.NL_is_variant(___nl__0).clone();
@@ -137,8 +129,7 @@ if(true) return null;
 }
 
 public static Imm NL_print(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
-ImmRef ___ref______nl__0 = null;
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Dictionary<String, Imm> __function_map;
 //line 25
 c_std_lib_NL.NL_print(___nl__0);

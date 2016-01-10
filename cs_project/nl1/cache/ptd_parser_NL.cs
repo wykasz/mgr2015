@@ -5,18 +5,12 @@ namespace nianio {
 public class ptd_parser_NL {
 
 public static Imm NL_fun_def_to_ptd(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
 //line 15
 ___nl__1 = ((ImmHash)___nl__0).getHashValue()["cmd"].clone();
@@ -120,7 +114,7 @@ if(true) return null;
 }
 
 public static Imm NL_try_value_to_ptd(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -138,24 +132,6 @@ Imm ___nl__14 = null;
 Imm ___nl__15 = null;
 Imm ___nl__16 = null;
 Imm ___nl__17 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
-ImmRef ___ref______nl__12 = null;
-ImmRef ___ref______nl__13 = null;
-ImmRef ___ref______nl__14 = null;
-ImmRef ___ref______nl__15 = null;
-ImmRef ___ref______nl__16 = null;
-ImmRef ___ref______nl__17 = null;
 Dictionary<String, Imm> __function_map;
 //line 22
 ___nl__2 = new ImmString("unary_op").clone();
@@ -1079,9 +1055,7 @@ ___nl__16 = null;
 ___nl__16 = tct_NL.NL_tct_none().clone();
 
 //line 69
-___ref______nl__7 = new ImmRef(___nl__7);
-hash_NL.NL_set_value(___ref______nl__7,___nl__15,___nl__16);
-___nl__7 = ___ref______nl__7.getValue().clone();
+hash_NL.NL_set_value(ref ___nl__7,___nl__15,___nl__16);
 
 //line 69
 ___nl__16 = null;
@@ -1168,9 +1142,7 @@ ___nl__16 = null;
 //line 74
 ___nl__15 = null;
 //line 74
-___ref______nl__7 = new ImmRef(___nl__7);
-hash_NL.NL_set_value(___ref______nl__7,___nl__14,___nl__13);
-___nl__7 = ___ref______nl__7.getValue().clone();
+hash_NL.NL_set_value(ref ___nl__7,___nl__14,___nl__13);
 
 //line 74
 ___nl__14 = null;
@@ -1270,7 +1242,7 @@ if(true) return null;
 }
 
 private static Imm NL_parse_hash_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -1282,18 +1254,6 @@ Imm ___nl__8 = null;
 Imm ___nl__9 = null;
 Imm ___nl__10 = null;
 Imm ___nl__11 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
 Dictionary<String, Imm> __function_map;
 //line 84
 ___nl__1 = ___nl__0.clone();
@@ -1370,9 +1330,7 @@ ___nl__11 = null;
 //line 88
 ___nl__10 = null;
 //line 88
-___ref______nl__2 = new ImmRef(___nl__2);
-hash_NL.NL_set_value(___ref______nl__2,___nl__9,___nl__8);
-___nl__2 = ___ref______nl__2.getValue().clone();
+hash_NL.NL_set_value(ref ___nl__2,___nl__9,___nl__8);
 
 //line 88
 ___nl__9 = null;

@@ -8,17 +8,13 @@ public static Imm NL_SINGLETON_test() {
 
 Imm ___nl__0 = null;
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 8
 ___nl__0 = new ImmDouble(10).clone();
 //line 9
 ___nl__1 = new ImmDouble(5).clone();
 //line 10
-___ref______nl__0 = new ImmRef(___nl__0);
-test_mod_NL.NL_test_function_priv(___ref______nl__0,___nl__1);
-___nl__0 = ___ref______nl__0.getValue().clone();
+test_mod_NL.NL_test_function_priv(ref ___nl__0,___nl__1);
 
 //line 10
 ___nl__0 = null;
@@ -34,8 +30,8 @@ public static Imm NL_test() {
 	}
 	return value__singleton__NL_SINGLETON_test;
 }
-private static Imm NL_test_function_priv(ImmRef ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.getValue().clone();Imm ___nl__1 = ___arg__1.clone();
+private static Imm NL_test_function_priv(ref Imm ___arg__0, Imm ___arg__1) {
+Imm ___nl__0 = ___arg__0;Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
@@ -46,18 +42,6 @@ Imm ___nl__8 = null;
 Imm ___nl__9 = null;
 Imm ___nl__10 = null;
 Imm ___nl__11 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
 Dictionary<String, Imm> __function_map;
 //line 14
 ___nl__3 = new ImmDouble(1).clone();
@@ -361,7 +345,7 @@ ___nl__7 = null;
 //line 33
 ___nl__1 = null;
 //line 33
-___arg__0.setValue(___nl__0);if(true) return null;
+___arg__0 = ___nl__0;if(true) return null;
 }
 
 }

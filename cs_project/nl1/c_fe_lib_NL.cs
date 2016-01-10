@@ -98,28 +98,28 @@ namespace nianio
 
         public static Imm NL_get_module_files_rec(Imm directory)
         {
-		    ImmRef file = new ImmRef(new ImmArray(new Imm[0]));
-            get_files_rec(((ImmString)directory).getStringValue(), file,
+		    Imm file = new ImmArray(new Imm[0]);
+            get_files_rec(((ImmString)directory).getStringValue(), ref file,
 				    true);
-		    return file.getValue();
+		    return file;
 	    }
 
         public static Imm NL_get_module_files(Imm directory)
         {
-		    ImmRef file = new ImmRef(new ImmArray(new Imm[0]));
+		    Imm file = new ImmArray(new Imm[0]);
             Imm ret = get_files_rec(((ImmString)directory).getStringValue(),
-                    file, true);
+                    ref file, true);
 		    if (ret == null)
-                return NL_get_ov("ok", file.getValue());
-		    file.setValue(null);
+                return NL_get_ov("ok", file);
+		    file = null;
 		    return ret;
 	    }
 
-	    private static ImmOv get_files_rec(String path, ImmRef files, bool deep) {
+	    private static ImmOv get_files_rec(String path, ref Imm files, bool deep) {
             foreach (string f in Directory.GetFiles(path))
             {
                 Imm imm = new ImmString(f);
-                c_std_lib_NL.NL_array_push(files, imm);
+                c_std_lib_NL.NL_array_push(ref files, imm);
             }
 
             if (deep)
@@ -128,7 +128,7 @@ namespace nianio
                 foreach (string d in dirs)
                 {
                     string npath = d;
-                    get_files_rec(npath, files, deep);
+                    get_files_rec(npath, ref files, deep);
                 }
             }
 

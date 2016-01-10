@@ -133,31 +133,32 @@ def print_function(function : @nlasm::function_t, module_name : ptd::sim()) : pt
 		match (function->args_type[i]) case :val {
 			result .= 'Imm ___arg__'.i;
 		} case :ref {
-			result .= 'ImmRef ___arg__'.i;
+			result .= 'ref Imm ___arg__'.i;
 		}
 	}
 	result .= ') {'.string::lf();
 	rep var i (array::len(function->args_type)) {
 		match (function->args_type[i]) case :val {
-			result .= 'Imm ___nl__'.i.' = ___arg__'.i.'.clone();';
+			result .= 'Imm ___nl__'.i.' = null;';
+			result .= 'c_rt_lib_NL.NL_copy(ref ___nl__'.i.', ___arg__'.i.');';
 		} case :ref {
-			result .= 'Imm ___nl__'.i.' = ___arg__'.i.'.getValue().clone();';
+			result .= 'Imm ___nl__'.i.' = ___arg__'.i.';';
 		}
 	}
 	result .= string::lf();
 	for (var i = array::len(function->args_type); i < function->reg_size; ++i) {
 		result .= 'Imm ___nl__'.i.' = null;'.string::lf();
 	}
-	for (var i = 0; i < function->reg_size; ++i) {
-		result .= 'ImmRef ___ref______nl__'.i.' = null;'.string::lf();
-	}
+	#for (var i = 0; i < function->reg_size; ++i) {
+	#	result .= 'ImmRef ___ref______nl__'.i.' = null;'.string::lf();
+	#}
 	result .= 'Dictionary<String, Imm> '.print_hash_name().';'. string::lf();
 	
 	var return_commands = '';
 	rep var i (array::len(function->args_type)) {
 		match (function->args_type[i]) case :val {
 		} case :ref {
-			return_commands .= '___arg__'.i.'.setValue(___nl__'.i.');';
+			return_commands .= '___arg__'.i.' = ___nl__'.i.';';
 		}
 	}
 	
@@ -276,7 +277,7 @@ def print_call(module : ptd::sim(), cmodule : ptd::sim(), cname : ptd::sim(), ca
 		result .= ',' unless i == 0;
 		++i;
 		match (arg) case :ref(var reg) {
-			result .= '___ref___'.print_register(reg);
+			result .= 'ref '.print_register(reg);
 		} case :val(var reg) {
 			result .= print_register(reg);
 		}
@@ -288,7 +289,7 @@ def print_call_ref_prepare(cargs) : ptd::sim() {
 	var result = '';
 	fora var arg (cargs) {
 		match (arg) case :ref(var reg) {
-			result .= '___ref___'.print_register(reg).' = new ImmRef('.print_register(reg).');'.string::lf();
+			#result .= '___ref___'.print_register(reg).' = new ImmRef('.print_register(reg).');'.string::lf();
 		} case :val(var reg) {
 		}
 	}
@@ -299,8 +300,8 @@ def print_call_ref_setter(cargs) : ptd::sim() {
 	var result = '';
 	fora var arg (cargs) {
 		match (arg) case :ref(var reg) {
-			var val = '___ref___'.print_register(reg).'.getValue()';
-			result .= print_register_setter(reg, val).';'.string::lf();
+			#var val = '___ref___'.print_register(reg).'.getValue()';
+			#result .= print_register_setter(reg, val).';'.string::lf();
 		} case :val(var reg) {
 		}
 	}

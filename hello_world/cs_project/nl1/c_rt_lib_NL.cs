@@ -39,15 +39,16 @@ namespace nianio
                    ];
 	    }
 
-        public static void NL_set_ref_arr(ImmRef arr, Imm ind, Imm value)
+        public static void NL_set_ref_arr(ref Imm arr, Imm ind, Imm value)
         { // arr ref
-            ImmArray immArr = (ImmArray)((ImmArray)arr.getValue()).clone();
+            c_rt_lib_NL.NL_arg_val(value);
+            ImmArray immArr = (ImmArray)(arr);
             immArr.getArrayValue()[
                 (int)((ImmDouble)ind).getDoubleValue()
-            ] = value.clone();
-
-            arr.setValue(immArr);
-            
+            ].decRef();
+            immArr.getArrayValue()[
+                (int)((ImmDouble)ind).getDoubleValue()
+            ] = value;            
 	    }
 
         public static Imm NL_get_ref_hash(Imm hash, Imm key)
@@ -55,9 +56,9 @@ namespace nianio
             return NL_hash_get_value(hash, key);
 	    }
 
-        public static void NL_set_ref_hash(ImmRef hash, Imm key, Imm value)
+        public static void NL_set_ref_hash(ref Imm hash, Imm key, Imm value)
         { // ref hash
-            NL_hash_set_value(hash, key, value);
+            NL_hash_set_value(ref hash, key, value);
 	    }
 
         public static Imm NL_init_iter(Imm hash)
@@ -108,11 +109,10 @@ namespace nianio
 		    return ((ImmHash) hash).getHashValue()[key.toString()];
 	    }
 
-        public static void NL_hash_set_value(ImmRef hash, Imm key, Imm value)
+        public static void NL_hash_set_value(ref Imm hash, Imm key, Imm value)
         {
-            ImmHash immHash = (ImmHash)hash.getValue().clone();
+            ImmHash immHash = (ImmHash)hash;
             immHash.set(key.toString(), value);
-            hash.setValue(immHash);
 	    }
 
         public static Imm NL_ov_as(Imm variant, Imm name)
@@ -199,5 +199,27 @@ namespace nianio
             System.Console.WriteLine(imm.toString());
 	    }
 
+        public static void NL_move(ref Imm left, Imm right)
+        {
+            if(left != null) left.decRef();
+            left = right;
+        }
+
+        public static void NL_copy(ref Imm left, Imm right)
+        {
+            if (left != null) left.decRef();
+            left = right;
+            left.incRef();
+        }
+
+        public static void NL_clear(ref Imm left)
+        {
+            if (left != null) left.decRef();
+        }
+
+        public static void NL_arg_val(Imm right)
+        {
+            right.incRef();
+        }
     }
 }

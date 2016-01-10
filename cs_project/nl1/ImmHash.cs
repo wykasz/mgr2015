@@ -46,5 +46,15 @@ namespace nianio
 		    }
 		    return sb.ToString();
 	    }
+
+        public void incRef()
+        {
+            ++refCount;
+        }
+
+        public void decRef()
+        {
+            --refCount;
+        }
     }
 }

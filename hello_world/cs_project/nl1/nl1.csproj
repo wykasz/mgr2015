@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>nianio</RootNamespace>
-    <AssemblyName>hello</AssemblyName>
+    <AssemblyName>mk_cache</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -48,10 +48,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="cache\array_NL.cs" />
+    <Compile Include="cache\assert_NL.cs" />
+    <Compile Include="cache\assert_test_NL.cs" />
     <Compile Include="cache\boolean_t_NL.cs" />
+    <Compile Include="cache\complexity_test_NL.cs" />
     <Compile Include="cache\csv_NL.cs" />
     <Compile Include="cache\dfile_NL.cs" />
     <Compile Include="cache\enum_NL.cs" />
+    <Compile Include="cache\forh_test_NL.cs" />
     <Compile Include="cache\func_NL.cs" />
     <Compile Include="cache\hash_NL.cs" />
     <Compile Include="cache\hello_NL.cs" />
@@ -59,9 +63,12 @@
     <Compile Include="cache\ov_NL.cs" />
     <Compile Include="cache\profile_NL.cs" />
     <Compile Include="cache\ptd_NL.cs" />
+    <Compile Include="cache\ref_test_NL.cs" />
+    <Compile Include="cache\simple_test_NL.cs" />
     <Compile Include="cache\singleton_NL.cs" />
     <Compile Include="cache\string_NL.cs" />
     <Compile Include="cache\string_utils_NL.cs" />
+    <Compile Include="cache\test_NL.cs" />
     <Compile Include="c_fe_lib_NL.cs" />
     <Compile Include="c_rt_lib_NL.cs" />
     <Compile Include="c_std_lib_NL.cs" />

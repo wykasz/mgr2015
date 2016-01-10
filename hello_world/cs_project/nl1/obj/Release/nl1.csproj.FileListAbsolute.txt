@@ -1,0 +1,6 @@
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\bin\Release\mk_cache.exe.config
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\bin\Release\mk_cache.exe
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\bin\Release\mk_cache.pdb
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\obj\Release\nl1.csprojResolveAssemblyReference.cache
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\obj\Release\mk_cache.exe
+C:\cygwin64\home\rwk\mgr2015\cs_project\nl1\obj\Release\mk_cache.pdb

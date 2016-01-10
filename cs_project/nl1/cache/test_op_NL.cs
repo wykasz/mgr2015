@@ -33,14 +33,6 @@ Imm ___nl__4 = null;
 Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
 Dictionary<String, Imm> __function_map;
 //line 13
 ___nl__0 = new ImmDouble(0).clone();
@@ -86,14 +78,10 @@ ___nl__4 = new ImmDouble((Double.Parse(___nl__4.getValue().ToString()))-(Double.
 //line 17
 ___nl__6 = new ImmString("b").clone();
 //line 17
-___ref______nl__2 = new ImmRef(___nl__2);
-c_rt_lib_NL.NL_set_ref_hash(___ref______nl__2,___nl__6,___nl__4);
-___nl__2 = ___ref______nl__2.getValue().clone();
+c_rt_lib_NL.NL_set_ref_hash(ref ___nl__2,___nl__6,___nl__4);
 
 //line 17
-___ref______nl__1 = new ImmRef(___nl__1);
-c_rt_lib_NL.NL_set_ref_arr(___ref______nl__1,___nl__3,___nl__2);
-___nl__1 = ___ref______nl__1.getValue().clone();
+c_rt_lib_NL.NL_set_ref_arr(ref ___nl__1,___nl__3,___nl__2);
 
 //line 17
 ___nl__6 = null;
@@ -142,9 +130,7 @@ ___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))+(Double.
 //line 20
 ___nl__5 = new ImmString("d").clone();
 //line 20
-___ref______nl__2 = new ImmRef(___nl__2);
-c_rt_lib_NL.NL_set_ref_hash(___ref______nl__2,___nl__5,___nl__3);
-___nl__2 = ___ref______nl__2.getValue().clone();
+c_rt_lib_NL.NL_set_ref_hash(ref ___nl__2,___nl__5,___nl__3);
 
 //line 20
 ___nl__5 = null;
@@ -175,9 +161,7 @@ ___nl__4 = new ImmDouble((Double.Parse(___nl__4.getValue().ToString()))+(Double.
 //line 22
 ___nl__5 = new ImmString("d").clone();
 //line 22
-___ref______nl__2 = new ImmRef(___nl__2);
-c_rt_lib_NL.NL_set_ref_hash(___ref______nl__2,___nl__5,___nl__4);
-___nl__2 = ___ref______nl__2.getValue().clone();
+c_rt_lib_NL.NL_set_ref_hash(ref ___nl__2,___nl__5,___nl__4);
 
 //line 22
 ___nl__5 = null;
@@ -210,9 +194,7 @@ ___nl__4 = new ImmDouble((Double.Parse(___nl__4.getValue().ToString()))-(Double.
 //line 24
 ___nl__5 = new ImmString("d").clone();
 //line 24
-___ref______nl__2 = new ImmRef(___nl__2);
-c_rt_lib_NL.NL_set_ref_hash(___ref______nl__2,___nl__5,___nl__4);
-___nl__2 = ___ref______nl__2.getValue().clone();
+c_rt_lib_NL.NL_set_ref_hash(ref ___nl__2,___nl__5,___nl__4);
 
 //line 24
 ___nl__5 = null;
@@ -245,9 +227,7 @@ ___nl__4 = new ImmDouble((Double.Parse(___nl__4.getValue().ToString()))+(Double.
 //line 26
 ___nl__5 = new ImmString("d").clone();
 //line 26
-___ref______nl__2 = new ImmRef(___nl__2);
-c_rt_lib_NL.NL_set_ref_hash(___ref______nl__2,___nl__5,___nl__4);
-___nl__2 = ___ref______nl__2.getValue().clone();
+c_rt_lib_NL.NL_set_ref_hash(ref ___nl__2,___nl__5,___nl__4);
 
 //line 26
 ___nl__5 = null;
@@ -267,9 +247,7 @@ ___nl__4 = new ImmDouble((Double.Parse(___nl__4.getValue().ToString()))/(Double.
 //line 27
 ___nl__5 = new ImmString("d").clone();
 //line 27
-___ref______nl__2 = new ImmRef(___nl__2);
-c_rt_lib_NL.NL_set_ref_hash(___ref______nl__2,___nl__5,___nl__4);
-___nl__2 = ___ref______nl__2.getValue().clone();
+c_rt_lib_NL.NL_set_ref_hash(ref ___nl__2,___nl__5,___nl__4);
 
 //line 27
 ___nl__5 = null;
@@ -312,9 +290,7 @@ ___nl__6 = c_rt_lib_NL.NL_get_ref_arr(___nl__3,___nl__7).clone();
 //line 31
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__5.toString()).clone();
 //line 31
-___ref______nl__3 = new ImmRef(___nl__3);
-c_rt_lib_NL.NL_set_ref_arr(___ref______nl__3,___nl__7,___nl__6);
-___nl__3 = ___ref______nl__3.getValue().clone();
+c_rt_lib_NL.NL_set_ref_arr(ref ___nl__3,___nl__7,___nl__6);
 
 //line 31
 ___nl__5 = null;
@@ -389,17 +365,6 @@ Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
 Imm ___nl__10 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
 Dictionary<String, Imm> __function_map;
 //line 38
 ___nl__0 = new ImmDouble(10).clone();
@@ -469,21 +434,15 @@ ___nl__8 = new ImmDouble((Double.Parse(___nl__8.getValue().ToString()))+(Double.
 //line 44
 ___nl__10 = new ImmString("c").clone();
 //line 44
-___ref______nl__7 = new ImmRef(___nl__7);
-c_rt_lib_NL.NL_set_ref_hash(___ref______nl__7,___nl__10,___nl__8);
-___nl__7 = ___ref______nl__7.getValue().clone();
+c_rt_lib_NL.NL_set_ref_hash(ref ___nl__7,___nl__10,___nl__8);
 
 //line 44
 ___nl__10 = new ImmString("b").clone();
 //line 44
-___ref______nl__5 = new ImmRef(___nl__5);
-c_rt_lib_NL.NL_set_ref_hash(___ref______nl__5,___nl__10,___nl__7);
-___nl__5 = ___ref______nl__5.getValue().clone();
+c_rt_lib_NL.NL_set_ref_hash(ref ___nl__5,___nl__10,___nl__7);
 
 //line 44
-___ref______nl__2 = new ImmRef(___nl__2);
-c_rt_lib_NL.NL_set_ref_arr(___ref______nl__2,___nl__6,___nl__5);
-___nl__2 = ___ref______nl__2.getValue().clone();
+c_rt_lib_NL.NL_set_ref_arr(ref ___nl__2,___nl__6,___nl__5);
 
 //line 44
 ___nl__10 = null;
@@ -519,21 +478,15 @@ ___nl__8 = new ImmDouble((Double.Parse(___nl__8.getValue().ToString()))+(Double.
 //line 45
 ___nl__10 = new ImmString("c").clone();
 //line 45
-___ref______nl__7 = new ImmRef(___nl__7);
-c_rt_lib_NL.NL_set_ref_hash(___ref______nl__7,___nl__10,___nl__8);
-___nl__7 = ___ref______nl__7.getValue().clone();
+c_rt_lib_NL.NL_set_ref_hash(ref ___nl__7,___nl__10,___nl__8);
 
 //line 45
 ___nl__10 = new ImmString("b").clone();
 //line 45
-___ref______nl__5 = new ImmRef(___nl__5);
-c_rt_lib_NL.NL_set_ref_hash(___ref______nl__5,___nl__10,___nl__7);
-___nl__5 = ___ref______nl__5.getValue().clone();
+c_rt_lib_NL.NL_set_ref_hash(ref ___nl__5,___nl__10,___nl__7);
 
 //line 45
-___ref______nl__3 = new ImmRef(___nl__3);
-c_rt_lib_NL.NL_set_ref_arr(___ref______nl__3,___nl__6,___nl__5);
-___nl__3 = ___ref______nl__3.getValue().clone();
+c_rt_lib_NL.NL_set_ref_arr(ref ___nl__3,___nl__6,___nl__5);
 
 //line 45
 ___nl__10 = null;

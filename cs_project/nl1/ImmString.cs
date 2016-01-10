@@ -53,5 +53,15 @@ namespace nianio
         {
             return this == (ImmString)obj;
         }
+
+        public void incRef()
+        {
+            ++refCount;
+        }
+
+        public void decRef()
+        {
+            --refCount;
+        }
     }
 }

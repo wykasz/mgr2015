@@ -8,8 +8,6 @@ public static Imm NL_SINGLETON_test() {
 
 Imm ___nl__0 = null;
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 8
 ___nl__0 = test_pub_NL.NL_funkcja().clone();
@@ -72,7 +70,6 @@ public static Imm NL_test() {
 public static Imm NL_SINGLETON_funkcja() {
 
 Imm ___nl__0 = null;
-ImmRef ___ref______nl__0 = null;
 Dictionary<String, Imm> __function_map;
 //line 14
 ___nl__0 = new ImmDouble(0).clone();
@@ -100,12 +97,9 @@ public static Imm NL_funkcja() {
 	return value__singleton__NL_SINGLETON_funkcja;
 }
 private static Imm NL_funkcja_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 19
 ___nl__1 = new ImmDouble(1).clone();

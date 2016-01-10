@@ -33,5 +33,15 @@ namespace nianio
 		    return getValue().ToString();
 	    }
 
+        public void incRef()
+        {
+            ++refCount;
+        }
+
+        public void decRef()
+        {
+            --refCount;
+        }
+
     }
 }

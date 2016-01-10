@@ -42,13 +42,24 @@ namespace nianio
         }
 
         public String toString() {
-		StringBuilder sb = new StringBuilder();
-        foreach (Imm imm in getArrayValue())
+		    StringBuilder sb = new StringBuilder();
+            foreach (Imm imm in getArrayValue())
+            {
+			    sb.Append(imm.toString()).Append(",");
+		    }
+		    return sb.ToString();
+	    }
+
+
+        public void incRef()
         {
-			sb.Append(imm.toString()).Append(",");
-		}
-		return sb.ToString();
-	}
+            ++refCount;
+        }
+
+        public void decRef()
+        {
+            --refCount;
+        }
 
     }
 }

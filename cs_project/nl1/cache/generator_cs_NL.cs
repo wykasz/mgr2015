@@ -5,7 +5,7 @@ namespace nianio {
 public class generator_cs_NL {
 
 public static Imm NL_generate(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -15,16 +15,6 @@ Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
 Dictionary<String, Imm> __function_map;
 //line 17
 ___nl__1 = new ImmString("").clone();
@@ -112,14 +102,10 @@ if(true) return null;
 }
 
 private static Imm NL_print_imports_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 27
 ___nl__1 = new ImmString("").clone();
@@ -175,10 +161,8 @@ if(true) return null;
 }
 
 private static Imm NL_get_class_name_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
 //line 38
 ___nl__1 = new ImmString("_NL").clone();
@@ -197,14 +181,10 @@ if(true) return null;
 }
 
 private static Imm NL_print_class_begin_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 42
 ___nl__1 = new ImmString("namespace nianio { ").clone();
@@ -258,9 +238,6 @@ private static Imm NL_SINGLETON_print_class_end_priv() {
 Imm ___nl__0 = null;
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
 //line 48
 ___nl__0 = string_NL.NL_lf().clone();
@@ -299,16 +276,11 @@ private static Imm NL_print_class_end_priv() {
 	return value__singleton__NL_SINGLETON_print_class_end_priv;
 }
 private static Imm NL_get_function_name_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
 Dictionary<String, Imm> __function_map;
 //line 54
 ___nl__1 = new ImmString("").clone();
@@ -375,16 +347,11 @@ if(true) return null;
 }
 
 private static Imm NL_get_function_declaration_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
 Dictionary<String, Imm> __function_map;
 //line 63
 ___nl__1 = new ImmString("").clone();
@@ -458,14 +425,10 @@ if(true) return null;
 }
 
 private static Imm NL_escape_string_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
 //line 73
 ___nl__2 = new ImmString("\\").clone();
@@ -549,7 +512,7 @@ if(true) return null;
 }
 
 private static Imm NL_is_singleton_use_function_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -563,20 +526,6 @@ Imm ___nl__10 = null;
 Imm ___nl__11 = null;
 Imm ___nl__12 = null;
 Imm ___nl__13 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
-ImmRef ___ref______nl__12 = null;
-ImmRef ___ref______nl__13 = null;
 Dictionary<String, Imm> __function_map;
 //line 79
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["args_type"].clone();
@@ -1007,7 +956,7 @@ if(true) return null;
 }
 
 private static Imm NL_print_function_or_singleton_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
@@ -1015,15 +964,6 @@ Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
 Dictionary<String, Imm> __function_map;
 //line 107
 ___nl__2 = new ImmString("").clone();
@@ -1206,7 +1146,7 @@ if(true) return null;
 }
 
 private static Imm NL_print_function_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
@@ -1217,18 +1157,6 @@ Imm ___nl__8 = null;
 Imm ___nl__9 = null;
 Imm ___nl__10 = null;
 Imm ___nl__11 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
 Dictionary<String, Imm> __function_map;
 //line 130
 ___nl__2 = string_NL.NL_lf().clone();
@@ -1318,7 +1246,7 @@ if (true) {goto label_6;}
 //line 135
 label_8:
 //line 136
-___nl__9 = new ImmString("ImmRef ___arg__").clone();
+___nl__9 = new ImmString("ref Imm ___arg__").clone();
 //line 136
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__4.toString()).clone();
 //line 136
@@ -1385,15 +1313,15 @@ ___nl__7 = (___nl__7 as ImmArray).getArrayValue()[(int)((ImmDouble)___nl__4).get
 ___nl__8 = c_rt_lib_NL.NL_ov_is(___nl__7, new ImmString("val")).clone();
 //line 141
 if (c_rt_lib_NL.NL_check_true_native(___nl__8)) {if (true) {goto label_13;}}
-//line 143
+//line 144
 ___nl__8 = c_rt_lib_NL.NL_ov_is(___nl__7, new ImmString("ref")).clone();
-//line 143
+//line 144
 if (c_rt_lib_NL.NL_check_true_native(___nl__8)) {if (true) {goto label_14;}}
-//line 143
+//line 144
 ___nl__8 = new ImmString("NOMATCHALERT").clone();
-//line 143
+//line 144
 ___nl__8 = new ImmArray(new Imm[] {___nl__8,___nl__7,}).clone();
-//line 143
+//line 144
 c_rt_lib_NL.NL_die();
 //line 141
 label_13:
@@ -1402,15 +1330,7 @@ ___nl__9 = new ImmString("Imm ___nl__").clone();
 //line 142
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__4.toString()).clone();
 //line 142
-___nl__10 = new ImmString(" = ___arg__").clone();
-//line 142
-___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 142
-___nl__10 = null;
-//line 142
-___nl__9 = new ImmString(___nl__9.toString() + ___nl__4.toString()).clone();
-//line 142
-___nl__10 = new ImmString(".clone();").clone();
+___nl__10 = new ImmString(" = null;").clone();
 //line 142
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
 //line 142
@@ -1420,351 +1340,326 @@ ___nl__2 = new ImmString(___nl__2.toString() + ___nl__9.toString()).clone();
 //line 142
 ___nl__9 = null;
 //line 143
-if (true) {goto label_12;}
+___nl__9 = new ImmString("c_rt_lib_NL.NL_copy(ref ___nl__").clone();
 //line 143
+___nl__9 = new ImmString(___nl__9.toString() + ___nl__4.toString()).clone();
+//line 143
+___nl__10 = new ImmString(", ___arg__").clone();
+//line 143
+___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
+//line 143
+___nl__10 = null;
+//line 143
+___nl__9 = new ImmString(___nl__9.toString() + ___nl__4.toString()).clone();
+//line 143
+___nl__10 = new ImmString(");").clone();
+//line 143
+___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
+//line 143
+___nl__10 = null;
+//line 143
+___nl__2 = new ImmString(___nl__2.toString() + ___nl__9.toString()).clone();
+//line 143
+___nl__9 = null;
+//line 144
+if (true) {goto label_12;}
+//line 144
 label_14:
-//line 144
+//line 145
 ___nl__9 = new ImmString("Imm ___nl__").clone();
-//line 144
+//line 145
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__4.toString()).clone();
-//line 144
+//line 145
 ___nl__10 = new ImmString(" = ___arg__").clone();
-//line 144
+//line 145
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 144
+//line 145
 ___nl__10 = null;
-//line 144
+//line 145
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__4.toString()).clone();
-//line 144
-___nl__10 = new ImmString(".getValue().clone();").clone();
-//line 144
+//line 145
+___nl__10 = new ImmString(";").clone();
+//line 145
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 144
+//line 145
 ___nl__10 = null;
-//line 144
+//line 145
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__9.toString()).clone();
-//line 144
+//line 145
 ___nl__9 = null;
-//line 145
+//line 146
 if (true) {goto label_12;}
-//line 145
+//line 146
 label_12:
-//line 145
+//line 146
 ___nl__7 = null;
-//line 145
+//line 146
 ___nl__8 = null;
-//line 146
-___nl__4 = new ImmDouble((Double.Parse(___nl__4.getValue().ToString()))+(Double.Parse(___nl__5.getValue().ToString()))).clone();
-//line 146
-if (true) {goto label_11;}
-//line 146
-label_9:
-//line 146
-___nl__3 = null;
-//line 146
-___nl__4 = null;
-//line 146
-___nl__5 = null;
-//line 146
-___nl__6 = null;
 //line 147
+___nl__4 = new ImmDouble((Double.Parse(___nl__4.getValue().ToString()))+(Double.Parse(___nl__5.getValue().ToString()))).clone();
+//line 147
+if (true) {goto label_11;}
+//line 147
+label_9:
+//line 147
+___nl__3 = null;
+//line 147
+___nl__4 = null;
+//line 147
+___nl__5 = null;
+//line 147
+___nl__6 = null;
+//line 148
 ___nl__3 = string_NL.NL_lf().clone();
 
-//line 147
+//line 148
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 147
+//line 148
 ___nl__3 = null;
-//line 148
+//line 149
 ___nl__4 = ((ImmHash)___nl__0).getHashValue()["args_type"].clone();
-//line 148
+//line 149
 ___nl__3 = array_NL.NL_len(___nl__4).clone();
 
-//line 148
+//line 149
 ___nl__4 = null;
-//line 148
+//line 149
 label_16:
-//line 148
+//line 149
 ___nl__4 = ((ImmHash)___nl__0).getHashValue()["reg_size"].clone();
-//line 148
+//line 149
 ___nl__4 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__3.getValue().ToString()))<(Double.Parse(___nl__4.getValue().ToString())) ).clone();
-//line 148
+//line 149
 ___nl__4 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__4)).clone();
-//line 148
+//line 149
 if (c_rt_lib_NL.NL_check_true_native(___nl__4)) {if (true) {goto label_15;}}
-//line 149
+//line 150
 ___nl__5 = new ImmString("Imm ___nl__").clone();
-//line 149
+//line 150
 ___nl__5 = new ImmString(___nl__5.toString() + ___nl__3.toString()).clone();
-//line 149
+//line 150
 ___nl__6 = new ImmString(" = null;").clone();
-//line 149
+//line 150
 ___nl__5 = new ImmString(___nl__5.toString() + ___nl__6.toString()).clone();
-//line 149
+//line 150
 ___nl__6 = null;
-//line 149
+//line 150
 ___nl__6 = string_NL.NL_lf().clone();
 
-//line 149
+//line 150
 ___nl__5 = new ImmString(___nl__5.toString() + ___nl__6.toString()).clone();
-//line 149
+//line 150
 ___nl__6 = null;
-//line 149
+//line 150
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__5.toString()).clone();
-//line 149
-___nl__5 = null;
-//line 149
-___nl__5 = new ImmDouble(1).clone();
-//line 149
-___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))+(Double.Parse(___nl__5.getValue().ToString()))).clone();
-//line 149
+//line 150
 ___nl__5 = null;
 //line 150
+___nl__5 = new ImmDouble(1).clone();
+//line 150
+___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))+(Double.Parse(___nl__5.getValue().ToString()))).clone();
+//line 150
+___nl__5 = null;
+//line 151
 if (true) {goto label_16;}
-//line 150
+//line 151
 label_15:
-//line 150
+//line 151
 ___nl__3 = null;
-//line 150
+//line 151
 ___nl__4 = null;
-//line 151
-___nl__3 = new ImmDouble(0).clone();
-//line 151
-label_19:
-//line 151
-___nl__4 = ((ImmHash)___nl__0).getHashValue()["reg_size"].clone();
-//line 151
-___nl__4 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__3.getValue().ToString()))<(Double.Parse(___nl__4.getValue().ToString())) ).clone();
-//line 151
-___nl__4 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__4)).clone();
-//line 151
-if (c_rt_lib_NL.NL_check_true_native(___nl__4)) {if (true) {goto label_18;}}
-//line 152
-___nl__5 = new ImmString("ImmRef ___ref______nl__").clone();
-//line 152
-___nl__5 = new ImmString(___nl__5.toString() + ___nl__3.toString()).clone();
-//line 152
-___nl__6 = new ImmString(" = null;").clone();
-//line 152
-___nl__5 = new ImmString(___nl__5.toString() + ___nl__6.toString()).clone();
-//line 152
-___nl__6 = null;
-//line 152
-___nl__6 = string_NL.NL_lf().clone();
-
-//line 152
-___nl__5 = new ImmString(___nl__5.toString() + ___nl__6.toString()).clone();
-//line 152
-___nl__6 = null;
-//line 152
-___nl__2 = new ImmString(___nl__2.toString() + ___nl__5.toString()).clone();
-//line 152
-___nl__5 = null;
-//line 152
-___nl__5 = new ImmDouble(1).clone();
-//line 152
-___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))+(Double.Parse(___nl__5.getValue().ToString()))).clone();
-//line 152
-___nl__5 = null;
-//line 153
-if (true) {goto label_19;}
-//line 153
-label_18:
-//line 153
-___nl__3 = null;
-//line 153
-___nl__4 = null;
-//line 154
+//line 155
 ___nl__3 = new ImmString("Dictionary<String, Imm> ").clone();
-//line 154
+//line 155
 ___nl__4 = generator_cs_NL.NL_print_hash_name_priv().clone();
 
-//line 154
+//line 155
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 154
+//line 155
 ___nl__4 = null;
-//line 154
+//line 155
 ___nl__4 = new ImmString(";").clone();
-//line 154
+//line 155
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 154
+//line 155
 ___nl__4 = null;
-//line 154
+//line 155
 ___nl__4 = string_NL.NL_lf().clone();
 
-//line 154
+//line 155
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 154
+//line 155
 ___nl__4 = null;
-//line 154
+//line 155
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 154
+//line 155
 ___nl__3 = null;
-//line 156
+//line 157
 ___nl__3 = new ImmString("").clone();
-//line 157
+//line 158
 ___nl__5 = ((ImmHash)___nl__0).getHashValue()["args_type"].clone();
-//line 157
+//line 158
 ___nl__4 = array_NL.NL_len(___nl__5).clone();
 
-//line 157
+//line 158
 ___nl__5 = null;
-//line 157
+//line 158
 ___nl__5 = new ImmDouble(0).clone();
-//line 157
+//line 158
 ___nl__6 = new ImmDouble(1).clone();
-//line 157
-label_23:
-//line 157
+//line 158
+label_20:
+//line 158
 ___nl__7 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__5.getValue().ToString()))>=(Double.Parse(___nl__4.getValue().ToString())) ).clone();
-//line 157
-if (c_rt_lib_NL.NL_check_true_native(___nl__7)) {if (true) {goto label_21;}}
 //line 158
+if (c_rt_lib_NL.NL_check_true_native(___nl__7)) {if (true) {goto label_18;}}
+//line 159
 ___nl__8 = ((ImmHash)___nl__0).getHashValue()["args_type"].clone();
-//line 158
+//line 159
 ___nl__8 = (___nl__8 as ImmArray).getArrayValue()[(int)((ImmDouble)___nl__5).getDoubleValue()].clone();
-//line 158
+//line 159
 ___nl__9 = c_rt_lib_NL.NL_ov_is(___nl__8, new ImmString("val")).clone();
-//line 158
-if (c_rt_lib_NL.NL_check_true_native(___nl__9)) {if (true) {goto label_25;}}
 //line 159
+if (c_rt_lib_NL.NL_check_true_native(___nl__9)) {if (true) {goto label_22;}}
+//line 160
 ___nl__9 = c_rt_lib_NL.NL_ov_is(___nl__8, new ImmString("ref")).clone();
-//line 159
-if (c_rt_lib_NL.NL_check_true_native(___nl__9)) {if (true) {goto label_26;}}
-//line 159
+//line 160
+if (c_rt_lib_NL.NL_check_true_native(___nl__9)) {if (true) {goto label_23;}}
+//line 160
 ___nl__9 = new ImmString("NOMATCHALERT").clone();
-//line 159
+//line 160
 ___nl__9 = new ImmArray(new Imm[] {___nl__9,___nl__8,}).clone();
-//line 159
+//line 160
 c_rt_lib_NL.NL_die();
-//line 158
-label_25:
 //line 159
-if (true) {goto label_24;}
-//line 159
-label_26:
+label_22:
 //line 160
+if (true) {goto label_21;}
+//line 160
+label_23:
+//line 161
 ___nl__10 = new ImmString("___arg__").clone();
-//line 160
+//line 161
 ___nl__10 = new ImmString(___nl__10.toString() + ___nl__5.toString()).clone();
-//line 160
-___nl__11 = new ImmString(".setValue(___nl__").clone();
-//line 160
+//line 161
+___nl__11 = new ImmString(" = ___nl__").clone();
+//line 161
 ___nl__10 = new ImmString(___nl__10.toString() + ___nl__11.toString()).clone();
-//line 160
+//line 161
 ___nl__11 = null;
-//line 160
+//line 161
 ___nl__10 = new ImmString(___nl__10.toString() + ___nl__5.toString()).clone();
-//line 160
-___nl__11 = new ImmString(");").clone();
-//line 160
+//line 161
+___nl__11 = new ImmString(";").clone();
+//line 161
 ___nl__10 = new ImmString(___nl__10.toString() + ___nl__11.toString()).clone();
-//line 160
+//line 161
 ___nl__11 = null;
-//line 160
+//line 161
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__10.toString()).clone();
-//line 160
+//line 161
 ___nl__10 = null;
-//line 161
-if (true) {goto label_24;}
-//line 161
-label_24:
-//line 161
-___nl__8 = null;
-//line 161
-___nl__9 = null;
 //line 162
-___nl__5 = new ImmDouble((Double.Parse(___nl__5.getValue().ToString()))+(Double.Parse(___nl__6.getValue().ToString()))).clone();
-//line 162
-if (true) {goto label_23;}
+if (true) {goto label_21;}
 //line 162
 label_21:
 //line 162
+___nl__8 = null;
+//line 162
+___nl__9 = null;
+//line 163
+___nl__5 = new ImmDouble((Double.Parse(___nl__5.getValue().ToString()))+(Double.Parse(___nl__6.getValue().ToString()))).clone();
+//line 163
+if (true) {goto label_20;}
+//line 163
+label_18:
+//line 163
 ___nl__4 = null;
-//line 162
+//line 163
 ___nl__5 = null;
-//line 162
+//line 163
 ___nl__6 = null;
-//line 162
+//line 163
 ___nl__7 = null;
-//line 164
+//line 165
 ___nl__4 = ((ImmHash)___nl__0).getHashValue()["commands"].clone();
-//line 164
+//line 165
 ___nl__6 = new ImmDouble(0).clone();
-//line 164
+//line 165
 ___nl__7 = new ImmDouble(1).clone();
-//line 164
+//line 165
 ___nl__8 = c_rt_lib_NL.NL_array_len(___nl__4).clone();
 
-//line 164
-label_29:
-//line 164
+//line 165
+label_26:
+//line 165
 ___nl__9 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__6.getValue().ToString()))>=(Double.Parse(___nl__8.getValue().ToString())) ).clone();
-//line 164
-if (c_rt_lib_NL.NL_check_true_native(___nl__9)) {if (true) {goto label_27;}}
-//line 164
+//line 165
+if (c_rt_lib_NL.NL_check_true_native(___nl__9)) {if (true) {goto label_24;}}
+//line 165
 ___nl__5 = (___nl__4 as ImmArray).getArrayValue()[(int)((ImmDouble)___nl__6).getDoubleValue()].clone();
-//line 164
+//line 165
 ___nl__10 = generator_cs_NL.NL_print_command_priv(___nl__1,___nl__5,___nl__3).clone();
 
-//line 164
+//line 165
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__10.toString()).clone();
-//line 164
+//line 165
 ___nl__10 = null;
-//line 164
+//line 165
 ___nl__6 = new ImmDouble((Double.Parse(___nl__6.getValue().ToString()))+(Double.Parse(___nl__7.getValue().ToString()))).clone();
-//line 164
-if (true) {goto label_29;}
-//line 164
-label_27:
-//line 164
+//line 165
+if (true) {goto label_26;}
+//line 165
+label_24:
+//line 165
 ___nl__4 = null;
-//line 164
+//line 165
 ___nl__5 = null;
-//line 164
+//line 165
 ___nl__6 = null;
-//line 164
+//line 165
 ___nl__7 = null;
-//line 164
+//line 165
 ___nl__8 = null;
-//line 164
+//line 165
 ___nl__9 = null;
-//line 166
+//line 167
 ___nl__4 = new ImmString("}").clone();
-//line 166
+//line 167
 ___nl__4 = new ImmString(___nl__2.toString() + ___nl__4.toString()).clone();
-//line 166
+//line 167
 ___nl__5 = string_NL.NL_lf().clone();
 
-//line 166
+//line 167
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 166
+//line 167
 ___nl__5 = null;
-//line 166
+//line 167
 ___nl__0 = null;
-//line 166
+//line 167
 ___nl__1 = null;
-//line 166
+//line 167
 ___nl__2 = null;
-//line 166
+//line 167
 ___nl__3 = null;
-//line 166
+//line 167
 if(true) return ___nl__4;
-//line 166
+//line 167
 ___nl__4 = null;
-//line 166
+//line 167
 ___nl__2 = null;
-//line 166
+//line 167
 ___nl__3 = null;
-//line 166
+//line 167
 ___nl__0 = null;
-//line 166
+//line 167
 ___nl__1 = null;
-//line 166
+//line 167
 if(true) return null;
 }
 
 private static Imm NL_print_command_priv(Imm ___arg__0, Imm ___arg__1, Imm ___arg__2) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();Imm ___nl__2 = ___arg__2.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);Imm ___nl__2 = null;c_rt_lib_NL.NL_copy(ref ___nl__2, ___arg__2);
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
@@ -1775,955 +1670,942 @@ Imm ___nl__9 = null;
 Imm ___nl__10 = null;
 Imm ___nl__11 = null;
 Imm ___nl__12 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
-ImmRef ___ref______nl__12 = null;
 Dictionary<String, Imm> __function_map;
-//line 171
+//line 172
 ___nl__4 = ((ImmHash)___nl__1).getHashValue()["cmd"].clone();
-//line 171
+//line 172
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("arr_decl")).clone();
-//line 171
+//line 172
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_2;}}
-//line 173
+//line 174
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("hash_decl")).clone();
-//line 173
+//line 174
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_3;}}
-//line 176
+//line 177
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("call")).clone();
-//line 176
+//line 177
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_4;}}
-//line 180
+//line 181
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("func")).clone();
-//line 180
+//line 181
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_5;}}
-//line 182
+//line 183
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("una_op")).clone();
-//line 182
+//line 183
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_6;}}
-//line 184
+//line 185
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("bin_op")).clone();
-//line 184
+//line 185
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_7;}}
-//line 186
+//line 187
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("ov_is")).clone();
-//line 186
+//line 187
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_8;}}
-//line 188
+//line 189
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("ov_as")).clone();
-//line 188
+//line 189
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_9;}}
-//line 190
+//line 191
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("return")).clone();
-//line 190
+//line 191
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_10;}}
-//line 193
+//line 194
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("die")).clone();
-//line 193
+//line 194
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_11;}}
-//line 195
+//line 196
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("move")).clone();
-//line 195
+//line 196
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_12;}}
-//line 197
+//line 198
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("load_const")).clone();
-//line 197
+//line 198
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_13;}}
-//line 199
+//line 200
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("get_frm_idx")).clone();
-//line 199
+//line 200
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_14;}}
-//line 203
+//line 204
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("set_at_idx")).clone();
-//line 203
+//line 204
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_15;}}
-//line 206
+//line 207
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("get_val")).clone();
-//line 206
+//line 207
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_16;}}
-//line 208
+//line 209
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("set_val")).clone();
-//line 208
+//line 209
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_17;}}
-//line 210
+//line 211
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("ov_mk")).clone();
-//line 210
+//line 211
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_18;}}
-//line 212
+//line 213
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("prt_lbl")).clone();
-//line 212
+//line 213
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_19;}}
-//line 214
+//line 215
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("if_goto")).clone();
-//line 214
+//line 215
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_20;}}
-//line 216
+//line 217
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("goto")).clone();
-//line 216
+//line 217
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_21;}}
-//line 218
+//line 219
 ___nl__5 = c_rt_lib_NL.NL_ov_is(___nl__4, new ImmString("clear")).clone();
-//line 218
+//line 219
 if (c_rt_lib_NL.NL_check_true_native(___nl__5)) {if (true) {goto label_22;}}
-//line 218
+//line 219
 ___nl__5 = new ImmString("NOMATCHALERT").clone();
-//line 218
+//line 219
 ___nl__5 = new ImmArray(new Imm[] {___nl__5,___nl__4,}).clone();
-//line 218
+//line 219
 c_rt_lib_NL.NL_die();
-//line 171
+//line 172
 label_2:
-//line 171
+//line 172
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("arr_decl")).clone();
-//line 172
+//line 173
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 172
+//line 173
 ___nl__10 = ((ImmHash)___nl__6).getHashValue()["src"].clone();
-//line 172
+//line 173
 ___nl__9 = generator_cs_NL.NL_print_arr_priv(___nl__10).clone();
 
-//line 172
+//line 173
 ___nl__10 = null;
-//line 172
+//line 173
 ___nl__7 = generator_cs_NL.NL_print_register_setter_priv(___nl__8,___nl__9).clone();
 
-//line 172
+//line 173
 ___nl__9 = null;
-//line 172
+//line 173
 ___nl__8 = null;
-//line 172
+//line 173
 ___nl__8 = new ImmString(";").clone();
-//line 172
+//line 173
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 172
+//line 173
 ___nl__8 = null;
-//line 172
+//line 173
 ___nl__3 = ___nl__7.clone();
-//line 172
+//line 173
 ___nl__7 = null;
-//line 172
+//line 173
 ___nl__6 = null;
-//line 173
-if (true) {goto label_1;}
-//line 173
-label_3:
-//line 173
-___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("hash_decl")).clone();
 //line 174
+if (true) {goto label_1;}
+//line 174
+label_3:
+//line 174
+___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("hash_decl")).clone();
+//line 175
 ___nl__7 = generator_cs_NL.NL_print_hash_priv(___nl__6).clone();
 
-//line 174
+//line 175
 ___nl__3 = ___nl__7.clone();
-//line 174
+//line 175
 ___nl__7 = null;
-//line 175
+//line 176
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 175
+//line 176
 ___nl__9 = new ImmString("new ImmHash(").clone();
-//line 175
+//line 176
 ___nl__10 = generator_cs_NL.NL_print_hash_name_priv().clone();
 
-//line 175
+//line 176
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 175
+//line 176
 ___nl__10 = null;
-//line 175
+//line 176
 ___nl__10 = new ImmString(")").clone();
-//line 175
+//line 176
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 175
+//line 176
 ___nl__10 = null;
-//line 175
+//line 176
 ___nl__7 = generator_cs_NL.NL_print_register_setter_priv(___nl__8,___nl__9).clone();
 
-//line 175
+//line 176
 ___nl__9 = null;
-//line 175
+//line 176
 ___nl__8 = null;
-//line 175
+//line 176
 ___nl__8 = new ImmString(";").clone();
-//line 175
+//line 176
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 175
+//line 176
 ___nl__8 = null;
-//line 175
+//line 176
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__7.toString()).clone();
-//line 175
+//line 176
 ___nl__7 = null;
-//line 175
+//line 176
 ___nl__6 = null;
-//line 176
+//line 177
 if (true) {goto label_1;}
-//line 176
+//line 177
 label_4:
-//line 176
+//line 177
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("call")).clone();
-//line 177
+//line 178
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["args"].clone();
-//line 177
+//line 178
 ___nl__7 = generator_cs_NL.NL_print_call_ref_prepare_priv(___nl__8).clone();
 
-//line 177
+//line 178
 ___nl__8 = null;
-//line 177
+//line 178
 ___nl__3 = ___nl__7.clone();
-//line 177
+//line 178
 ___nl__7 = null;
-//line 178
+//line 179
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 178
+//line 179
 ___nl__10 = ((ImmHash)___nl__6).getHashValue()["mod"].clone();
-//line 178
+//line 179
 ___nl__11 = ((ImmHash)___nl__6).getHashValue()["fun_name"].clone();
-//line 178
+//line 179
 ___nl__12 = ((ImmHash)___nl__6).getHashValue()["args"].clone();
-//line 178
+//line 179
 ___nl__9 = generator_cs_NL.NL_print_call_priv(___nl__0,___nl__10,___nl__11,___nl__12).clone();
 
-//line 178
+//line 179
 ___nl__12 = null;
-//line 178
+//line 179
 ___nl__11 = null;
-//line 178
+//line 179
 ___nl__10 = null;
-//line 178
+//line 179
 ___nl__7 = generator_cs_NL.NL_print_register_setter_priv(___nl__8,___nl__9).clone();
 
-//line 178
+//line 179
 ___nl__9 = null;
-//line 178
+//line 179
 ___nl__8 = null;
-//line 178
+//line 179
 ___nl__8 = new ImmString(";").clone();
-//line 178
+//line 179
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 178
+//line 179
 ___nl__8 = null;
-//line 178
+//line 179
 ___nl__8 = string_NL.NL_lf().clone();
 
-//line 178
+//line 179
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 178
+//line 179
 ___nl__8 = null;
-//line 178
+//line 179
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__7.toString()).clone();
-//line 178
+//line 179
 ___nl__7 = null;
-//line 179
+//line 180
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["args"].clone();
-//line 179
+//line 180
 ___nl__7 = generator_cs_NL.NL_print_call_ref_setter_priv(___nl__8).clone();
 
-//line 179
+//line 180
 ___nl__8 = null;
-//line 179
+//line 180
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__7.toString()).clone();
-//line 179
+//line 180
 ___nl__7 = null;
-//line 179
+//line 180
 ___nl__6 = null;
-//line 180
+//line 181
 if (true) {goto label_1;}
-//line 180
+//line 181
 label_5:
-//line 180
+//line 181
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("func")).clone();
-//line 181
+//line 182
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 181
+//line 182
 ___nl__11 = ((ImmHash)___nl__6).getHashValue()["module"].clone();
-//line 181
+//line 182
 ___nl__10 = generator_cs_NL.NL_get_class_name_priv(___nl__11).clone();
 
-//line 181
+//line 182
 ___nl__11 = null;
-//line 181
+//line 182
 ___nl__11 = ((ImmHash)___nl__6).getHashValue()["name"].clone();
-//line 181
+//line 182
 __function_map = new Dictionary<String, Imm>();
 __function_map.Add("module",___nl__10);
 __function_map.Add("name",___nl__11);
 ___nl__9 = new ImmHash(__function_map).clone();
-//line 181
+//line 182
 ___nl__10 = null;
-//line 181
+//line 182
 ___nl__11 = null;
-//line 181
+//line 182
 ___nl__7 = generator_cs_NL.NL_print_const_hash_priv(___nl__8,___nl__9).clone();
 
-//line 181
+//line 182
 ___nl__9 = null;
-//line 181
+//line 182
 ___nl__8 = null;
-//line 181
+//line 182
 ___nl__8 = new ImmString(";").clone();
-//line 181
+//line 182
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 181
+//line 182
 ___nl__8 = null;
-//line 181
+//line 182
 ___nl__3 = ___nl__7.clone();
-//line 181
+//line 182
 ___nl__7 = null;
-//line 181
+//line 182
 ___nl__6 = null;
-//line 182
-if (true) {goto label_1;}
-//line 182
-label_6:
-//line 182
-___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("una_op")).clone();
 //line 183
+if (true) {goto label_1;}
+//line 183
+label_6:
+//line 183
+___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("una_op")).clone();
+//line 184
 ___nl__7 = generator_cs_NL.NL_print_una_op_priv(___nl__6).clone();
 
-//line 183
+//line 184
 ___nl__3 = ___nl__7.clone();
-//line 183
+//line 184
 ___nl__7 = null;
-//line 183
+//line 184
 ___nl__6 = null;
-//line 184
-if (true) {goto label_1;}
-//line 184
-label_7:
-//line 184
-___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("bin_op")).clone();
 //line 185
+if (true) {goto label_1;}
+//line 185
+label_7:
+//line 185
+___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("bin_op")).clone();
+//line 186
 ___nl__7 = generator_cs_NL.NL_print_bin_op_priv(___nl__6).clone();
 
-//line 185
+//line 186
 ___nl__3 = ___nl__7.clone();
-//line 185
+//line 186
 ___nl__7 = null;
-//line 185
+//line 186
 ___nl__6 = null;
-//line 186
+//line 187
 if (true) {goto label_1;}
-//line 186
+//line 187
 label_8:
-//line 186
+//line 187
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("ov_is")).clone();
-//line 187
+//line 188
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 187
+//line 188
 ___nl__9 = new ImmString("c_rt_lib_NL.NL_ov_is(").clone();
-//line 187
+//line 188
 ___nl__11 = ((ImmHash)___nl__6).getHashValue()["src"].clone();
-//line 187
+//line 188
 ___nl__10 = generator_cs_NL.NL_print_register_priv(___nl__11).clone();
 
-//line 187
+//line 188
 ___nl__11 = null;
-//line 187
+//line 188
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 187
+//line 188
 ___nl__10 = null;
-//line 187
+//line 188
 ___nl__10 = new ImmString(", new ImmString(\"").clone();
-//line 187
+//line 188
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 187
+//line 188
 ___nl__10 = null;
-//line 187
+//line 188
 ___nl__11 = ((ImmHash)___nl__6).getHashValue()["type"].clone();
-//line 187
+//line 188
 ___nl__10 = generator_cs_NL.NL_escape_string_priv(___nl__11).clone();
 
-//line 187
+//line 188
 ___nl__11 = null;
-//line 187
+//line 188
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 187
+//line 188
 ___nl__10 = null;
-//line 187
+//line 188
 ___nl__10 = new ImmString("\"))").clone();
-//line 187
+//line 188
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 187
+//line 188
 ___nl__10 = null;
-//line 187
+//line 188
 ___nl__7 = generator_cs_NL.NL_print_register_setter_priv(___nl__8,___nl__9).clone();
 
-//line 187
+//line 188
 ___nl__9 = null;
-//line 187
+//line 188
 ___nl__8 = null;
-//line 187
+//line 188
 ___nl__8 = new ImmString(";").clone();
-//line 187
+//line 188
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 187
+//line 188
 ___nl__8 = null;
-//line 187
+//line 188
 ___nl__3 = ___nl__7.clone();
-//line 187
+//line 188
 ___nl__7 = null;
-//line 187
+//line 188
 ___nl__6 = null;
-//line 188
+//line 189
 if (true) {goto label_1;}
-//line 188
+//line 189
 label_9:
-//line 188
+//line 189
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("ov_as")).clone();
-//line 189
+//line 190
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 189
+//line 190
 ___nl__9 = new ImmString("c_rt_lib_NL.NL_ov_as(").clone();
-//line 189
+//line 190
 ___nl__11 = ((ImmHash)___nl__6).getHashValue()["src"].clone();
-//line 189
+//line 190
 ___nl__10 = generator_cs_NL.NL_print_register_priv(___nl__11).clone();
 
-//line 189
+//line 190
 ___nl__11 = null;
-//line 189
+//line 190
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 189
+//line 190
 ___nl__10 = null;
-//line 189
+//line 190
 ___nl__10 = new ImmString(", new ImmString(\"").clone();
-//line 189
+//line 190
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 189
+//line 190
 ___nl__10 = null;
-//line 189
+//line 190
 ___nl__11 = ((ImmHash)___nl__6).getHashValue()["type"].clone();
-//line 189
+//line 190
 ___nl__10 = generator_cs_NL.NL_escape_string_priv(___nl__11).clone();
 
-//line 189
+//line 190
 ___nl__11 = null;
-//line 189
+//line 190
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 189
+//line 190
 ___nl__10 = null;
-//line 189
+//line 190
 ___nl__10 = new ImmString("\"))").clone();
-//line 189
+//line 190
 ___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 189
+//line 190
 ___nl__10 = null;
-//line 189
+//line 190
 ___nl__7 = generator_cs_NL.NL_print_register_setter_priv(___nl__8,___nl__9).clone();
 
-//line 189
+//line 190
 ___nl__9 = null;
-//line 189
+//line 190
 ___nl__8 = null;
-//line 189
+//line 190
 ___nl__8 = new ImmString(";").clone();
-//line 189
+//line 190
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 189
+//line 190
 ___nl__8 = null;
-//line 189
+//line 190
 ___nl__3 = ___nl__7.clone();
-//line 189
+//line 190
 ___nl__7 = null;
-//line 189
+//line 190
 ___nl__6 = null;
-//line 190
-if (true) {goto label_1;}
-//line 190
-label_10:
-//line 190
-___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("return")).clone();
 //line 191
-___nl__3 = ___nl__2.clone();
+if (true) {goto label_1;}
+//line 191
+label_10:
+//line 191
+___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("return")).clone();
 //line 192
+___nl__3 = ___nl__2.clone();
+//line 193
 ___nl__7 = generator_cs_NL.NL_print_return_priv(___nl__6).clone();
 
-//line 192
+//line 193
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__7.toString()).clone();
-//line 192
+//line 193
 ___nl__7 = null;
-//line 192
+//line 193
 ___nl__6 = null;
-//line 193
+//line 194
 if (true) {goto label_1;}
-//line 193
+//line 194
 label_11:
-//line 193
+//line 194
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("die")).clone();
-//line 194
+//line 195
 ___nl__7 = new ImmString("c_rt_lib_NL.NL_die();").clone();
-//line 194
+//line 195
 ___nl__3 = ___nl__7.clone();
-//line 194
+//line 195
 ___nl__7 = null;
-//line 194
+//line 195
 ___nl__6 = null;
-//line 195
+//line 196
 if (true) {goto label_1;}
-//line 195
+//line 196
 label_12:
-//line 195
+//line 196
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("move")).clone();
-//line 196
+//line 197
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 196
+//line 197
 ___nl__10 = ((ImmHash)___nl__6).getHashValue()["src"].clone();
-//line 196
+//line 197
 ___nl__9 = generator_cs_NL.NL_print_register_priv(___nl__10).clone();
 
-//line 196
+//line 197
 ___nl__10 = null;
-//line 196
+//line 197
 ___nl__7 = generator_cs_NL.NL_print_register_setter_priv(___nl__8,___nl__9).clone();
 
-//line 196
+//line 197
 ___nl__9 = null;
-//line 196
+//line 197
 ___nl__8 = null;
-//line 196
+//line 197
 ___nl__8 = new ImmString(";").clone();
-//line 196
+//line 197
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 196
+//line 197
 ___nl__8 = null;
-//line 196
+//line 197
 ___nl__3 = ___nl__7.clone();
-//line 196
+//line 197
 ___nl__7 = null;
-//line 196
+//line 197
 ___nl__6 = null;
-//line 197
+//line 198
 if (true) {goto label_1;}
-//line 197
+//line 198
 label_13:
-//line 197
+//line 198
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("load_const")).clone();
-//line 198
+//line 199
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 198
+//line 199
 ___nl__11 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 198
+//line 199
 ___nl__10 = generator_cs_NL.NL_print_register_priv(___nl__11).clone();
 
-//line 198
+//line 199
 ___nl__11 = null;
-//line 198
+//line 199
 ___nl__11 = ((ImmHash)___nl__6).getHashValue()["val"].clone();
-//line 198
+//line 199
 ___nl__9 = generator_cs_NL.NL_print_const_value_priv(___nl__10,___nl__11).clone();
 
-//line 198
+//line 199
 ___nl__11 = null;
-//line 198
+//line 199
 ___nl__10 = null;
-//line 198
+//line 199
 ___nl__7 = generator_cs_NL.NL_print_register_setter_priv(___nl__8,___nl__9).clone();
 
-//line 198
+//line 199
 ___nl__9 = null;
-//line 198
+//line 199
 ___nl__8 = null;
-//line 198
+//line 199
 ___nl__8 = new ImmString(";").clone();
-//line 198
+//line 199
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 198
+//line 199
 ___nl__8 = null;
-//line 198
+//line 199
 ___nl__3 = ___nl__7.clone();
-//line 198
+//line 199
 ___nl__7 = null;
-//line 198
+//line 199
 ___nl__6 = null;
-//line 199
+//line 200
 if (true) {goto label_1;}
-//line 199
+//line 200
 label_14:
-//line 199
+//line 200
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("get_frm_idx")).clone();
-//line 200
+//line 201
 ___nl__7 = new ImmString("(").clone();
-//line 200
+//line 201
 ___nl__9 = ((ImmHash)___nl__6).getHashValue()["src"].clone();
-//line 200
+//line 201
 ___nl__8 = generator_cs_NL.NL_print_register_priv(___nl__9).clone();
 
-//line 200
+//line 201
 ___nl__9 = null;
-//line 200
+//line 201
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 200
+//line 201
 ___nl__8 = null;
-//line 200
+//line 201
 ___nl__8 = new ImmString(" as ImmArray).getArrayValue()").clone();
-//line 200
+//line 201
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 200
+//line 201
 ___nl__8 = null;
-//line 200
+//line 201
 ___nl__3 = ___nl__7.clone();
-//line 200
+//line 201
 ___nl__7 = null;
-//line 201
+//line 202
 ___nl__7 = new ImmString("[(int)((ImmDouble)").clone();
-//line 201
+//line 202
 ___nl__9 = ((ImmHash)___nl__6).getHashValue()["idx"].clone();
-//line 201
+//line 202
 ___nl__8 = generator_cs_NL.NL_print_register_priv(___nl__9).clone();
 
-//line 201
+//line 202
 ___nl__9 = null;
-//line 201
+//line 202
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 201
+//line 202
 ___nl__8 = null;
-//line 201
+//line 202
 ___nl__8 = new ImmString(").getDoubleValue()]").clone();
-//line 201
+//line 202
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 201
+//line 202
 ___nl__8 = null;
-//line 201
+//line 202
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__7.toString()).clone();
-//line 201
+//line 202
 ___nl__7 = null;
-//line 202
+//line 203
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 202
+//line 203
 ___nl__7 = generator_cs_NL.NL_print_register_setter_priv(___nl__8,___nl__3).clone();
 
-//line 202
+//line 203
 ___nl__8 = null;
-//line 202
+//line 203
 ___nl__8 = new ImmString(";").clone();
-//line 202
+//line 203
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 202
+//line 203
 ___nl__8 = null;
-//line 202
+//line 203
 ___nl__3 = ___nl__7.clone();
-//line 202
+//line 203
 ___nl__7 = null;
-//line 202
+//line 203
 ___nl__6 = null;
-//line 203
+//line 204
 if (true) {goto label_1;}
-//line 203
+//line 204
 label_15:
-//line 203
+//line 204
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("set_at_idx")).clone();
-//line 204
+//line 205
 ___nl__7 = new ImmString("(").clone();
-//line 204
+//line 205
 ___nl__9 = ((ImmHash)___nl__6).getHashValue()["src"].clone();
-//line 204
+//line 205
 ___nl__8 = generator_cs_NL.NL_print_register_priv(___nl__9).clone();
 
-//line 204
+//line 205
 ___nl__9 = null;
-//line 204
+//line 205
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 204
+//line 205
 ___nl__8 = null;
-//line 204
+//line 205
 ___nl__8 = new ImmString(" as ImmArray).getArrayValue()").clone();
-//line 204
+//line 205
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 204
+//line 205
 ___nl__8 = null;
-//line 204
+//line 205
 ___nl__3 = ___nl__7.clone();
-//line 204
-___nl__7 = null;
 //line 205
+___nl__7 = null;
+//line 206
 ___nl__7 = new ImmString("[(int)((ImmDouble)").clone();
-//line 205
+//line 206
 ___nl__9 = ((ImmHash)___nl__6).getHashValue()["idx"].clone();
-//line 205
+//line 206
 ___nl__8 = generator_cs_NL.NL_print_register_priv(___nl__9).clone();
 
-//line 205
+//line 206
 ___nl__9 = null;
-//line 205
+//line 206
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 205
+//line 206
 ___nl__8 = null;
-//line 205
+//line 206
 ___nl__8 = new ImmString(").getDoubleValue()] = ").clone();
-//line 205
+//line 206
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 205
+//line 206
 ___nl__8 = null;
-//line 205
+//line 206
 ___nl__9 = ((ImmHash)___nl__6).getHashValue()["val"].clone();
-//line 205
+//line 206
 ___nl__8 = generator_cs_NL.NL_print_register_priv(___nl__9).clone();
 
-//line 205
+//line 206
 ___nl__9 = null;
-//line 205
+//line 206
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 205
+//line 206
 ___nl__8 = null;
-//line 205
+//line 206
 ___nl__8 = new ImmString(";").clone();
-//line 205
+//line 206
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 205
+//line 206
 ___nl__8 = null;
-//line 205
+//line 206
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__7.toString()).clone();
-//line 205
+//line 206
 ___nl__7 = null;
-//line 205
+//line 206
 ___nl__6 = null;
-//line 206
+//line 207
 if (true) {goto label_1;}
-//line 206
+//line 207
 label_16:
-//line 206
+//line 207
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("get_val")).clone();
-//line 207
+//line 208
 ___nl__8 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 207
+//line 208
 ___nl__9 = generator_cs_NL.NL_print_get_hash_value_priv(___nl__6).clone();
 
-//line 207
+//line 208
 ___nl__7 = generator_cs_NL.NL_print_register_setter_priv(___nl__8,___nl__9).clone();
 
-//line 207
+//line 208
 ___nl__9 = null;
-//line 207
+//line 208
 ___nl__8 = null;
-//line 207
+//line 208
 ___nl__8 = new ImmString(";").clone();
-//line 207
+//line 208
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 207
+//line 208
 ___nl__8 = null;
-//line 207
+//line 208
 ___nl__3 = ___nl__7.clone();
-//line 207
+//line 208
 ___nl__7 = null;
-//line 207
+//line 208
 ___nl__6 = null;
-//line 208
-if (true) {goto label_1;}
-//line 208
-label_17:
-//line 208
-___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("set_val")).clone();
 //line 209
+if (true) {goto label_1;}
+//line 209
+label_17:
+//line 209
+___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("set_val")).clone();
+//line 210
 ___nl__7 = generator_cs_NL.NL_print_set_hash_value_priv(___nl__6).clone();
 
-//line 209
+//line 210
 ___nl__8 = new ImmString(";").clone();
-//line 209
+//line 210
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 209
+//line 210
 ___nl__8 = null;
-//line 209
+//line 210
 ___nl__3 = ___nl__7.clone();
-//line 209
+//line 210
 ___nl__7 = null;
-//line 209
+//line 210
 ___nl__6 = null;
-//line 210
-if (true) {goto label_1;}
-//line 210
-label_18:
-//line 210
-___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("ov_mk")).clone();
 //line 211
+if (true) {goto label_1;}
+//line 211
+label_18:
+//line 211
+___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("ov_mk")).clone();
+//line 212
 ___nl__7 = generator_cs_NL.NL_print_ov_mk_priv(___nl__6).clone();
 
-//line 211
+//line 212
 ___nl__3 = ___nl__7.clone();
-//line 211
+//line 212
 ___nl__7 = null;
-//line 211
+//line 212
 ___nl__6 = null;
-//line 212
+//line 213
 if (true) {goto label_1;}
-//line 212
+//line 213
 label_19:
-//line 212
+//line 213
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("prt_lbl")).clone();
-//line 213
+//line 214
 ___nl__7 = new ImmString("").clone();
-//line 213
+//line 214
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__6.toString()).clone();
-//line 213
+//line 214
 ___nl__8 = new ImmString(":").clone();
-//line 213
+//line 214
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 213
+//line 214
 ___nl__8 = null;
-//line 213
+//line 214
 ___nl__3 = ___nl__7.clone();
-//line 213
+//line 214
 ___nl__7 = null;
-//line 213
+//line 214
 ___nl__6 = null;
-//line 214
+//line 215
 if (true) {goto label_1;}
-//line 214
+//line 215
 label_20:
-//line 214
+//line 215
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("if_goto")).clone();
-//line 215
+//line 216
 ___nl__7 = new ImmString("if (c_rt_lib_NL.NL_check_true_native(").clone();
-//line 215
+//line 216
 ___nl__9 = ((ImmHash)___nl__6).getHashValue()["src"].clone();
-//line 215
+//line 216
 ___nl__8 = generator_cs_NL.NL_print_register_priv(___nl__9).clone();
 
-//line 215
+//line 216
 ___nl__9 = null;
-//line 215
+//line 216
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 215
+//line 216
 ___nl__8 = null;
-//line 215
+//line 216
 ___nl__8 = new ImmString(")) {").clone();
-//line 215
+//line 216
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 215
+//line 216
 ___nl__8 = null;
-//line 215
+//line 216
 ___nl__9 = ((ImmHash)___nl__6).getHashValue()["dest"].clone();
-//line 215
+//line 216
 ___nl__8 = generator_cs_NL.NL_print_goto_priv(___nl__9).clone();
 
-//line 215
+//line 216
 ___nl__9 = null;
-//line 215
+//line 216
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 215
+//line 216
 ___nl__8 = null;
-//line 215
+//line 216
 ___nl__8 = new ImmString("}").clone();
-//line 215
+//line 216
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 215
+//line 216
 ___nl__8 = null;
-//line 215
+//line 216
 ___nl__3 = ___nl__7.clone();
-//line 215
+//line 216
 ___nl__7 = null;
-//line 215
+//line 216
 ___nl__6 = null;
-//line 216
-if (true) {goto label_1;}
-//line 216
-label_21:
-//line 216
-___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("goto")).clone();
 //line 217
+if (true) {goto label_1;}
+//line 217
+label_21:
+//line 217
+___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("goto")).clone();
+//line 218
 ___nl__7 = generator_cs_NL.NL_print_goto_priv(___nl__6).clone();
 
-//line 217
+//line 218
 ___nl__3 = ___nl__7.clone();
-//line 217
+//line 218
 ___nl__7 = null;
-//line 217
+//line 218
 ___nl__6 = null;
-//line 218
+//line 219
 if (true) {goto label_1;}
-//line 218
+//line 219
 label_22:
-//line 218
+//line 219
 ___nl__6 = c_rt_lib_NL.NL_ov_as(___nl__4, new ImmString("clear")).clone();
-//line 219
+//line 220
 ___nl__8 = new ImmString("null").clone();
-//line 219
+//line 220
 ___nl__7 = generator_cs_NL.NL_print_register_setter_priv(___nl__6,___nl__8).clone();
 
-//line 219
+//line 220
 ___nl__8 = null;
-//line 219
+//line 220
 ___nl__8 = new ImmString(";").clone();
-//line 219
+//line 220
 ___nl__7 = new ImmString(___nl__7.toString() + ___nl__8.toString()).clone();
-//line 219
+//line 220
 ___nl__8 = null;
-//line 219
+//line 220
 ___nl__3 = ___nl__7.clone();
-//line 219
+//line 220
 ___nl__7 = null;
-//line 219
+//line 220
 ___nl__6 = null;
-//line 220
+//line 221
 if (true) {goto label_1;}
-//line 220
+//line 221
 label_1:
-//line 220
-___nl__4 = null;
-//line 220
-___nl__5 = null;
 //line 221
+___nl__4 = null;
+//line 221
+___nl__5 = null;
+//line 222
 ___nl__4 = new ImmString("//line ").clone();
-//line 221
+//line 222
 ___nl__5 = ((ImmHash)___nl__1).getHashValue()["debug"].clone();
-//line 221
+//line 222
 ___nl__5 = ((ImmHash)___nl__5).getHashValue()["nast_debug"].clone();
-//line 221
+//line 222
 ___nl__5 = ((ImmHash)___nl__5).getHashValue()["begin"].clone();
-//line 221
+//line 222
 ___nl__5 = ((ImmHash)___nl__5).getHashValue()["line"].clone();
-//line 221
+//line 222
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 221
+//line 222
 ___nl__5 = null;
-//line 221
+//line 222
 ___nl__5 = string_NL.NL_lf().clone();
 
-//line 221
+//line 222
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 221
+//line 222
 ___nl__5 = null;
-//line 221
+//line 222
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__3.toString()).clone();
-//line 221
+//line 222
 ___nl__5 = string_NL.NL_lf().clone();
 
-//line 221
+//line 222
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 221
+//line 222
 ___nl__5 = null;
-//line 221
+//line 222
 ___nl__0 = null;
-//line 221
+//line 222
 ___nl__1 = null;
-//line 221
+//line 222
 ___nl__2 = null;
-//line 221
+//line 222
 ___nl__3 = null;
-//line 221
+//line 222
 if(true) return ___nl__4;
-//line 221
+//line 222
 ___nl__4 = null;
-//line 221
+//line 222
 ___nl__3 = null;
-//line 221
+//line 222
 ___nl__0 = null;
-//line 221
+//line 222
 ___nl__1 = null;
-//line 221
+//line 222
 ___nl__2 = null;
-//line 221
+//line 222
 if(true) return null;
 }
 
 private static Imm NL_print_arr_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -2733,600 +2615,575 @@ Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
 Dictionary<String, Imm> __function_map;
-//line 225
-___nl__1 = new ImmString("new ImmArray(new Imm[").clone();
 //line 226
+___nl__1 = new ImmString("new ImmArray(new Imm[").clone();
+//line 227
 ___nl__2 = array_NL.NL_len(___nl__0).clone();
 
-//line 226
+//line 227
 ___nl__3 = new ImmDouble(0).clone();
-//line 226
+//line 227
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__2.getValue().ToString())) ==((Double.Parse(___nl__3.getValue().ToString())))  ).clone();
-//line 226
+//line 227
 ___nl__3 = null;
-//line 226
+//line 227
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 226
+//line 227
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_2;}}
-//line 227
+//line 228
 ___nl__3 = new ImmString("0]").clone();
-//line 227
-___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 227
-___nl__3 = null;
 //line 228
+___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
+//line 228
+___nl__3 = null;
+//line 229
 if (true) {goto label_1;}
-//line 228
+//line 229
 label_2:
-//line 229
+//line 230
 ___nl__3 = new ImmString("] {").clone();
-//line 229
+//line 230
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 229
+//line 230
 ___nl__3 = null;
-//line 230
+//line 231
 ___nl__4 = new ImmDouble(0).clone();
-//line 230
+//line 231
 ___nl__5 = new ImmDouble(1).clone();
-//line 230
+//line 231
 ___nl__6 = c_rt_lib_NL.NL_array_len(___nl__0).clone();
 
-//line 230
+//line 231
 label_5:
-//line 230
+//line 231
 ___nl__7 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__4.getValue().ToString()))>=(Double.Parse(___nl__6.getValue().ToString())) ).clone();
-//line 230
+//line 231
 if (c_rt_lib_NL.NL_check_true_native(___nl__7)) {if (true) {goto label_3;}}
-//line 230
+//line 231
 ___nl__3 = (___nl__0 as ImmArray).getArrayValue()[(int)((ImmDouble)___nl__4).getDoubleValue()].clone();
-//line 230
+//line 231
 ___nl__8 = generator_cs_NL.NL_print_register_priv(___nl__3).clone();
 
-//line 230
+//line 231
 ___nl__9 = new ImmString(",").clone();
-//line 230
+//line 231
 ___nl__8 = new ImmString(___nl__8.toString() + ___nl__9.toString()).clone();
-//line 230
+//line 231
 ___nl__9 = null;
-//line 230
+//line 231
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__8.toString()).clone();
-//line 230
+//line 231
 ___nl__8 = null;
-//line 230
+//line 231
 ___nl__4 = new ImmDouble((Double.Parse(___nl__4.getValue().ToString()))+(Double.Parse(___nl__5.getValue().ToString()))).clone();
-//line 230
+//line 231
 if (true) {goto label_5;}
-//line 230
+//line 231
 label_3:
-//line 230
+//line 231
 ___nl__3 = null;
-//line 230
+//line 231
 ___nl__4 = null;
-//line 230
+//line 231
 ___nl__5 = null;
-//line 230
+//line 231
 ___nl__6 = null;
-//line 230
+//line 231
 ___nl__7 = null;
-//line 231
+//line 232
 ___nl__3 = new ImmString("}").clone();
-//line 231
+//line 232
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 231
+//line 232
 ___nl__3 = null;
-//line 232
+//line 233
 if (true) {goto label_1;}
-//line 232
+//line 233
 label_1:
-//line 232
-___nl__2 = null;
 //line 233
+___nl__2 = null;
+//line 234
 ___nl__2 = new ImmString(")").clone();
-//line 233
+//line 234
 ___nl__2 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 233
+//line 234
 ___nl__0 = null;
-//line 233
+//line 234
 ___nl__1 = null;
-//line 233
+//line 234
 if(true) return ___nl__2;
-//line 233
+//line 234
 ___nl__2 = null;
-//line 233
+//line 234
 ___nl__1 = null;
-//line 233
+//line 234
 ___nl__0 = null;
-//line 233
+//line 234
 if(true) return null;
 }
 
 private static Imm NL_print_bin_op_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
-//line 237
+//line 238
 ___nl__1 = new ImmString("").clone();
-//line 238
+//line 239
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 238
+//line 239
 ___nl__3 = new ImmString(">=").clone();
-//line 238
+//line 239
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 238
+//line 239
 ___nl__3 = null;
-//line 238
+//line 239
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_7;}}
-//line 238
+//line 239
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 238
+//line 239
 ___nl__3 = new ImmString("<=").clone();
-//line 238
+//line 239
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 238
+//line 239
 ___nl__3 = null;
-//line 238
+//line 239
 label_7:
-//line 238
+//line 239
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_6;}}
-//line 238
+//line 239
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 238
+//line 239
 ___nl__3 = new ImmString("<").clone();
-//line 238
+//line 239
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 238
+//line 239
 ___nl__3 = null;
-//line 238
+//line 239
 label_6:
-//line 238
+//line 239
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_5;}}
-//line 238
+//line 239
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 238
+//line 239
 ___nl__3 = new ImmString(">").clone();
-//line 238
+//line 239
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 238
+//line 239
 ___nl__3 = null;
-//line 238
+//line 239
 label_5:
-//line 238
+//line 239
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_4;}}
-//line 238
+//line 239
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 238
+//line 239
 ___nl__3 = new ImmString("==").clone();
-//line 238
+//line 239
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 238
+//line 239
 ___nl__3 = null;
-//line 238
+//line 239
 label_4:
-//line 238
+//line 239
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_3;}}
-//line 238
+//line 239
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 238
+//line 239
 ___nl__3 = new ImmString("!=").clone();
-//line 238
+//line 239
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 238
+//line 239
 ___nl__3 = null;
-//line 238
+//line 239
 label_3:
-//line 238
+//line 239
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 238
+//line 239
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_2;}}
-//line 240
+//line 241
 ___nl__3 = new ImmString("c_rt_lib_NL.NL_native_to_nl(").clone();
-//line 240
+//line 241
 ___nl__4 = generator_cs_NL.NL_print_imm_double_operation_priv(___nl__0).clone();
 
-//line 240
+//line 241
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 240
+//line 241
 ___nl__4 = null;
-//line 240
+//line 241
 ___nl__4 = new ImmString(" )").clone();
-//line 240
+//line 241
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 240
+//line 241
 ___nl__4 = null;
-//line 240
+//line 241
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 240
+//line 241
 ___nl__3 = null;
-//line 241
+//line 242
 if (true) {goto label_1;}
-//line 241
+//line 242
 label_2:
-//line 241
+//line 242
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 241
+//line 242
 ___nl__3 = new ImmString("eq").clone();
-//line 241
+//line 242
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 241
+//line 242
 ___nl__3 = null;
-//line 241
+//line 242
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_9;}}
-//line 241
+//line 242
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 241
+//line 242
 ___nl__3 = new ImmString("ne").clone();
-//line 241
+//line 242
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 241
+//line 242
 ___nl__3 = null;
-//line 241
+//line 242
 label_9:
-//line 241
+//line 242
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 241
+//line 242
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_8;}}
-//line 242
+//line 243
 ___nl__3 = new ImmString("c_rt_lib_NL.NL_native_to_nl(").clone();
-//line 242
-___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 242
-___nl__3 = null;
 //line 243
+___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
+//line 243
+___nl__3 = null;
+//line 244
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 243
+//line 244
 ___nl__4 = new ImmString("ne").clone();
-//line 243
+//line 244
 ___nl__3 = c_rt_lib_NL.NL_native_to_nl(___nl__3.toString().Equals(___nl__4.toString())).clone();
-//line 243
+//line 244
 ___nl__4 = null;
-//line 243
+//line 244
 ___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__3)).clone();
-//line 243
+//line 244
 if (c_rt_lib_NL.NL_check_true_native(___nl__3)) {if (true) {goto label_11;}}
-//line 244
+//line 245
 ___nl__4 = new ImmString("!").clone();
-//line 244
+//line 245
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__4.toString()).clone();
-//line 244
-___nl__4 = null;
 //line 245
+___nl__4 = null;
+//line 246
 if (true) {goto label_11;}
-//line 245
+//line 246
 label_11:
-//line 245
-___nl__3 = null;
 //line 246
+___nl__3 = null;
+//line 247
 ___nl__4 = ((ImmHash)___nl__0).getHashValue()["left"].clone();
-//line 246
+//line 247
 ___nl__3 = generator_cs_NL.NL_print_register_priv(___nl__4).clone();
 
-//line 246
+//line 247
 ___nl__4 = null;
-//line 246
+//line 247
 ___nl__4 = new ImmString(".toString().Equals(").clone();
-//line 246
+//line 247
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 246
+//line 247
 ___nl__4 = null;
-//line 246
+//line 247
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 246
+//line 247
 ___nl__3 = null;
-//line 247
+//line 248
 ___nl__4 = ((ImmHash)___nl__0).getHashValue()["right"].clone();
-//line 247
+//line 248
 ___nl__3 = generator_cs_NL.NL_print_register_priv(___nl__4).clone();
 
-//line 247
+//line 248
 ___nl__4 = null;
-//line 247
+//line 248
 ___nl__4 = new ImmString(".toString()))").clone();
-//line 247
+//line 248
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 247
+//line 248
 ___nl__4 = null;
-//line 247
+//line 248
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 247
+//line 248
 ___nl__3 = null;
-//line 248
+//line 249
 if (true) {goto label_1;}
-//line 248
+//line 249
 label_8:
-//line 248
+//line 249
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 248
+//line 249
 ___nl__3 = new ImmString(".").clone();
-//line 248
+//line 249
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 248
+//line 249
 ___nl__3 = null;
-//line 248
+//line 249
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 248
+//line 249
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_12;}}
-//line 249
+//line 250
 ___nl__3 = new ImmString("new ImmString(").clone();
-//line 249
+//line 250
 ___nl__5 = ((ImmHash)___nl__0).getHashValue()["left"].clone();
-//line 249
+//line 250
 ___nl__4 = generator_cs_NL.NL_print_register_priv(___nl__5).clone();
 
-//line 249
+//line 250
 ___nl__5 = null;
-//line 249
+//line 250
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 249
+//line 250
 ___nl__4 = null;
-//line 249
+//line 250
 ___nl__4 = new ImmString(".toString() + ").clone();
-//line 249
+//line 250
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 249
+//line 250
 ___nl__4 = null;
-//line 249
+//line 250
 ___nl__5 = ((ImmHash)___nl__0).getHashValue()["right"].clone();
-//line 249
+//line 250
 ___nl__4 = generator_cs_NL.NL_print_register_priv(___nl__5).clone();
 
-//line 249
+//line 250
 ___nl__5 = null;
-//line 249
+//line 250
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 249
+//line 250
 ___nl__4 = null;
-//line 249
+//line 250
 ___nl__4 = new ImmString(".toString())").clone();
-//line 249
+//line 250
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 249
+//line 250
 ___nl__4 = null;
-//line 249
+//line 250
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 249
+//line 250
 ___nl__3 = null;
-//line 250
+//line 251
 if (true) {goto label_1;}
-//line 250
+//line 251
 label_12:
-//line 251
+//line 252
 ___nl__3 = new ImmString("new ImmDouble(").clone();
-//line 251
+//line 252
 ___nl__4 = generator_cs_NL.NL_print_imm_double_operation_priv(___nl__0).clone();
 
-//line 251
+//line 252
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 251
+//line 252
 ___nl__4 = null;
-//line 251
+//line 252
 ___nl__4 = new ImmString(")").clone();
-//line 251
+//line 252
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 251
+//line 252
 ___nl__4 = null;
-//line 251
+//line 252
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 251
+//line 252
 ___nl__3 = null;
-//line 252
+//line 253
 if (true) {goto label_1;}
-//line 252
+//line 253
 label_1:
-//line 252
+//line 253
 ___nl__2 = null;
-//line 253
+//line 254
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["dest"].clone();
-//line 253
+//line 254
 ___nl__2 = generator_cs_NL.NL_print_register_setter_priv(___nl__3,___nl__1).clone();
 
-//line 253
+//line 254
 ___nl__3 = null;
-//line 253
+//line 254
 ___nl__3 = new ImmString(";").clone();
-//line 253
+//line 254
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 253
+//line 254
 ___nl__3 = null;
-//line 253
+//line 254
 ___nl__0 = null;
-//line 253
+//line 254
 ___nl__1 = null;
-//line 253
+//line 254
 if(true) return ___nl__2;
-//line 253
+//line 254
 ___nl__2 = null;
-//line 253
+//line 254
 ___nl__1 = null;
-//line 253
+//line 254
 ___nl__0 = null;
-//line 253
+//line 254
 if(true) return null;
 }
 
 private static Imm NL_print_imm_double_operation_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
-//line 257
+//line 258
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["left"].clone();
-//line 257
+//line 258
 ___nl__1 = generator_cs_NL.NL_print_register_as_number_priv(___nl__2).clone();
 
-//line 257
+//line 258
 ___nl__2 = null;
-//line 258
+//line 259
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 258
+//line 259
 ___nl__3 = new ImmString("==").clone();
-//line 258
+//line 259
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 258
+//line 259
 ___nl__3 = null;
-//line 258
+//line 259
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_3;}}
-//line 258
+//line 259
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 258
+//line 259
 ___nl__3 = new ImmString("!=").clone();
-//line 258
+//line 259
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 258
+//line 259
 ___nl__3 = null;
-//line 258
+//line 259
 label_3:
-//line 258
+//line 259
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 258
+//line 259
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_2;}}
-//line 259
+//line 260
 ___nl__3 = new ImmString(" ").clone();
-//line 259
+//line 260
 ___nl__4 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 259
+//line 260
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 259
+//line 260
 ___nl__4 = null;
-//line 259
+//line 260
 ___nl__4 = new ImmString("(").clone();
-//line 259
+//line 260
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 259
+//line 260
 ___nl__4 = null;
-//line 259
+//line 260
 ___nl__5 = ((ImmHash)___nl__0).getHashValue()["right"].clone();
-//line 259
+//line 260
 ___nl__4 = generator_cs_NL.NL_print_register_as_number_priv(___nl__5).clone();
 
-//line 259
+//line 260
 ___nl__5 = null;
-//line 259
+//line 260
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 259
+//line 260
 ___nl__4 = null;
-//line 259
+//line 260
 ___nl__4 = new ImmString(") ").clone();
-//line 259
+//line 260
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 259
+//line 260
 ___nl__4 = null;
-//line 259
+//line 260
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 259
+//line 260
 ___nl__3 = null;
-//line 260
+//line 261
 if (true) {goto label_1;}
-//line 260
+//line 261
 label_2:
-//line 261
+//line 262
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 261
+//line 262
 ___nl__5 = ((ImmHash)___nl__0).getHashValue()["right"].clone();
-//line 261
+//line 262
 ___nl__4 = generator_cs_NL.NL_print_register_as_number_priv(___nl__5).clone();
 
-//line 261
+//line 262
 ___nl__5 = null;
-//line 261
+//line 262
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 261
+//line 262
 ___nl__4 = null;
-//line 261
+//line 262
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 261
+//line 262
 ___nl__3 = null;
-//line 262
+//line 263
 if (true) {goto label_1;}
-//line 262
+//line 263
 label_1:
-//line 262
+//line 263
 ___nl__2 = null;
-//line 263
+//line 264
 ___nl__0 = null;
-//line 263
+//line 264
 if(true) return ___nl__1;
-//line 263
+//line 264
 ___nl__1 = null;
-//line 263
+//line 264
 ___nl__0 = null;
-//line 263
+//line 264
 if(true) return null;
 }
 
 private static Imm NL_print_register_as_number_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
-//line 267
+//line 268
 ___nl__1 = new ImmString("(Double.Parse(").clone();
-//line 267
+//line 268
 ___nl__2 = generator_cs_NL.NL_print_register_priv(___nl__0).clone();
 
-//line 267
+//line 268
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 267
+//line 268
 ___nl__2 = null;
-//line 267
+//line 268
 ___nl__2 = generator_cs_NL.NL_print_getter_priv().clone();
 
-//line 267
+//line 268
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 267
+//line 268
 ___nl__2 = null;
-//line 267
+//line 268
 ___nl__2 = new ImmString(".ToString()))").clone();
-//line 267
+//line 268
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 267
+//line 268
 ___nl__2 = null;
-//line 267
+//line 268
 ___nl__0 = null;
-//line 267
+//line 268
 if(true) return ___nl__1;
-//line 267
+//line 268
 ___nl__1 = null;
-//line 267
+//line 268
 ___nl__0 = null;
-//line 267
+//line 268
 if(true) return null;
 }
 
 private static Imm NL_print_call_priv(Imm ___arg__0, Imm ___arg__1, Imm ___arg__2, Imm ___arg__3) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();Imm ___nl__2 = ___arg__2.clone();Imm ___nl__3 = ___arg__3.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);Imm ___nl__2 = null;c_rt_lib_NL.NL_copy(ref ___nl__2, ___arg__2);Imm ___nl__3 = null;c_rt_lib_NL.NL_copy(ref ___nl__3, ___arg__3);
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
 Imm ___nl__6 = null;
@@ -3338,234 +3195,219 @@ Imm ___nl__11 = null;
 Imm ___nl__12 = null;
 Imm ___nl__13 = null;
 Imm ___nl__14 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
-ImmRef ___ref______nl__12 = null;
-ImmRef ___ref______nl__13 = null;
-ImmRef ___ref______nl__14 = null;
 Dictionary<String, Imm> __function_map;
-//line 271
+//line 272
 ___nl__4 = new ImmString("").clone();
-//line 271
+//line 272
 ___nl__4 = c_rt_lib_NL.NL_native_to_nl(___nl__1.toString().Equals(___nl__4.toString())).clone();
-//line 271
+//line 272
 ___nl__4 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__4)).clone();
-//line 271
+//line 272
 if (c_rt_lib_NL.NL_check_true_native(___nl__4)) {if (true) {goto label_2;}}
-//line 271
+//line 272
 ___nl__5 = new ImmString("_priv").clone();
-//line 271
+//line 272
 ___nl__5 = new ImmString(___nl__2.toString() + ___nl__5.toString()).clone();
-//line 271
+//line 272
 ___nl__2 = ___nl__5.clone();
-//line 271
+//line 272
 ___nl__5 = null;
-//line 271
+//line 272
 if (true) {goto label_2;}
-//line 271
+//line 272
 label_2:
-//line 271
-___nl__4 = null;
-//line 272
-___nl__4 = new ImmString("").clone();
-//line 272
-___nl__4 = c_rt_lib_NL.NL_native_to_nl(___nl__1.toString().Equals(___nl__4.toString())).clone();
-//line 272
-___nl__4 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__4)).clone();
-//line 272
-if (c_rt_lib_NL.NL_check_true_native(___nl__4)) {if (true) {goto label_4;}}
-//line 272
-___nl__1 = ___nl__0.clone();
-//line 272
-if (true) {goto label_4;}
-//line 272
-label_4:
 //line 272
 ___nl__4 = null;
 //line 273
+___nl__4 = new ImmString("").clone();
+//line 273
+___nl__4 = c_rt_lib_NL.NL_native_to_nl(___nl__1.toString().Equals(___nl__4.toString())).clone();
+//line 273
+___nl__4 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__4)).clone();
+//line 273
+if (c_rt_lib_NL.NL_check_true_native(___nl__4)) {if (true) {goto label_4;}}
+//line 273
+___nl__1 = ___nl__0.clone();
+//line 273
+if (true) {goto label_4;}
+//line 273
+label_4:
+//line 273
+___nl__4 = null;
+//line 274
 ___nl__4 = generator_cs_NL.NL_get_class_name_priv(___nl__1).clone();
 
-//line 273
+//line 274
 ___nl__5 = new ImmString(".NL_").clone();
-//line 273
+//line 274
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 273
-___nl__5 = null;
-//line 273
-___nl__5 = ___nl__2.clone();
-//line 273
-___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 273
-___nl__5 = null;
-//line 273
-___nl__5 = new ImmString("(").clone();
-//line 273
-___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 273
+//line 274
 ___nl__5 = null;
 //line 274
+___nl__5 = ___nl__2.clone();
+//line 274
+___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
+//line 274
+___nl__5 = null;
+//line 274
+___nl__5 = new ImmString("(").clone();
+//line 274
+___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
+//line 274
+___nl__5 = null;
+//line 275
 ___nl__5 = new ImmDouble(0).clone();
-//line 275
+//line 276
 ___nl__7 = new ImmDouble(0).clone();
-//line 275
+//line 276
 ___nl__8 = new ImmDouble(1).clone();
-//line 275
+//line 276
 ___nl__9 = c_rt_lib_NL.NL_array_len(___nl__3).clone();
 
-//line 275
+//line 276
 label_7:
-//line 275
+//line 276
 ___nl__10 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__7.getValue().ToString()))>=(Double.Parse(___nl__9.getValue().ToString())) ).clone();
-//line 275
+//line 276
 if (c_rt_lib_NL.NL_check_true_native(___nl__10)) {if (true) {goto label_5;}}
-//line 275
+//line 276
 ___nl__6 = (___nl__3 as ImmArray).getArrayValue()[(int)((ImmDouble)___nl__7).getDoubleValue()].clone();
-//line 276
+//line 277
 ___nl__11 = new ImmDouble(0).clone();
-//line 276
+//line 277
 ___nl__11 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__5.getValue().ToString())) ==((Double.Parse(___nl__11.getValue().ToString())))  ).clone();
-//line 276
+//line 277
 ___nl__11 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__11)).clone();
-//line 276
+//line 277
 ___nl__11 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__11)).clone();
-//line 276
+//line 277
 if (c_rt_lib_NL.NL_check_true_native(___nl__11)) {if (true) {goto label_9;}}
-//line 276
+//line 277
 ___nl__12 = new ImmString(",").clone();
-//line 276
+//line 277
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__12.toString()).clone();
-//line 276
+//line 277
 ___nl__12 = null;
-//line 276
+//line 277
 if (true) {goto label_9;}
-//line 276
+//line 277
 label_9:
-//line 276
-___nl__11 = null;
 //line 277
+___nl__11 = null;
+//line 278
 ___nl__11 = new ImmDouble(1).clone();
-//line 277
+//line 278
 ___nl__5 = new ImmDouble((Double.Parse(___nl__5.getValue().ToString()))+(Double.Parse(___nl__11.getValue().ToString()))).clone();
-//line 277
+//line 278
 ___nl__11 = null;
-//line 278
+//line 279
 ___nl__11 = c_rt_lib_NL.NL_ov_is(___nl__6, new ImmString("ref")).clone();
-//line 278
+//line 279
 if (c_rt_lib_NL.NL_check_true_native(___nl__11)) {if (true) {goto label_11;}}
-//line 280
+//line 281
 ___nl__11 = c_rt_lib_NL.NL_ov_is(___nl__6, new ImmString("val")).clone();
-//line 280
+//line 281
 if (c_rt_lib_NL.NL_check_true_native(___nl__11)) {if (true) {goto label_12;}}
-//line 280
+//line 281
 ___nl__11 = new ImmString("NOMATCHALERT").clone();
-//line 280
+//line 281
 ___nl__11 = new ImmArray(new Imm[] {___nl__11,___nl__6,}).clone();
-//line 280
+//line 281
 c_rt_lib_NL.NL_die();
-//line 278
+//line 279
 label_11:
-//line 278
+//line 279
 ___nl__12 = c_rt_lib_NL.NL_ov_as(___nl__6, new ImmString("ref")).clone();
-//line 279
-___nl__13 = new ImmString("___ref___").clone();
-//line 279
+//line 280
+___nl__13 = new ImmString("ref ").clone();
+//line 280
 ___nl__14 = generator_cs_NL.NL_print_register_priv(___nl__12).clone();
 
-//line 279
+//line 280
 ___nl__13 = new ImmString(___nl__13.toString() + ___nl__14.toString()).clone();
-//line 279
+//line 280
 ___nl__14 = null;
-//line 279
+//line 280
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__13.toString()).clone();
-//line 279
+//line 280
 ___nl__13 = null;
-//line 279
+//line 280
 ___nl__12 = null;
-//line 280
-if (true) {goto label_10;}
-//line 280
-label_12:
-//line 280
-___nl__12 = c_rt_lib_NL.NL_ov_as(___nl__6, new ImmString("val")).clone();
 //line 281
+if (true) {goto label_10;}
+//line 281
+label_12:
+//line 281
+___nl__12 = c_rt_lib_NL.NL_ov_as(___nl__6, new ImmString("val")).clone();
+//line 282
 ___nl__13 = generator_cs_NL.NL_print_register_priv(___nl__12).clone();
 
-//line 281
+//line 282
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__13.toString()).clone();
-//line 281
+//line 282
 ___nl__13 = null;
-//line 281
+//line 282
 ___nl__12 = null;
-//line 282
+//line 283
 if (true) {goto label_10;}
-//line 282
+//line 283
 label_10:
-//line 282
+//line 283
 ___nl__11 = null;
-//line 283
+//line 284
 ___nl__7 = new ImmDouble((Double.Parse(___nl__7.getValue().ToString()))+(Double.Parse(___nl__8.getValue().ToString()))).clone();
-//line 283
+//line 284
 if (true) {goto label_7;}
-//line 283
+//line 284
 label_5:
-//line 283
+//line 284
 ___nl__6 = null;
-//line 283
+//line 284
 ___nl__7 = null;
-//line 283
+//line 284
 ___nl__8 = null;
-//line 283
+//line 284
 ___nl__9 = null;
-//line 283
+//line 284
 ___nl__10 = null;
-//line 284
+//line 285
 ___nl__6 = new ImmString(")").clone();
-//line 284
+//line 285
 ___nl__6 = new ImmString(___nl__4.toString() + ___nl__6.toString()).clone();
-//line 284
+//line 285
 ___nl__0 = null;
-//line 284
+//line 285
 ___nl__1 = null;
-//line 284
+//line 285
 ___nl__2 = null;
-//line 284
+//line 285
 ___nl__3 = null;
-//line 284
+//line 285
 ___nl__4 = null;
-//line 284
+//line 285
 ___nl__5 = null;
-//line 284
+//line 285
 if(true) return ___nl__6;
-//line 284
+//line 285
 ___nl__6 = null;
-//line 284
+//line 285
 ___nl__4 = null;
-//line 284
+//line 285
 ___nl__5 = null;
-//line 284
+//line 285
 ___nl__0 = null;
-//line 284
+//line 285
 ___nl__1 = null;
-//line 284
+//line 285
 ___nl__2 = null;
-//line 284
+//line 285
 ___nl__3 = null;
-//line 284
+//line 285
 if(true) return null;
 }
 
 private static Imm NL_print_call_ref_prepare_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -3574,140 +3416,88 @@ Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
-Imm ___nl__9 = null;
-Imm ___nl__10 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
 Dictionary<String, Imm> __function_map;
-//line 288
+//line 289
 ___nl__1 = new ImmString("").clone();
-//line 289
+//line 290
 ___nl__3 = new ImmDouble(0).clone();
-//line 289
+//line 290
 ___nl__4 = new ImmDouble(1).clone();
-//line 289
+//line 290
 ___nl__5 = c_rt_lib_NL.NL_array_len(___nl__0).clone();
 
-//line 289
+//line 290
 label_3:
-//line 289
+//line 290
 ___nl__6 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__3.getValue().ToString()))>=(Double.Parse(___nl__5.getValue().ToString())) ).clone();
-//line 289
+//line 290
 if (c_rt_lib_NL.NL_check_true_native(___nl__6)) {if (true) {goto label_1;}}
-//line 289
+//line 290
 ___nl__2 = (___nl__0 as ImmArray).getArrayValue()[(int)((ImmDouble)___nl__3).getDoubleValue()].clone();
-//line 290
+//line 291
 ___nl__7 = c_rt_lib_NL.NL_ov_is(___nl__2, new ImmString("ref")).clone();
-//line 290
+//line 291
 if (c_rt_lib_NL.NL_check_true_native(___nl__7)) {if (true) {goto label_5;}}
-//line 292
+//line 293
 ___nl__7 = c_rt_lib_NL.NL_ov_is(___nl__2, new ImmString("val")).clone();
-//line 292
+//line 293
 if (c_rt_lib_NL.NL_check_true_native(___nl__7)) {if (true) {goto label_6;}}
-//line 292
+//line 293
 ___nl__7 = new ImmString("NOMATCHALERT").clone();
-//line 292
+//line 293
 ___nl__7 = new ImmArray(new Imm[] {___nl__7,___nl__2,}).clone();
-//line 292
+//line 293
 c_rt_lib_NL.NL_die();
-//line 290
+//line 291
 label_5:
-//line 290
+//line 291
 ___nl__8 = c_rt_lib_NL.NL_ov_as(___nl__2, new ImmString("ref")).clone();
 //line 291
-___nl__9 = new ImmString("___ref___").clone();
-//line 291
-___nl__10 = generator_cs_NL.NL_print_register_priv(___nl__8).clone();
-
-//line 291
-___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 291
-___nl__10 = null;
-//line 291
-___nl__10 = new ImmString(" = new ImmRef(").clone();
-//line 291
-___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 291
-___nl__10 = null;
-//line 291
-___nl__10 = generator_cs_NL.NL_print_register_priv(___nl__8).clone();
-
-//line 291
-___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 291
-___nl__10 = null;
-//line 291
-___nl__10 = new ImmString(");").clone();
-//line 291
-___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 291
-___nl__10 = null;
-//line 291
-___nl__10 = string_NL.NL_lf().clone();
-
-//line 291
-___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 291
-___nl__10 = null;
-//line 291
-___nl__1 = new ImmString(___nl__1.toString() + ___nl__9.toString()).clone();
-//line 291
-___nl__9 = null;
-//line 291
 ___nl__8 = null;
-//line 292
+//line 293
 if (true) {goto label_4;}
-//line 292
+//line 293
 label_6:
-//line 292
+//line 293
 ___nl__8 = c_rt_lib_NL.NL_ov_as(___nl__2, new ImmString("val")).clone();
-//line 292
+//line 293
 ___nl__8 = null;
-//line 293
+//line 294
 if (true) {goto label_4;}
-//line 293
+//line 294
 label_4:
-//line 293
+//line 294
 ___nl__7 = null;
-//line 294
+//line 295
 ___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))+(Double.Parse(___nl__4.getValue().ToString()))).clone();
-//line 294
+//line 295
 if (true) {goto label_3;}
-//line 294
+//line 295
 label_1:
-//line 294
+//line 295
 ___nl__2 = null;
-//line 294
+//line 295
 ___nl__3 = null;
-//line 294
+//line 295
 ___nl__4 = null;
-//line 294
+//line 295
 ___nl__5 = null;
-//line 294
+//line 295
 ___nl__6 = null;
-//line 295
+//line 296
 ___nl__0 = null;
-//line 295
+//line 296
 if(true) return ___nl__1;
-//line 295
+//line 296
 ___nl__1 = null;
-//line 295
+//line 296
 ___nl__0 = null;
-//line 295
+//line 296
 if(true) return null;
 }
 
 private static Imm NL_print_call_ref_setter_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -3716,140 +3506,88 @@ Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
-Imm ___nl__9 = null;
-Imm ___nl__10 = null;
-Imm ___nl__11 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
-ImmRef ___ref______nl__11 = null;
 Dictionary<String, Imm> __function_map;
-//line 299
+//line 300
 ___nl__1 = new ImmString("").clone();
-//line 300
+//line 301
 ___nl__3 = new ImmDouble(0).clone();
-//line 300
+//line 301
 ___nl__4 = new ImmDouble(1).clone();
-//line 300
+//line 301
 ___nl__5 = c_rt_lib_NL.NL_array_len(___nl__0).clone();
 
-//line 300
+//line 301
 label_3:
-//line 300
+//line 301
 ___nl__6 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__3.getValue().ToString()))>=(Double.Parse(___nl__5.getValue().ToString())) ).clone();
-//line 300
+//line 301
 if (c_rt_lib_NL.NL_check_true_native(___nl__6)) {if (true) {goto label_1;}}
-//line 300
+//line 301
 ___nl__2 = (___nl__0 as ImmArray).getArrayValue()[(int)((ImmDouble)___nl__3).getDoubleValue()].clone();
-//line 301
+//line 302
 ___nl__7 = c_rt_lib_NL.NL_ov_is(___nl__2, new ImmString("ref")).clone();
-//line 301
+//line 302
 if (c_rt_lib_NL.NL_check_true_native(___nl__7)) {if (true) {goto label_5;}}
-//line 304
+//line 305
 ___nl__7 = c_rt_lib_NL.NL_ov_is(___nl__2, new ImmString("val")).clone();
-//line 304
+//line 305
 if (c_rt_lib_NL.NL_check_true_native(___nl__7)) {if (true) {goto label_6;}}
-//line 304
+//line 305
 ___nl__7 = new ImmString("NOMATCHALERT").clone();
-//line 304
+//line 305
 ___nl__7 = new ImmArray(new Imm[] {___nl__7,___nl__2,}).clone();
-//line 304
+//line 305
 c_rt_lib_NL.NL_die();
-//line 301
+//line 302
 label_5:
-//line 301
+//line 302
 ___nl__8 = c_rt_lib_NL.NL_ov_as(___nl__2, new ImmString("ref")).clone();
 //line 302
-___nl__9 = new ImmString("___ref___").clone();
-//line 302
-___nl__10 = generator_cs_NL.NL_print_register_priv(___nl__8).clone();
-
-//line 302
-___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 302
-___nl__10 = null;
-//line 302
-___nl__10 = new ImmString(".getValue()").clone();
-//line 302
-___nl__9 = new ImmString(___nl__9.toString() + ___nl__10.toString()).clone();
-//line 302
-___nl__10 = null;
-//line 303
-___nl__10 = generator_cs_NL.NL_print_register_setter_priv(___nl__8,___nl__9).clone();
-
-//line 303
-___nl__11 = new ImmString(";").clone();
-//line 303
-___nl__10 = new ImmString(___nl__10.toString() + ___nl__11.toString()).clone();
-//line 303
-___nl__11 = null;
-//line 303
-___nl__11 = string_NL.NL_lf().clone();
-
-//line 303
-___nl__10 = new ImmString(___nl__10.toString() + ___nl__11.toString()).clone();
-//line 303
-___nl__11 = null;
-//line 303
-___nl__1 = new ImmString(___nl__1.toString() + ___nl__10.toString()).clone();
-//line 303
-___nl__10 = null;
-//line 303
-___nl__9 = null;
-//line 303
 ___nl__8 = null;
-//line 304
+//line 305
 if (true) {goto label_4;}
-//line 304
+//line 305
 label_6:
-//line 304
+//line 305
 ___nl__8 = c_rt_lib_NL.NL_ov_as(___nl__2, new ImmString("val")).clone();
-//line 304
+//line 305
 ___nl__8 = null;
-//line 305
+//line 306
 if (true) {goto label_4;}
-//line 305
+//line 306
 label_4:
-//line 305
+//line 306
 ___nl__7 = null;
-//line 306
+//line 307
 ___nl__3 = new ImmDouble((Double.Parse(___nl__3.getValue().ToString()))+(Double.Parse(___nl__4.getValue().ToString()))).clone();
-//line 306
+//line 307
 if (true) {goto label_3;}
-//line 306
+//line 307
 label_1:
-//line 306
+//line 307
 ___nl__2 = null;
-//line 306
+//line 307
 ___nl__3 = null;
-//line 306
+//line 307
 ___nl__4 = null;
-//line 306
+//line 307
 ___nl__5 = null;
-//line 306
+//line 307
 ___nl__6 = null;
-//line 307
+//line 308
 ___nl__0 = null;
-//line 307
+//line 308
 if(true) return ___nl__1;
-//line 307
+//line 308
 ___nl__1 = null;
-//line 307
+//line 308
 ___nl__0 = null;
-//line 307
+//line 308
 if(true) return null;
 }
 
 private static Imm NL_print_const_arr_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
@@ -3858,593 +3596,559 @@ Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
 Dictionary<String, Imm> __function_map;
-//line 311
+//line 312
 ___nl__2 = new ImmString("new Imm[] {").clone();
-//line 312
+//line 313
 ___nl__4 = new ImmDouble(0).clone();
-//line 312
+//line 313
 ___nl__5 = new ImmDouble(1).clone();
-//line 312
+//line 313
 ___nl__6 = c_rt_lib_NL.NL_array_len(___nl__1).clone();
 
-//line 312
+//line 313
 label_3:
-//line 312
+//line 313
 ___nl__7 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__4.getValue().ToString()))>=(Double.Parse(___nl__6.getValue().ToString())) ).clone();
-//line 312
+//line 313
 if (c_rt_lib_NL.NL_check_true_native(___nl__7)) {if (true) {goto label_1;}}
-//line 312
+//line 313
 ___nl__3 = (___nl__1 as ImmArray).getArrayValue()[(int)((ImmDouble)___nl__4).getDoubleValue()].clone();
-//line 312
+//line 313
 ___nl__8 = generator_cs_NL.NL_print_const_value_priv(___nl__0,___nl__3).clone();
 
-//line 312
+//line 313
 ___nl__9 = new ImmString(",").clone();
-//line 312
+//line 313
 ___nl__8 = new ImmString(___nl__8.toString() + ___nl__9.toString()).clone();
-//line 312
+//line 313
 ___nl__9 = null;
-//line 312
+//line 313
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__8.toString()).clone();
-//line 312
+//line 313
 ___nl__8 = null;
-//line 312
+//line 313
 ___nl__4 = new ImmDouble((Double.Parse(___nl__4.getValue().ToString()))+(Double.Parse(___nl__5.getValue().ToString()))).clone();
-//line 312
+//line 313
 if (true) {goto label_3;}
-//line 312
+//line 313
 label_1:
-//line 312
+//line 313
 ___nl__3 = null;
-//line 312
+//line 313
 ___nl__4 = null;
-//line 312
+//line 313
 ___nl__5 = null;
-//line 312
+//line 313
 ___nl__6 = null;
-//line 312
+//line 313
 ___nl__7 = null;
-//line 313
+//line 314
 ___nl__3 = new ImmString("}").clone();
-//line 313
+//line 314
 ___nl__3 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 313
+//line 314
 ___nl__0 = null;
-//line 313
+//line 314
 ___nl__1 = null;
-//line 313
+//line 314
 ___nl__2 = null;
-//line 313
+//line 314
 if(true) return ___nl__3;
-//line 313
+//line 314
 ___nl__3 = null;
-//line 313
+//line 314
 ___nl__2 = null;
-//line 313
+//line 314
 ___nl__0 = null;
-//line 313
+//line 314
 ___nl__1 = null;
-//line 313
+//line 314
 if(true) return null;
 }
 
 private static Imm NL_print_const_hash_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
 Dictionary<String, Imm> __function_map;
-//line 317
+//line 318
 ___nl__2 = generator_cs_NL.NL_print_hash_name_priv().clone();
 
-//line 317
+//line 318
 ___nl__3 = new ImmString(" = new Dictionary<String, Imm>();").clone();
-//line 317
+//line 318
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 317
+//line 318
 ___nl__3 = null;
-//line 317
+//line 318
 ___nl__3 = string_NL.NL_lf().clone();
 
-//line 317
-___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 317
-___nl__3 = null;
 //line 318
+___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
+//line 318
+___nl__3 = null;
+//line 319
 ___nl__5 = c_rt_lib_NL.NL_init_iter(___nl__1).clone();
 
-//line 318
+//line 319
 label_3:
-//line 318
+//line 319
 ___nl__3 = c_rt_lib_NL.NL_is_end_hash(___nl__5).clone();
 
-//line 318
+//line 319
 if (c_rt_lib_NL.NL_check_true_native(___nl__3)) {if (true) {goto label_1;}}
-//line 318
+//line 319
 ___nl__3 = c_rt_lib_NL.NL_get_key_iter(___nl__5).clone();
 
-//line 318
+//line 319
 ___nl__4 = c_rt_lib_NL.NL_hash_get_value(___nl__1,___nl__3).clone();
 
-//line 318
+//line 319
 ___nl__6 = generator_cs_NL.NL_print_hash_name_priv().clone();
 
-//line 318
+//line 319
 ___nl__7 = new ImmString(".Add(\"").clone();
-//line 318
+//line 319
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__7.toString()).clone();
-//line 318
+//line 319
 ___nl__7 = null;
-//line 318
+//line 319
 ___nl__7 = generator_cs_NL.NL_escape_string_priv(___nl__3).clone();
 
-//line 318
+//line 319
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__7.toString()).clone();
-//line 318
+//line 319
 ___nl__7 = null;
-//line 318
+//line 319
 ___nl__7 = new ImmString("\",").clone();
-//line 318
+//line 319
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__7.toString()).clone();
-//line 318
+//line 319
 ___nl__7 = null;
-//line 318
+//line 319
 ___nl__7 = generator_cs_NL.NL_print_const_value_priv(___nl__0,___nl__4).clone();
 
-//line 318
+//line 319
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__7.toString()).clone();
-//line 318
+//line 319
 ___nl__7 = null;
-//line 318
+//line 319
 ___nl__7 = new ImmString(");").clone();
-//line 318
+//line 319
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__7.toString()).clone();
-//line 318
+//line 319
 ___nl__7 = null;
-//line 318
+//line 319
 ___nl__7 = string_NL.NL_lf().clone();
 
-//line 318
+//line 319
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__7.toString()).clone();
-//line 318
+//line 319
 ___nl__7 = null;
-//line 318
+//line 319
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__6.toString()).clone();
-//line 318
+//line 319
 ___nl__6 = null;
-//line 318
+//line 319
 ___nl__5 = c_rt_lib_NL.NL_next_iter(___nl__5).clone();
 
-//line 318
+//line 319
 if (true) {goto label_3;}
-//line 318
+//line 319
 label_1:
-//line 318
+//line 319
 ___nl__3 = null;
-//line 318
+//line 319
 ___nl__4 = null;
-//line 318
+//line 319
 ___nl__5 = null;
-//line 319
+//line 320
 ___nl__4 = new ImmString("new ImmHash(").clone();
-//line 319
+//line 320
 ___nl__5 = generator_cs_NL.NL_print_hash_name_priv().clone();
 
-//line 319
+//line 320
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 319
+//line 320
 ___nl__5 = null;
-//line 319
+//line 320
 ___nl__5 = new ImmString(")").clone();
-//line 319
+//line 320
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 319
+//line 320
 ___nl__5 = null;
-//line 319
+//line 320
 ___nl__3 = generator_cs_NL.NL_print_register_setter_priv(___nl__0,___nl__4).clone();
 
-//line 319
+//line 320
 ___nl__4 = null;
-//line 319
+//line 320
 ___nl__3 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 319
+//line 320
 ___nl__0 = null;
-//line 319
+//line 320
 ___nl__1 = null;
-//line 319
+//line 320
 ___nl__2 = null;
-//line 319
+//line 320
 if(true) return ___nl__3;
-//line 319
+//line 320
 ___nl__3 = null;
-//line 319
+//line 320
 ___nl__2 = null;
-//line 319
+//line 320
 ___nl__0 = null;
-//line 319
+//line 320
 ___nl__1 = null;
-//line 319
+//line 320
 if(true) return null;
 }
 
 private static Imm NL_print_const_ov_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
 Imm ___nl__6 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
 Dictionary<String, Imm> __function_map;
-//line 323
-___nl__2 = new ImmString("").clone();
 //line 324
+___nl__2 = new ImmString("").clone();
+//line 325
 ___nl__3 = ov_NL.NL_has_value(___nl__1).clone();
 
-//line 324
+//line 325
 ___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__3)).clone();
-//line 324
+//line 325
 if (c_rt_lib_NL.NL_check_true_native(___nl__3)) {if (true) {goto label_2;}}
-//line 325
+//line 326
 ___nl__4 = new ImmString("new OV(\"").clone();
-//line 325
+//line 326
 ___nl__6 = ov_NL.NL_get_element(___nl__1).clone();
 
-//line 325
+//line 326
 ___nl__5 = generator_cs_NL.NL_escape_string_priv(___nl__6).clone();
 
-//line 325
+//line 326
 ___nl__6 = null;
-//line 325
+//line 326
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 325
+//line 326
 ___nl__5 = null;
-//line 325
+//line 326
 ___nl__5 = new ImmString("\", ").clone();
-//line 325
+//line 326
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 325
+//line 326
 ___nl__5 = null;
-//line 325
+//line 326
 ___nl__6 = ov_NL.NL_get_value(___nl__1).clone();
 
-//line 325
+//line 326
 ___nl__5 = generator_cs_NL.NL_print_const_value_priv(___nl__0,___nl__6).clone();
 
-//line 325
+//line 326
 ___nl__6 = null;
-//line 325
+//line 326
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 325
+//line 326
 ___nl__5 = null;
-//line 325
+//line 326
 ___nl__5 = new ImmString(")").clone();
-//line 325
+//line 326
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 325
+//line 326
 ___nl__5 = null;
-//line 325
+//line 326
 ___nl__2 = ___nl__4.clone();
-//line 325
+//line 326
 ___nl__4 = null;
-//line 326
+//line 327
 if (true) {goto label_1;}
-//line 326
+//line 327
 label_2:
-//line 327
+//line 328
 ___nl__4 = new ImmString("new OV(\"").clone();
-//line 327
+//line 328
 ___nl__6 = ov_NL.NL_get_element(___nl__1).clone();
 
-//line 327
+//line 328
 ___nl__5 = generator_cs_NL.NL_escape_string_priv(___nl__6).clone();
 
-//line 327
+//line 328
 ___nl__6 = null;
-//line 327
+//line 328
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 327
+//line 328
 ___nl__5 = null;
-//line 327
+//line 328
 ___nl__5 = new ImmString("\", null)").clone();
-//line 327
+//line 328
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 327
+//line 328
 ___nl__5 = null;
-//line 327
+//line 328
 ___nl__2 = ___nl__4.clone();
-//line 327
+//line 328
 ___nl__4 = null;
-//line 328
+//line 329
 if (true) {goto label_1;}
-//line 328
+//line 329
 label_1:
-//line 328
+//line 329
 ___nl__3 = null;
-//line 329
+//line 330
 ___nl__0 = null;
-//line 329
+//line 330
 ___nl__1 = null;
-//line 329
+//line 330
 if(true) return ___nl__2;
-//line 329
+//line 330
 ___nl__2 = null;
-//line 329
+//line 330
 ___nl__0 = null;
-//line 329
+//line 330
 ___nl__1 = null;
-//line 329
+//line 330
 if(true) return null;
 }
 
 private static Imm NL_print_const_value_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
-//line 333
+//line 334
 ___nl__2 = nl_NL.NL_is_sim(___nl__1).clone();
 
-//line 333
+//line 334
 ___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 333
+//line 334
 if (c_rt_lib_NL.NL_check_true_native(___nl__3)) {if (true) {goto label_4;}}
-//line 333
+//line 334
 ___nl__5 = ptd_NL.NL_sim().clone();
 
-//line 333
+//line 334
 ___nl__4 = ptd_NL.NL_ensure(___nl__5,___nl__1).clone();
 
-//line 333
+//line 334
 ___nl__5 = null;
-//line 333
+//line 334
 ___nl__2 = string_utils_NL.NL_is_integer(___nl__4).clone();
 
-//line 333
+//line 334
 ___nl__4 = null;
-//line 333
+//line 334
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_4;}}
-//line 333
+//line 334
 ___nl__5 = ptd_NL.NL_sim().clone();
 
-//line 333
+//line 334
 ___nl__4 = ptd_NL.NL_ensure(___nl__5,___nl__1).clone();
 
-//line 333
+//line 334
 ___nl__5 = null;
-//line 333
+//line 334
 ___nl__2 = string_utils_NL.NL_is_float(___nl__4).clone();
 
-//line 333
+//line 334
 ___nl__4 = null;
-//line 333
+//line 334
 label_4:
-//line 333
+//line 334
 ___nl__3 = null;
-//line 333
+//line 334
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 333
+//line 334
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_2;}}
-//line 335
+//line 336
 ___nl__3 = new ImmString("new ImmDouble(").clone();
-//line 335
+//line 336
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__1.toString()).clone();
-//line 335
+//line 336
 ___nl__4 = new ImmString(")").clone();
-//line 335
+//line 336
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 335
+//line 336
 ___nl__4 = null;
-//line 335
+//line 336
 ___nl__0 = null;
-//line 335
+//line 336
 ___nl__1 = null;
-//line 335
+//line 336
 ___nl__2 = null;
-//line 335
+//line 336
 if(true) return ___nl__3;
-//line 335
+//line 336
 ___nl__3 = null;
-//line 336
+//line 337
 if (true) {goto label_1;}
-//line 336
+//line 337
 label_2:
-//line 336
+//line 337
 ___nl__2 = nl_NL.NL_is_sim(___nl__1).clone();
 
-//line 336
+//line 337
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 336
+//line 337
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_5;}}
-//line 337
+//line 338
 ___nl__3 = new ImmString("new ImmString(\"").clone();
-//line 337
+//line 338
 ___nl__4 = generator_cs_NL.NL_escape_string_priv(___nl__1).clone();
 
-//line 337
+//line 338
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 337
+//line 338
 ___nl__4 = null;
-//line 337
+//line 338
 ___nl__4 = new ImmString("\")").clone();
-//line 337
+//line 338
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 337
+//line 338
 ___nl__4 = null;
-//line 337
+//line 338
 ___nl__0 = null;
-//line 337
+//line 338
 ___nl__1 = null;
-//line 337
+//line 338
 ___nl__2 = null;
-//line 337
+//line 338
 if(true) return ___nl__3;
-//line 337
+//line 338
 ___nl__3 = null;
-//line 338
+//line 339
 if (true) {goto label_1;}
-//line 338
+//line 339
 label_5:
-//line 338
+//line 339
 ___nl__2 = nl_NL.NL_is_array(___nl__1).clone();
 
-//line 338
-___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 338
-if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_6;}}
 //line 339
+___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
+//line 339
+if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_6;}}
+//line 340
 ___nl__3 = generator_cs_NL.NL_print_const_arr_priv(___nl__0,___nl__1).clone();
 
-//line 339
+//line 340
 ___nl__0 = null;
-//line 339
+//line 340
 ___nl__1 = null;
-//line 339
+//line 340
 ___nl__2 = null;
-//line 339
+//line 340
 if(true) return ___nl__3;
-//line 339
+//line 340
 ___nl__3 = null;
-//line 340
+//line 341
 if (true) {goto label_1;}
-//line 340
+//line 341
 label_6:
-//line 340
+//line 341
 ___nl__2 = nl_NL.NL_is_hash(___nl__1).clone();
 
-//line 340
-___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 340
-if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_7;}}
 //line 341
+___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
+//line 341
+if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_7;}}
+//line 342
 ___nl__3 = generator_cs_NL.NL_print_const_hash_priv(___nl__0,___nl__1).clone();
 
-//line 341
+//line 342
 ___nl__0 = null;
-//line 341
+//line 342
 ___nl__1 = null;
-//line 341
+//line 342
 ___nl__2 = null;
-//line 341
+//line 342
 if(true) return ___nl__3;
-//line 341
+//line 342
 ___nl__3 = null;
-//line 342
+//line 343
 if (true) {goto label_1;}
-//line 342
+//line 343
 label_7:
-//line 342
+//line 343
 ___nl__2 = nl_NL.NL_is_variant(___nl__1).clone();
 
-//line 342
-___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 342
-if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_8;}}
 //line 343
+___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
+//line 343
+if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_8;}}
+//line 344
 ___nl__3 = generator_cs_NL.NL_print_const_ov_priv(___nl__0,___nl__1).clone();
 
-//line 343
+//line 344
 ___nl__0 = null;
-//line 343
+//line 344
 ___nl__1 = null;
-//line 343
+//line 344
 ___nl__2 = null;
-//line 343
+//line 344
 if(true) return ___nl__3;
-//line 343
+//line 344
 ___nl__3 = null;
-//line 344
+//line 345
 if (true) {goto label_1;}
-//line 344
+//line 345
 label_8:
-//line 345
+//line 346
 ___nl__3 = new ImmArray(new Imm[0]).clone();
-//line 345
+//line 346
 c_rt_lib_NL.NL_die();
-//line 345
+//line 346
 ___nl__3 = null;
-//line 346
+//line 347
 if (true) {goto label_1;}
-//line 346
+//line 347
 label_1:
-//line 346
+//line 347
 ___nl__2 = null;
-//line 346
+//line 347
 ___nl__0 = null;
-//line 346
+//line 347
 ___nl__1 = null;
-//line 346
+//line 347
 if(true) return null;
 }
 
 private static Imm NL_print_goto_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
 Dictionary<String, Imm> __function_map;
-//line 350
+//line 351
 ___nl__1 = new ImmString("if (true) {goto ").clone();
-//line 350
+//line 351
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__0.toString()).clone();
-//line 350
+//line 351
 ___nl__2 = new ImmString(";}").clone();
-//line 350
+//line 351
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 350
+//line 351
 ___nl__2 = null;
-//line 350
+//line 351
 ___nl__0 = null;
-//line 350
+//line 351
 if(true) return ___nl__1;
-//line 350
+//line 351
 ___nl__1 = null;
-//line 350
+//line 351
 ___nl__0 = null;
-//line 350
+//line 351
 if(true) return null;
 }
 
 private static Imm NL_print_hash_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -4455,147 +4159,135 @@ Imm ___nl__7 = null;
 Imm ___nl__8 = null;
 Imm ___nl__9 = null;
 Imm ___nl__10 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
-ImmRef ___ref______nl__9 = null;
-ImmRef ___ref______nl__10 = null;
 Dictionary<String, Imm> __function_map;
-//line 354
+//line 355
 ___nl__1 = generator_cs_NL.NL_print_hash_name_priv().clone();
 
-//line 354
+//line 355
 ___nl__2 = new ImmString(" = new Dictionary<String, Imm>();").clone();
-//line 354
+//line 355
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 354
+//line 355
 ___nl__2 = null;
-//line 354
+//line 355
 ___nl__2 = string_NL.NL_lf().clone();
 
-//line 354
+//line 355
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 354
+//line 355
 ___nl__2 = null;
-//line 355
+//line 356
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["src"].clone();
-//line 355
+//line 356
 ___nl__4 = new ImmDouble(0).clone();
-//line 355
+//line 356
 ___nl__5 = new ImmDouble(1).clone();
-//line 355
+//line 356
 ___nl__6 = c_rt_lib_NL.NL_array_len(___nl__2).clone();
 
-//line 355
+//line 356
 label_3:
-//line 355
+//line 356
 ___nl__7 = c_rt_lib_NL.NL_native_to_nl((Double.Parse(___nl__4.getValue().ToString()))>=(Double.Parse(___nl__6.getValue().ToString())) ).clone();
-//line 355
+//line 356
 if (c_rt_lib_NL.NL_check_true_native(___nl__7)) {if (true) {goto label_1;}}
-//line 355
+//line 356
 ___nl__3 = (___nl__2 as ImmArray).getArrayValue()[(int)((ImmDouble)___nl__4).getDoubleValue()].clone();
-//line 355
+//line 356
 ___nl__8 = generator_cs_NL.NL_print_hash_name_priv().clone();
 
-//line 355
+//line 356
 ___nl__9 = new ImmString(".Add(\"").clone();
-//line 355
+//line 356
 ___nl__8 = new ImmString(___nl__8.toString() + ___nl__9.toString()).clone();
-//line 355
+//line 356
 ___nl__9 = null;
-//line 355
+//line 356
 ___nl__10 = ((ImmHash)___nl__3).getHashValue()["key"].clone();
-//line 355
+//line 356
 ___nl__9 = generator_cs_NL.NL_escape_string_priv(___nl__10).clone();
 
-//line 355
+//line 356
 ___nl__10 = null;
-//line 355
+//line 356
 ___nl__8 = new ImmString(___nl__8.toString() + ___nl__9.toString()).clone();
-//line 355
+//line 356
 ___nl__9 = null;
-//line 355
+//line 356
 ___nl__9 = new ImmString("\",").clone();
-//line 355
+//line 356
 ___nl__8 = new ImmString(___nl__8.toString() + ___nl__9.toString()).clone();
-//line 355
+//line 356
 ___nl__9 = null;
-//line 355
+//line 356
 ___nl__10 = ((ImmHash)___nl__3).getHashValue()["val"].clone();
-//line 355
+//line 356
 ___nl__9 = generator_cs_NL.NL_print_register_priv(___nl__10).clone();
 
-//line 355
+//line 356
 ___nl__10 = null;
-//line 355
+//line 356
 ___nl__8 = new ImmString(___nl__8.toString() + ___nl__9.toString()).clone();
-//line 355
+//line 356
 ___nl__9 = null;
-//line 355
+//line 356
 ___nl__9 = new ImmString(");").clone();
-//line 355
+//line 356
 ___nl__8 = new ImmString(___nl__8.toString() + ___nl__9.toString()).clone();
-//line 355
+//line 356
 ___nl__9 = null;
-//line 355
+//line 356
 ___nl__9 = string_NL.NL_lf().clone();
 
-//line 355
+//line 356
 ___nl__8 = new ImmString(___nl__8.toString() + ___nl__9.toString()).clone();
-//line 355
+//line 356
 ___nl__9 = null;
-//line 355
+//line 356
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__8.toString()).clone();
-//line 355
+//line 356
 ___nl__8 = null;
-//line 355
+//line 356
 ___nl__4 = new ImmDouble((Double.Parse(___nl__4.getValue().ToString()))+(Double.Parse(___nl__5.getValue().ToString()))).clone();
-//line 355
+//line 356
 if (true) {goto label_3;}
-//line 355
+//line 356
 label_1:
-//line 355
+//line 356
 ___nl__2 = null;
-//line 355
+//line 356
 ___nl__3 = null;
-//line 355
+//line 356
 ___nl__4 = null;
-//line 355
+//line 356
 ___nl__5 = null;
-//line 355
+//line 356
 ___nl__6 = null;
-//line 355
+//line 356
 ___nl__7 = null;
-//line 356
+//line 357
 ___nl__0 = null;
-//line 356
+//line 357
 if(true) return ___nl__1;
-//line 356
+//line 357
 ___nl__1 = null;
-//line 356
+//line 357
 ___nl__0 = null;
-//line 356
+//line 357
 if(true) return null;
 }
 
 private static Imm NL_SINGLETON_print_hash_name_priv() {
 
 Imm ___nl__0 = null;
-ImmRef ___ref______nl__0 = null;
 Dictionary<String, Imm> __function_map;
-//line 360
+//line 361
 ___nl__0 = new ImmString("__function_map").clone();
-//line 360
+//line 361
 if(true) return ___nl__0;
-//line 360
+//line 361
 ___nl__0 = null;
-//line 360
+//line 361
 if(true) return null;
 }
 private static Imm value__singleton__NL_SINGLETON_print_hash_name_priv = null;
@@ -4606,140 +4298,132 @@ private static Imm NL_print_hash_name_priv() {
 	return value__singleton__NL_SINGLETON_print_hash_name_priv;
 }
 private static Imm NL_print_get_hash_value_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
-//line 364
+//line 365
 ___nl__1 = new ImmString("((ImmHash)").clone();
-//line 364
+//line 365
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["src"].clone();
-//line 364
+//line 365
 ___nl__2 = generator_cs_NL.NL_print_register_priv(___nl__3).clone();
 
-//line 364
+//line 365
 ___nl__3 = null;
-//line 364
+//line 365
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 364
+//line 365
 ___nl__2 = null;
-//line 364
+//line 365
 ___nl__2 = new ImmString(").getHashValue()[\"").clone();
-//line 364
+//line 365
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 364
+//line 365
 ___nl__2 = null;
-//line 364
+//line 365
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["key"].clone();
-//line 364
+//line 365
 ___nl__2 = generator_cs_NL.NL_escape_string_priv(___nl__3).clone();
 
-//line 364
+//line 365
 ___nl__3 = null;
-//line 364
+//line 365
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 364
+//line 365
 ___nl__2 = null;
-//line 364
+//line 365
 ___nl__2 = new ImmString("\"]").clone();
-//line 364
+//line 365
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 364
+//line 365
 ___nl__2 = null;
-//line 364
+//line 365
 ___nl__0 = null;
-//line 364
+//line 365
 if(true) return ___nl__1;
-//line 364
+//line 365
 ___nl__1 = null;
-//line 364
+//line 365
 ___nl__0 = null;
-//line 364
+//line 365
 if(true) return null;
 }
 
 private static Imm NL_print_set_hash_value_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
 Dictionary<String, Imm> __function_map;
-//line 368
+//line 369
 ___nl__1 = new ImmString("((ImmHash)").clone();
-//line 368
+//line 369
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["src"].clone();
-//line 368
+//line 369
 ___nl__2 = generator_cs_NL.NL_print_register_priv(___nl__3).clone();
 
-//line 368
+//line 369
 ___nl__3 = null;
-//line 368
+//line 369
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 368
+//line 369
 ___nl__2 = null;
-//line 368
+//line 369
 ___nl__2 = new ImmString(").set(\"").clone();
-//line 368
+//line 369
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 368
+//line 369
 ___nl__2 = null;
-//line 368
+//line 369
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["key"].clone();
-//line 368
+//line 369
 ___nl__2 = generator_cs_NL.NL_escape_string_priv(___nl__3).clone();
 
-//line 368
+//line 369
 ___nl__3 = null;
-//line 368
+//line 369
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 368
+//line 369
 ___nl__2 = null;
-//line 368
+//line 369
 ___nl__2 = new ImmString("\", ").clone();
-//line 368
+//line 369
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 368
+//line 369
 ___nl__2 = null;
-//line 369
+//line 370
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["val"].clone();
-//line 369
+//line 370
 ___nl__2 = generator_cs_NL.NL_print_register_priv(___nl__3).clone();
 
-//line 369
+//line 370
 ___nl__3 = null;
-//line 369
+//line 370
 ___nl__3 = new ImmString(")").clone();
-//line 369
+//line 370
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 369
+//line 370
 ___nl__3 = null;
-//line 369
+//line 370
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__2.toString()).clone();
-//line 369
+//line 370
 ___nl__2 = null;
-//line 370
+//line 371
 ___nl__0 = null;
-//line 370
+//line 371
 if(true) return ___nl__1;
-//line 370
+//line 371
 ___nl__1 = null;
-//line 370
+//line 371
 ___nl__0 = null;
-//line 370
+//line 371
 if(true) return null;
 }
 
 private static Imm NL_print_ov_mk_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
@@ -4748,248 +4432,236 @@ Imm ___nl__5 = null;
 Imm ___nl__6 = null;
 Imm ___nl__7 = null;
 Imm ___nl__8 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
-ImmRef ___ref______nl__6 = null;
-ImmRef ___ref______nl__7 = null;
-ImmRef ___ref______nl__8 = null;
 Dictionary<String, Imm> __function_map;
-//line 374
+//line 375
 ___nl__1 = new ImmString("").clone();
-//line 375
+//line 376
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["src"].clone();
-//line 375
+//line 376
 ___nl__2 = c_rt_lib_NL.NL_ov_is(___nl__2, new ImmString("emp")).clone();
-//line 375
+//line 376
 ___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 375
+//line 376
 if (c_rt_lib_NL.NL_check_true_native(___nl__3)) {if (true) {goto label_3;}}
-//line 375
+//line 376
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["name"].clone();
-//line 375
+//line 376
 ___nl__4 = new ImmString("TRUE").clone();
-//line 375
+//line 376
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__4.toString())).clone();
-//line 375
+//line 376
 ___nl__4 = null;
-//line 375
+//line 376
 label_3:
-//line 375
+//line 376
 ___nl__3 = null;
-//line 375
+//line 376
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 375
+//line 376
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_2;}}
-//line 376
+//line 377
 ___nl__3 = new ImmString("c_rt_lib_NL.NL_get_true()").clone();
-//line 376
+//line 377
 ___nl__1 = ___nl__3.clone();
-//line 376
+//line 377
 ___nl__3 = null;
-//line 377
+//line 378
 if (true) {goto label_1;}
-//line 377
+//line 378
 label_2:
-//line 377
+//line 378
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["src"].clone();
-//line 377
+//line 378
 ___nl__2 = c_rt_lib_NL.NL_ov_is(___nl__2, new ImmString("emp")).clone();
-//line 377
+//line 378
 ___nl__3 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 377
+//line 378
 if (c_rt_lib_NL.NL_check_true_native(___nl__3)) {if (true) {goto label_5;}}
-//line 377
+//line 378
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["name"].clone();
-//line 377
+//line 378
 ___nl__4 = new ImmString("FALSE").clone();
-//line 377
+//line 378
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__4.toString())).clone();
-//line 377
+//line 378
 ___nl__4 = null;
-//line 377
+//line 378
 label_5:
-//line 377
+//line 378
 ___nl__3 = null;
-//line 377
+//line 378
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 377
+//line 378
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_4;}}
-//line 378
+//line 379
 ___nl__3 = new ImmString("c_rt_lib_NL.NL_get_false()").clone();
-//line 378
+//line 379
 ___nl__1 = ___nl__3.clone();
-//line 378
+//line 379
 ___nl__3 = null;
-//line 379
+//line 380
 if (true) {goto label_1;}
-//line 379
+//line 380
 label_4:
-//line 380
+//line 381
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["src"].clone();
-//line 380
+//line 381
 ___nl__4 = c_rt_lib_NL.NL_ov_is(___nl__3, new ImmString("arg")).clone();
-//line 380
+//line 381
 if (c_rt_lib_NL.NL_check_true_native(___nl__4)) {if (true) {goto label_7;}}
-//line 382
+//line 383
 ___nl__4 = c_rt_lib_NL.NL_ov_is(___nl__3, new ImmString("emp")).clone();
-//line 382
+//line 383
 if (c_rt_lib_NL.NL_check_true_native(___nl__4)) {if (true) {goto label_8;}}
-//line 382
+//line 383
 ___nl__4 = new ImmString("NOMATCHALERT").clone();
-//line 382
+//line 383
 ___nl__4 = new ImmArray(new Imm[] {___nl__4,___nl__3,}).clone();
-//line 382
+//line 383
 c_rt_lib_NL.NL_die();
-//line 380
+//line 381
 label_7:
-//line 380
+//line 381
 ___nl__5 = c_rt_lib_NL.NL_ov_as(___nl__3, new ImmString("arg")).clone();
-//line 381
+//line 382
 ___nl__6 = new ImmString("c_rt_lib_NL.NL_ov_mk_arg(new ImmString(\"").clone();
-//line 381
+//line 382
 ___nl__8 = ((ImmHash)___nl__0).getHashValue()["name"].clone();
-//line 381
+//line 382
 ___nl__7 = generator_cs_NL.NL_escape_string_priv(___nl__8).clone();
 
-//line 381
+//line 382
 ___nl__8 = null;
-//line 381
+//line 382
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__7.toString()).clone();
-//line 381
+//line 382
 ___nl__7 = null;
-//line 381
+//line 382
 ___nl__7 = new ImmString("\"), ").clone();
-//line 381
+//line 382
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__7.toString()).clone();
-//line 381
+//line 382
 ___nl__7 = null;
-//line 381
+//line 382
 ___nl__7 = generator_cs_NL.NL_print_register_priv(___nl__5).clone();
 
-//line 381
+//line 382
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__7.toString()).clone();
-//line 381
+//line 382
 ___nl__7 = null;
-//line 381
+//line 382
 ___nl__7 = new ImmString(")").clone();
-//line 381
+//line 382
 ___nl__6 = new ImmString(___nl__6.toString() + ___nl__7.toString()).clone();
-//line 381
+//line 382
 ___nl__7 = null;
-//line 381
+//line 382
 ___nl__1 = ___nl__6.clone();
-//line 381
+//line 382
 ___nl__6 = null;
-//line 381
+//line 382
 ___nl__5 = null;
-//line 382
+//line 383
 if (true) {goto label_6;}
-//line 382
+//line 383
 label_8:
-//line 383
+//line 384
 ___nl__5 = new ImmString("c_rt_lib_NL.NL_ov_mk_none(new ImmString(\"").clone();
-//line 383
+//line 384
 ___nl__7 = ((ImmHash)___nl__0).getHashValue()["name"].clone();
-//line 383
+//line 384
 ___nl__6 = generator_cs_NL.NL_escape_string_priv(___nl__7).clone();
 
-//line 383
+//line 384
 ___nl__7 = null;
-//line 383
+//line 384
 ___nl__5 = new ImmString(___nl__5.toString() + ___nl__6.toString()).clone();
-//line 383
+//line 384
 ___nl__6 = null;
-//line 383
+//line 384
 ___nl__6 = new ImmString("\"))").clone();
-//line 383
+//line 384
 ___nl__5 = new ImmString(___nl__5.toString() + ___nl__6.toString()).clone();
-//line 383
+//line 384
 ___nl__6 = null;
-//line 383
+//line 384
 ___nl__1 = ___nl__5.clone();
-//line 383
+//line 384
 ___nl__5 = null;
-//line 384
+//line 385
 if (true) {goto label_6;}
-//line 384
+//line 385
 label_6:
-//line 384
+//line 385
 ___nl__3 = null;
-//line 384
+//line 385
 ___nl__4 = null;
-//line 385
+//line 386
 if (true) {goto label_1;}
-//line 385
+//line 386
 label_1:
-//line 385
+//line 386
 ___nl__2 = null;
-//line 386
+//line 387
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["dest"].clone();
-//line 386
+//line 387
 ___nl__2 = generator_cs_NL.NL_print_register_setter_priv(___nl__3,___nl__1).clone();
 
-//line 386
+//line 387
 ___nl__3 = null;
-//line 386
+//line 387
 ___nl__3 = new ImmString(";").clone();
-//line 386
+//line 387
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 386
+//line 387
 ___nl__3 = null;
-//line 386
+//line 387
 ___nl__0 = null;
-//line 386
+//line 387
 ___nl__1 = null;
-//line 386
+//line 387
 if(true) return ___nl__2;
-//line 386
+//line 387
 ___nl__2 = null;
-//line 386
+//line 387
 ___nl__1 = null;
-//line 386
+//line 387
 ___nl__0 = null;
-//line 386
+//line 387
 if(true) return null;
 }
 
 private static Imm NL_print_register_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
 Dictionary<String, Imm> __function_map;
-//line 390
+//line 391
 ___nl__1 = new ImmString("___nl__").clone();
-//line 390
+//line 391
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__0.toString()).clone();
-//line 390
+//line 391
 ___nl__0 = null;
-//line 390
+//line 391
 if(true) return ___nl__1;
-//line 390
+//line 391
 ___nl__1 = null;
-//line 390
+//line 391
 ___nl__0 = null;
-//line 390
+//line 391
 if(true) return null;
 }
 
 private static Imm NL_SINGLETON_print_getter_priv() {
 
 Imm ___nl__0 = null;
-ImmRef ___ref______nl__0 = null;
 Dictionary<String, Imm> __function_map;
-//line 394
+//line 395
 ___nl__0 = new ImmString(".getValue()").clone();
-//line 394
+//line 395
 if(true) return ___nl__0;
-//line 394
+//line 395
 ___nl__0 = null;
-//line 394
+//line 395
 if(true) return null;
 }
 private static Imm value__singleton__NL_SINGLETON_print_getter_priv = null;
@@ -5000,325 +4672,308 @@ private static Imm NL_print_getter_priv() {
 	return value__singleton__NL_SINGLETON_print_getter_priv;
 }
 private static Imm NL_print_register_setter_priv(Imm ___arg__0, Imm ___arg__1) {
-Imm ___nl__0 = ___arg__0.clone();Imm ___nl__1 = ___arg__1.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);Imm ___nl__1 = null;c_rt_lib_NL.NL_copy(ref ___nl__1, ___arg__1);
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
 Dictionary<String, Imm> __function_map;
-//line 398
+//line 399
 ___nl__2 = new ImmString("").clone();
-//line 398
+//line 399
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__0.toString().Equals(___nl__2.toString())).clone();
-//line 398
+//line 399
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 398
+//line 399
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_2;}}
-//line 398
+//line 399
 ___nl__3 = new ImmString("").clone();
-//line 398
+//line 399
 ___nl__3 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 398
+//line 399
 ___nl__0 = null;
-//line 398
+//line 399
 ___nl__1 = null;
-//line 398
+//line 399
 ___nl__2 = null;
-//line 398
+//line 399
 if(true) return ___nl__3;
-//line 398
+//line 399
 ___nl__3 = null;
-//line 398
+//line 399
 if (true) {goto label_2;}
-//line 398
+//line 399
 label_2:
-//line 398
+//line 399
 ___nl__2 = null;
-//line 399
+//line 400
 ___nl__2 = new ImmString("null").clone();
-//line 399
+//line 400
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__1.toString().Equals(___nl__2.toString())).clone();
-//line 399
+//line 400
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 399
+//line 400
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_4;}}
-//line 399
+//line 400
 ___nl__3 = generator_cs_NL.NL_print_register_priv(___nl__0).clone();
 
-//line 399
+//line 400
 ___nl__4 = new ImmString(" = ").clone();
-//line 399
+//line 400
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 399
+//line 400
 ___nl__4 = null;
-//line 399
+//line 400
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__1.toString()).clone();
-//line 399
+//line 400
 ___nl__0 = null;
-//line 399
+//line 400
 ___nl__1 = null;
-//line 399
-___nl__2 = null;
-//line 399
-if(true) return ___nl__3;
-//line 399
-___nl__3 = null;
-//line 399
-if (true) {goto label_4;}
-//line 399
-label_4:
-//line 399
+//line 400
 ___nl__2 = null;
 //line 400
+if(true) return ___nl__3;
+//line 400
+___nl__3 = null;
+//line 400
+if (true) {goto label_4;}
+//line 400
+label_4:
+//line 400
+___nl__2 = null;
+//line 401
 ___nl__2 = generator_cs_NL.NL_print_register_priv(___nl__0).clone();
 
-//line 400
+//line 401
 ___nl__3 = new ImmString(" = ").clone();
-//line 400
+//line 401
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 400
+//line 401
 ___nl__3 = null;
-//line 400
+//line 401
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__1.toString()).clone();
-//line 400
+//line 401
 ___nl__3 = new ImmString(".clone()").clone();
-//line 400
+//line 401
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 400
+//line 401
 ___nl__3 = null;
-//line 400
+//line 401
 ___nl__0 = null;
-//line 400
+//line 401
 ___nl__1 = null;
-//line 400
+//line 401
 if(true) return ___nl__2;
-//line 400
+//line 401
 ___nl__2 = null;
-//line 400
+//line 401
 ___nl__0 = null;
-//line 400
+//line 401
 ___nl__1 = null;
-//line 400
+//line 401
 if(true) return null;
 }
 
 private static Imm NL_print_return_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
-//line 404
+//line 405
 ___nl__1 = new ImmString("").clone();
-//line 405
+//line 406
 ___nl__2 = c_rt_lib_NL.NL_ov_is(___nl__0, new ImmString("val")).clone();
-//line 405
+//line 406
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_2;}}
-//line 407
+//line 408
 ___nl__2 = c_rt_lib_NL.NL_ov_is(___nl__0, new ImmString("emp")).clone();
-//line 407
+//line 408
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_3;}}
-//line 407
+//line 408
 ___nl__2 = new ImmString("NOMATCHALERT").clone();
-//line 407
+//line 408
 ___nl__2 = new ImmArray(new Imm[] {___nl__2,___nl__0,}).clone();
-//line 407
+//line 408
 c_rt_lib_NL.NL_die();
-//line 405
+//line 406
 label_2:
-//line 405
+//line 406
 ___nl__3 = c_rt_lib_NL.NL_ov_as(___nl__0, new ImmString("val")).clone();
-//line 406
+//line 407
 ___nl__4 = new ImmString("return ").clone();
-//line 406
+//line 407
 ___nl__5 = generator_cs_NL.NL_print_register_priv(___nl__3).clone();
 
-//line 406
+//line 407
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 406
+//line 407
 ___nl__5 = null;
-//line 406
+//line 407
 ___nl__5 = new ImmString(";").clone();
-//line 406
+//line 407
 ___nl__4 = new ImmString(___nl__4.toString() + ___nl__5.toString()).clone();
-//line 406
+//line 407
 ___nl__5 = null;
-//line 406
+//line 407
 ___nl__1 = ___nl__4.clone();
-//line 406
+//line 407
 ___nl__4 = null;
-//line 406
+//line 407
 ___nl__3 = null;
-//line 407
+//line 408
 if (true) {goto label_1;}
-//line 407
+//line 408
 label_3:
-//line 408
+//line 409
 ___nl__3 = new ImmString("return null;").clone();
-//line 408
+//line 409
 ___nl__1 = ___nl__3.clone();
-//line 408
+//line 409
 ___nl__3 = null;
-//line 409
+//line 410
 if (true) {goto label_1;}
-//line 409
+//line 410
 label_1:
-//line 409
-___nl__2 = null;
 //line 410
+___nl__2 = null;
+//line 411
 ___nl__2 = new ImmString("if(true) ").clone();
-//line 410
+//line 411
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__1.toString()).clone();
-//line 410
+//line 411
 ___nl__0 = null;
-//line 410
+//line 411
 ___nl__1 = null;
-//line 410
+//line 411
 if(true) return ___nl__2;
-//line 410
+//line 411
 ___nl__2 = null;
-//line 410
+//line 411
 ___nl__1 = null;
-//line 410
+//line 411
 ___nl__0 = null;
-//line 410
+//line 411
 if(true) return null;
 }
 
 private static Imm NL_print_una_op_priv(Imm ___arg__0) {
-Imm ___nl__0 = ___arg__0.clone();
+Imm ___nl__0 = null;c_rt_lib_NL.NL_copy(ref ___nl__0, ___arg__0);
 Imm ___nl__1 = null;
 Imm ___nl__2 = null;
 Imm ___nl__3 = null;
 Imm ___nl__4 = null;
 Imm ___nl__5 = null;
-ImmRef ___ref______nl__0 = null;
-ImmRef ___ref______nl__1 = null;
-ImmRef ___ref______nl__2 = null;
-ImmRef ___ref______nl__3 = null;
-ImmRef ___ref______nl__4 = null;
-ImmRef ___ref______nl__5 = null;
 Dictionary<String, Imm> __function_map;
-//line 414
+//line 415
 ___nl__1 = new ImmString("").clone();
-//line 415
+//line 416
 ___nl__2 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 415
+//line 416
 ___nl__3 = new ImmString("!").clone();
-//line 415
+//line 416
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(___nl__2.toString().Equals(___nl__3.toString())).clone();
-//line 415
+//line 416
 ___nl__3 = null;
-//line 415
+//line 416
 ___nl__2 = c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(___nl__2)).clone();
-//line 415
+//line 416
 if (c_rt_lib_NL.NL_check_true_native(___nl__2)) {if (true) {goto label_2;}}
-//line 416
+//line 417
 ___nl__3 = new ImmString("c_rt_lib_NL.NL_native_to_nl(!c_rt_lib_NL.NL_check_true_native(").clone();
-//line 416
+//line 417
 ___nl__5 = ((ImmHash)___nl__0).getHashValue()["src"].clone();
-//line 416
+//line 417
 ___nl__4 = generator_cs_NL.NL_print_register_priv(___nl__5).clone();
 
-//line 416
+//line 417
 ___nl__5 = null;
-//line 416
+//line 417
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 416
+//line 417
 ___nl__4 = null;
-//line 416
+//line 417
 ___nl__4 = new ImmString("))").clone();
-//line 416
+//line 417
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 416
+//line 417
 ___nl__4 = null;
-//line 416
+//line 417
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 416
+//line 417
 ___nl__3 = null;
-//line 417
+//line 418
 if (true) {goto label_1;}
-//line 417
+//line 418
 label_2:
-//line 418
+//line 419
 ___nl__3 = new ImmString("new ImmDouble(").clone();
-//line 418
+//line 419
 ___nl__4 = ((ImmHash)___nl__0).getHashValue()["op"].clone();
-//line 418
+//line 419
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 418
+//line 419
 ___nl__4 = null;
-//line 418
+//line 419
 ___nl__4 = new ImmString("((ImmDouble)").clone();
-//line 418
+//line 419
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 418
+//line 419
 ___nl__4 = null;
-//line 418
+//line 419
 ___nl__5 = ((ImmHash)___nl__0).getHashValue()["src"].clone();
-//line 418
+//line 419
 ___nl__4 = generator_cs_NL.NL_print_register_priv(___nl__5).clone();
 
-//line 418
+//line 419
 ___nl__5 = null;
-//line 418
+//line 419
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 418
+//line 419
 ___nl__4 = null;
-//line 418
+//line 419
 ___nl__4 = new ImmString(").getDoubleValue())").clone();
-//line 418
+//line 419
 ___nl__3 = new ImmString(___nl__3.toString() + ___nl__4.toString()).clone();
-//line 418
+//line 419
 ___nl__4 = null;
-//line 418
+//line 419
 ___nl__1 = new ImmString(___nl__1.toString() + ___nl__3.toString()).clone();
-//line 418
+//line 419
 ___nl__3 = null;
-//line 419
+//line 420
 if (true) {goto label_1;}
-//line 419
+//line 420
 label_1:
-//line 419
+//line 420
 ___nl__2 = null;
-//line 420
+//line 421
 ___nl__3 = ((ImmHash)___nl__0).getHashValue()["dest"].clone();
-//line 420
+//line 421
 ___nl__2 = generator_cs_NL.NL_print_register_setter_priv(___nl__3,___nl__1).clone();
 
-//line 420
+//line 421
 ___nl__3 = null;
-//line 420
+//line 421
 ___nl__3 = new ImmString(";").clone();
-//line 420
+//line 421
 ___nl__2 = new ImmString(___nl__2.toString() + ___nl__3.toString()).clone();
-//line 420
+//line 421
 ___nl__3 = null;
-//line 420
+//line 421
 ___nl__0 = null;
-//line 420
+//line 421
 ___nl__1 = null;
-//line 420
+//line 421
 if(true) return ___nl__2;
-//line 420
+//line 421
 ___nl__2 = null;
-//line 420
+//line 421
 ___nl__1 = null;
-//line 420
+//line 421
 ___nl__0 = null;
-//line 420
+//line 421
 if(true) return null;
 }
 
